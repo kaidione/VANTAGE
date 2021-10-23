@@ -1,0 +1,30 @@
+C:\Users\ThinkBook 14p ACH\Desktop\code\vantage-uwp-automation-bj\BambooMultipleServer\bin\Debug\BambooMultipleServer.exe.config
+C:\Users\ThinkBook 14p ACH\Desktop\code\vantage-uwp-automation-bj\BambooMultipleServer\bin\Debug\BambooMultipleServer.exe
+C:\Users\ThinkBook 14p ACH\Desktop\code\vantage-uwp-automation-bj\BambooMultipleServer\bin\Debug\BambooMultipleServer.pdb
+C:\Users\ThinkBook 14p ACH\Desktop\code\vantage-uwp-automation-bj\BambooMultipleServer\bin\Debug\Newtonsoft.Json.dll
+C:\Users\ThinkBook 14p ACH\Desktop\code\vantage-uwp-automation-bj\BambooMultipleServer\bin\Debug\Newtonsoft.Json.xml
+C:\Users\ThinkBook 14p ACH\Desktop\code\vantage-uwp-automation-bj\BambooMultipleServer\obj\Debug\BambooMultipleServer.csproj.AssemblyReference.cache
+C:\Users\ThinkBook 14p ACH\Desktop\code\vantage-uwp-automation-bj\BambooMultipleServer\obj\Debug\BambooMultipleServer.csproj.CoreCompileInputs.cache
+C:\Users\ThinkBook 14p ACH\Desktop\code\vantage-uwp-automation-bj\BambooMultipleServer\obj\Debug\BambooMultipleServer.csproj.CopyComplete
+C:\Users\ThinkBook 14p ACH\Desktop\code\vantage-uwp-automation-bj\BambooMultipleServer\obj\Debug\BambooMultipleServer.exe
+C:\Users\ThinkBook 14p ACH\Desktop\code\vantage-uwp-automation-bj\BambooMultipleServer\obj\Debug\BambooMultipleServer.pdb
+F:\code\vantage-uwp-automation-bj\BambooMultipleServer\bin\Debug\BambooMultipleServer.exe.config
+F:\code\vantage-uwp-automation-bj\BambooMultipleServer\bin\Debug\BambooMultipleServer.exe
+F:\code\vantage-uwp-automation-bj\BambooMultipleServer\bin\Debug\BambooMultipleServer.pdb
+F:\code\vantage-uwp-automation-bj\BambooMultipleServer\bin\Debug\Newtonsoft.Json.dll
+F:\code\vantage-uwp-automation-bj\BambooMultipleServer\bin\Debug\Newtonsoft.Json.xml
+F:\code\vantage-uwp-automation-bj\BambooMultipleServer\obj\Debug\BambooMultipleServer.csproj.AssemblyReference.cache
+F:\code\vantage-uwp-automation-bj\BambooMultipleServer\obj\Debug\BambooMultipleServer.csproj.CoreCompileInputs.cache
+F:\code\vantage-uwp-automation-bj\BambooMultipleServer\obj\Debug\BambooMultipleServer.csproj.CopyComplete
+F:\code\vantage-uwp-automation-bj\BambooMultipleServer\obj\Debug\BambooMultipleServer.exe
+F:\code\vantage-uwp-automation-bj\BambooMultipleServer\obj\Debug\BambooMultipleServer.pdb
+F:\code\VANTAGE\BambooMultipleServer\bin\Debug\BambooMultipleServer.exe.config
+F:\code\VANTAGE\BambooMultipleServer\bin\Debug\BambooMultipleServer.exe
+F:\code\VANTAGE\BambooMultipleServer\bin\Debug\BambooMultipleServer.pdb
+F:\code\VANTAGE\BambooMultipleServer\bin\Debug\Newtonsoft.Json.dll
+F:\code\VANTAGE\BambooMultipleServer\bin\Debug\Newtonsoft.Json.xml
+F:\code\VANTAGE\BambooMultipleServer\obj\Debug\BambooMultipleServer.csproj.AssemblyReference.cache
+F:\code\VANTAGE\BambooMultipleServer\obj\Debug\BambooMultipleServer.csproj.CoreCompileInputs.cache
+F:\code\VANTAGE\BambooMultipleServer\obj\Debug\BambooMultipleServer.csproj.CopyComplete
+F:\code\VANTAGE\BambooMultipleServer\obj\Debug\BambooMultipleServer.exe
+F:\code\VANTAGE\BambooMultipleServer\obj\Debug\BambooMultipleServer.pdb

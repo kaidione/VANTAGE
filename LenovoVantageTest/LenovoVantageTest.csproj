@@ -1,0 +1,1306 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="..\packages\SpecFlow.NUnit.3.4.3\build\SpecFlow.NUnit.props" Condition="Exists('..\packages\SpecFlow.NUnit.3.4.3\build\SpecFlow.NUnit.props')" />
+  <Import Project="..\packages\SpecFlow.Tools.MsBuild.Generation.3.4.3\build\SpecFlow.Tools.MsBuild.Generation.props" Condition="Exists('..\packages\SpecFlow.Tools.MsBuild.Generation.3.4.3\build\SpecFlow.Tools.MsBuild.Generation.props')" />
+  <Import Project="..\packages\NUnit3TestAdapter.3.17.0\build\net35\NUnit3TestAdapter.props" Condition="Exists('..\packages\NUnit3TestAdapter.3.17.0\build\net35\NUnit3TestAdapter.props')" />
+  <Import Project="..\packages\EntityFramework.6.4.4\build\EntityFramework.props" Condition="Exists('..\packages\EntityFramework.6.4.4\build\EntityFramework.props')" />
+  <Import Project="..\packages\NUnit.3.12.0\build\NUnit.props" Condition="Exists('..\packages\NUnit.3.12.0\build\NUnit.props')" />
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <Target Name="AfterUpdateFeatureFilesInProject">
+    <ItemGroup>
+      <!-- include the generated test classes to be compiled -->
+      <Compile Include="@(SpecFlowGeneratedFiles)">
+      </Compile>
+    </ItemGroup>
+  </Target>
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{DC0F8C02-0CC8-43B1-952F-D886FFF28032}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>LenovoVantageTest</RootNamespace>
+    <AssemblyName>LenovoVantageTest</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <Deterministic>true</Deterministic>
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget>x64</PlatformTarget>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Appium.Net, Version=4.2.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Appium.WebDriver.4.2.1\lib\net45\Appium.Net.dll</HintPath>
+    </Reference>
+    <Reference Include="AssertiveDisplayContract, Version=1.1.5.4, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Lenovo.Sif.Contracts.HwsSettings.1.1.5\lib\net45\AssertiveDisplayContract.dll</HintPath>
+    </Reference>
+    <Reference Include="BCMakeCert">
+      <HintPath>..\FiddlerCoreAPI\packages\BCMakeCert.2.0.9\lib\net40\BCMakeCert.dll</HintPath>
+    </Reference>
+    <Reference Include="BoDi, Version=1.4.1.0, Culture=neutral, PublicKeyToken=ff7cd5ea2744b496, processorArchitecture=MSIL">
+      <HintPath>..\packages\BoDi.1.4.1\lib\net45\BoDi.dll</HintPath>
+    </Reference>
+    <Reference Include="Castle.Core, Version=4.0.0.0, Culture=neutral, PublicKeyToken=407dd0808d44fbdc, processorArchitecture=MSIL">
+      <HintPath>..\packages\Castle.Core.4.4.1\lib\net45\Castle.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Contract_AppScenario, Version=1.1.5.4, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Lenovo.Sif.Contracts.HwsSettings.1.1.5\lib\net45\Contract_AppScenario.dll</HintPath>
+    </Reference>
+    <Reference Include="Contract_APS, Version=1.1.5.4, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Lenovo.Sif.Contracts.HwsSettings.1.1.5\lib\net45\Contract_APS.dll</HintPath>
+    </Reference>
+    <Reference Include="Contract_Display, Version=1.1.5.4, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Lenovo.Sif.Contracts.HwsSettings.1.1.5\lib\net45\Contract_Display.dll</HintPath>
+    </Reference>
+    <Reference Include="Contract_KBDManager, Version=1.1.5.4, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Lenovo.Sif.Contracts.HwsSettings.1.1.5\lib\net45\Contract_KBDManager.dll</HintPath>
+    </Reference>
+    <Reference Include="Contract_Keyboard, Version=1.1.5.4, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Lenovo.Sif.Contracts.HwsSettings.1.1.5\lib\net45\Contract_Keyboard.dll</HintPath>
+    </Reference>
+    <Reference Include="Contract_SmartSense, Version=1.1.5.4, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Lenovo.Sif.Contracts.HwsSettings.1.1.5\lib\net45\Contract_SmartSense.dll</HintPath>
+    </Reference>
+    <Reference Include="Contract_Spectrum, Version=1.1.5.4, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Lenovo.Sif.Contracts.HwsSettings.1.1.5\lib\net45\Contract_Spectrum.dll</HintPath>
+    </Reference>
+    <Reference Include="CoreAudioApi">
+      <HintPath>lib\CoreAudioApi.dll</HintPath>
+    </Reference>
+    <Reference Include="Cucumber.Messages, Version=6.0.1.0, Culture=neutral, PublicKeyToken=b10c5988214f940c, processorArchitecture=MSIL">
+      <HintPath>..\packages\Cucumber.Messages.6.0.1\lib\net45\Cucumber.Messages.dll</HintPath>
+    </Reference>
+    <Reference Include="DeviceInformation">
+      <HintPath>lib\DeviceInformation.dll</HintPath>
+    </Reference>
+    <Reference Include="DotNetZip">
+      <HintPath>..\FiddlerCoreAPI\packages\DotNetZip.1.13.4\lib\net40\DotNetZip.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.4.4\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.4.4\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+    </Reference>
+    <Reference Include="FiddlerCore, Version=5.0.0.0, Culture=neutral, PublicKeyToken=67cb91587178ac5a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\FiddlerCoreAPI\packages\FiddlerCore.5.0.0\lib\net45\FiddlerCore.dll</HintPath>
+    </Reference>
+    <Reference Include="Gherkin, Version=6.0.0.0, Culture=neutral, PublicKeyToken=86496cfa5b4a5851, processorArchitecture=MSIL">
+      <HintPath>..\packages\Gherkin.6.0.0\lib\net45\Gherkin.dll</HintPath>
+    </Reference>
+    <Reference Include="Google.Protobuf, Version=3.12.4.0, Culture=neutral, PublicKeyToken=a7d26565bac4d604, processorArchitecture=MSIL">
+      <HintPath>..\packages\Google.Protobuf.3.12.4\lib\net45\Google.Protobuf.dll</HintPath>
+    </Reference>
+    <Reference Include="HotspotContract, Version=1.1.5.4, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Lenovo.Sif.Contracts.HwsSettings.1.1.5\lib\net45\HotspotContract.dll</HintPath>
+    </Reference>
+    <Reference Include="HtmlAgilityPack">
+      <HintPath>lib\HtmlAgilityPack.dll</HintPath>
+    </Reference>
+    <Reference Include="ICSharpCode.SharpZipLib, Version=0.85.4.369, Culture=neutral, PublicKeyToken=1b03e6acf1164f73, processorArchitecture=MSIL">
+      <HintPath>..\packages\ICSharpCode.SharpZipLib.dll.0.85.4.369\lib\net20\ICSharpCode.SharpZipLib.dll</HintPath>
+    </Reference>
+    <Reference Include="IdeaBatteryAgent">
+      <HintPath>lib\IdeaPadNoteBookPluginDll\IdeaBatteryAgent.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="IdeaNotebookPlugin">
+      <HintPath>lib\IdeaPadNoteBookPluginDll\IdeaNotebookPlugin.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="IdeaPowerAgent">
+      <HintPath>lib\IdeaPadNoteBookPluginDll\IdeaPowerAgent.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Interop.NETCONLib, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+      <HintPath>lib\Interop.NETCONLib.dll</HintPath>
+    </Reference>
+    <Reference Include="Interop.TaskScheduler, Version=1.0.0.0, Culture=neutral, processorArchitecture=x86">
+      <SpecificVersion>False</SpecificVersion>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+      <HintPath>..\..\vantage-uwp-automation\LenovoVantageTest\lib\Interop.TaskScheduler.dll</HintPath>
+    </Reference>
+    <Reference Include="interop.UIAutomationCore">
+      <HintPath>lib\interop.UIAutomationCore.dll</HintPath>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="Lenovo.Beijing.PA">
+      <HintPath>lib\Lenovo.Beijing.PA.dll</HintPath>
+    </Reference>
+    <Reference Include="Lenovo.ImController.EventLogging, Version=2.0.19.2, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Lenovo.Sif.SharedLibraries.2.0.19\lib\net45\Lenovo.ImController.EventLogging.dll</HintPath>
+    </Reference>
+    <Reference Include="Lenovo.Modern.Contracts.Battery.Common, Version=1.1.5.4, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Lenovo.Sif.Contracts.HwsSettings.1.1.5\lib\net45\Lenovo.Modern.Contracts.Battery.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="Lenovo.Modern.Contracts.BatteryInformation">
+      <HintPath>lib\IdeaPadNoteBookPluginDll\Lenovo.Modern.Contracts.BatteryInformation.dll</HintPath>
+    </Reference>
+    <Reference Include="Lenovo.Modern.Contracts.BatteryManagement">
+      <HintPath>lib\IdeaPadNoteBookPluginDll\Lenovo.Modern.Contracts.BatteryManagement.dll</HintPath>
+    </Reference>
+    <Reference Include="Lenovo.Modern.Contracts.Fan, Version=1.1.5.4, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Lenovo.Sif.Contracts.HwsSettings.1.1.5\lib\net45\Lenovo.Modern.Contracts.Fan.dll</HintPath>
+    </Reference>
+    <Reference Include="Lenovo.Modern.Contracts.NetworkWirelessContracts, Version=1.1.5.4, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Lenovo.Sif.Contracts.HwsSettings.1.1.5\lib\net45\Lenovo.Modern.Contracts.NetworkWirelessContracts.dll</HintPath>
+    </Reference>
+    <Reference Include="Lenovo.Modern.Contracts.PointingDevice">
+      <HintPath>lib\IdeaPadNoteBookPluginDll\Lenovo.Modern.Contracts.PointingDevice.dll</HintPath>
+    </Reference>
+    <Reference Include="Lenovo.Modern.Contracts.PointingDeviceContracts, Version=1.1.5.4, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Lenovo.Sif.Contracts.HwsSettings.1.1.5\lib\net45\Lenovo.Modern.Contracts.PointingDeviceContracts.dll</HintPath>
+    </Reference>
+    <Reference Include="Lenovo.Modern.Contracts.Power">
+      <HintPath>lib\IdeaPadNoteBookPluginDll\Lenovo.Modern.Contracts.Power.dll</HintPath>
+    </Reference>
+    <Reference Include="Lenovo.Modern.Contracts.PowerProfile, Version=1.1.5.4, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Lenovo.Sif.Contracts.HwsSettings.1.1.5\lib\net45\Lenovo.Modern.Contracts.PowerProfile.dll</HintPath>
+    </Reference>
+    <Reference Include="Lenovo.Modern.Contracts.SystemInformation.BatteryInformation, Version=1.1.5.4, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Lenovo.Sif.Contracts.HwsSettings.1.1.5\lib\net45\Lenovo.Modern.Contracts.SystemInformation.BatteryInformation.dll</HintPath>
+    </Reference>
+    <Reference Include="Lenovo.Modern.Contracts.SystemManagement.BatteryManagement, Version=1.1.5.4, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Lenovo.Sif.Contracts.HwsSettings.1.1.5\lib\net45\Lenovo.Modern.Contracts.SystemManagement.BatteryManagement.dll</HintPath>
+    </Reference>
+    <Reference Include="Lenovo.Modern.Contracts.SystemManagement.BatteryStretch, Version=1.1.5.4, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Lenovo.Sif.Contracts.HwsSettings.1.1.5\lib\net45\Lenovo.Modern.Contracts.SystemManagement.BatteryStretch.dll</HintPath>
+    </Reference>
+    <Reference Include="Lenovo.Modern.Contracts.SystemManagement.Power, Version=1.1.5.4, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Lenovo.Sif.Contracts.HwsSettings.1.1.5\lib\net45\Lenovo.Modern.Contracts.SystemManagement.Power.dll</HintPath>
+    </Reference>
+    <Reference Include="Lenovo.Modern.Contracts.SystemManagement.WiFiSecurity, Version=1.1.5.4, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Lenovo.Sif.Contracts.HwsSettings.1.1.5\lib\net45\Lenovo.Modern.Contracts.SystemManagement.WiFiSecurity.dll</HintPath>
+    </Reference>
+    <Reference Include="Lenovo.Modern.CoreTypes, Version=2.0.19.2, Culture=neutral, PublicKeyToken=5f05ba192ba9656a, processorArchitecture=MSIL">
+      <HintPath>..\packages\Lenovo.Sif.SharedLibraries.2.0.19\lib\net45\Lenovo.Modern.CoreTypes.dll</HintPath>
+    </Reference>
+    <Reference Include="Lenovo.Modern.ImController.ImClient, Version=2.0.19.2, Culture=neutral, PublicKeyToken=5f05ba192ba9656a, processorArchitecture=MSIL">
+      <HintPath>..\packages\Lenovo.Sif.SharedLibraries.2.0.19\lib\net45\Lenovo.Modern.ImController.ImClient.dll</HintPath>
+    </Reference>
+    <Reference Include="Lenovo.Modern.Utilities, Version=2.0.19.2, Culture=neutral, PublicKeyToken=5f05ba192ba9656a, processorArchitecture=MSIL">
+      <HintPath>..\packages\Lenovo.Sif.SharedLibraries.2.0.19\lib\net45\Lenovo.Modern.Utilities.dll</HintPath>
+    </Reference>
+    <Reference Include="Lenovo.Multimedia.Contracts.Audio, Version=1.1.5.4, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Lenovo.Sif.Contracts.HwsSettings.1.1.5\lib\net45\Lenovo.Multimedia.Contracts.Audio.dll</HintPath>
+    </Reference>
+    <Reference Include="Lenovo.Multimedia.Contracts.AudioProfile, Version=1.1.5.4, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Lenovo.Sif.Contracts.HwsSettings.1.1.5\lib\net45\Lenovo.Multimedia.Contracts.AudioProfile.dll</HintPath>
+    </Reference>
+    <Reference Include="Lenovo.Multimedia.Contracts.Camera, Version=1.1.5.4, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Lenovo.Sif.Contracts.HwsSettings.1.1.5\lib\net45\Lenovo.Multimedia.Contracts.Camera.dll</HintPath>
+    </Reference>
+    <Reference Include="Lenovo.Multimedia.Contracts.Core, Version=1.1.5.4, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Lenovo.Sif.Contracts.HwsSettings.1.1.5\lib\net45\Lenovo.Multimedia.Contracts.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Lenovo.Multimedia.CoreTypes, Version=1.1.5.4, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Lenovo.Sif.Contracts.HwsSettings.1.1.5\lib\net45\Lenovo.Multimedia.CoreTypes.dll</HintPath>
+    </Reference>
+    <Reference Include="LiteDB">
+      <HintPath>..\packages\LiteDB.5.0.8\lib\net45\LiteDB.dll</HintPath>
+    </Reference>
+    <Reference Include="LocationAwareContract, Version=1.1.5.4, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Lenovo.Sif.Contracts.HwsSettings.1.1.5\lib\net45\LocationAwareContract.dll</HintPath>
+    </Reference>
+    <Reference Include="MachineInfoHelper">
+      <HintPath>lib\IdeaPadNoteBookPluginDll\MachineInfoHelper.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Bcl.AsyncInterfaces, Version=5.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Bcl.AsyncInterfaces.5.0.0\lib\net461\Microsoft.Bcl.AsyncInterfaces.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.InternationalSettings.Commands, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Windows\Microsoft.NET\assembly\GAC_MSIL\Microsoft.InternationalSettings.Commands\v4.0_3.0.0.0__31bf3856ad364e35\Microsoft.InternationalSettings.Commands.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.VisualBasic" />
+    <Reference Include="Microsoft.Win32.TaskScheduler, Version=2.8.21.0, Culture=neutral, PublicKeyToken=c416bc1b32d97233, processorArchitecture=MSIL">
+      <HintPath>..\packages\TaskScheduler.2.8.21\lib\net452\Microsoft.Win32.TaskScheduler.dll</HintPath>
+    </Reference>
+    <Reference Include="MongoDB.Bson">
+      <HintPath>lib\MongoDB.Bson.dll</HintPath>
+    </Reference>
+    <Reference Include="MongoDB.Driver">
+      <HintPath>lib\MongoDB.Driver.dll</HintPath>
+    </Reference>
+    <Reference Include="MongoDB.Driver.Core">
+      <HintPath>lib\MongoDB.Driver.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json, Version=12.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.12.0.3\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="nunit.framework, Version=3.12.0.0, Culture=neutral, PublicKeyToken=2638cd05610744eb, processorArchitecture=MSIL">
+      <HintPath>..\packages\NUnit.3.12.0\lib\net45\nunit.framework.dll</HintPath>
+    </Reference>
+    <Reference Include="PaperDisplay_Contract, Version=1.1.5.4, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Lenovo.Sif.Contracts.HwsSettings.1.1.5\lib\net45\PaperDisplay_Contract.dll</HintPath>
+    </Reference>
+    <Reference Include="PlatformInterface">
+      <HintPath>lib\PlatformInterface.dll</HintPath>
+    </Reference>
+    <Reference Include="RazorEngine">
+      <HintPath>lib\RazorEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="SeleniumExtras.PageObjects, Version=3.11.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\DotNetSeleniumExtras.PageObjects.3.11.0\lib\net45\SeleniumExtras.PageObjects.dll</HintPath>
+    </Reference>
+    <Reference Include="SmartSenseHsaRpcClient">
+      <HintPath>lib\HPDDriveDll\SmartSenseHsaRpcClient.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Buffers, Version=4.0.3.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Buffers.4.5.1\lib\net461\System.Buffers.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ComponentModel.Composition" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.SQLite, Version=1.0.113.0, Culture=neutral, PublicKeyToken=db937bc2d44ff139, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Data.SQLite.Core.1.0.113.1\lib\net46\System.Data.SQLite.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Data.SQLite.EF6, Version=1.0.113.0, Culture=neutral, PublicKeyToken=db937bc2d44ff139, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Data.SQLite.EF6.1.0.113.0\lib\net46\System.Data.SQLite.EF6.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Data.SQLite.Linq, Version=1.0.113.0, Culture=neutral, PublicKeyToken=db937bc2d44ff139, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Data.SQLite.Linq.1.0.113.0\lib\net46\System.Data.SQLite.Linq.dll</HintPath>
+    </Reference>
+    <Reference Include="System.DirectoryServices" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.IO, Version=4.1.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.IO.4.3.0\lib\net462\System.IO.dll</HintPath>
+      <Private>True</Private>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.IO.Compression" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Management.Automation, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.PowerShell.5.ReferenceAssemblies.1.1.0\lib\net4\System.Management.Automation.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Memory, Version=4.0.1.1, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Memory.4.5.4\lib\net461\System.Memory.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Messaging" />
+    <Reference Include="System.Net.Http, Version=4.1.1.3, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Net.Http.4.3.4\lib\net46\System.Net.Http.dll</HintPath>
+      <Private>True</Private>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Numerics" />
+    <Reference Include="System.Numerics.Vectors, Version=4.1.4.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Numerics.Vectors.4.5.0\lib\net46\System.Numerics.Vectors.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime, Version=4.1.1.1, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Runtime.4.3.1\lib\net462\System.Runtime.dll</HintPath>
+      <Private>True</Private>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Runtime.Caching" />
+    <Reference Include="System.Runtime.CompilerServices.Unsafe, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Runtime.CompilerServices.Unsafe.5.0.0\lib\net45\System.Runtime.CompilerServices.Unsafe.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Security" />
+    <Reference Include="System.Security.Cryptography.Algorithms, Version=4.2.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Security.Cryptography.Algorithms.4.3.1\lib\net463\System.Security.Cryptography.Algorithms.dll</HintPath>
+      <Private>True</Private>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Security.Cryptography.Encoding, Version=4.0.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Security.Cryptography.Encoding.4.3.0\lib\net46\System.Security.Cryptography.Encoding.dll</HintPath>
+      <Private>True</Private>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Security.Cryptography.Primitives, Version=4.0.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Security.Cryptography.Primitives.4.3.0\lib\net46\System.Security.Cryptography.Primitives.dll</HintPath>
+      <Private>True</Private>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Security.Cryptography.X509Certificates, Version=4.1.1.2, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Security.Cryptography.X509Certificates.4.3.2\lib\net461\System.Security.Cryptography.X509Certificates.dll</HintPath>
+      <Private>True</Private>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.ServiceModel" />
+    <Reference Include="System.ServiceProcess" />
+    <Reference Include="System.Text.Encodings.Web, Version=5.0.0.1, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Text.Encodings.Web.5.0.1\lib\net461\System.Text.Encodings.Web.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Text.Json, Version=5.0.0.2, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Text.Json.5.0.2\lib\net461\System.Text.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Threading.Tasks.Extensions, Version=4.2.0.1, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Threading.Tasks.Extensions.4.5.4\lib\net461\System.Threading.Tasks.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ValueTuple, Version=4.0.3.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.ValueTuple.4.5.0\lib\net47\System.ValueTuple.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Web.Razor">
+      <HintPath>lib\System.Web.Razor.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+    <Reference Include="SystemInterfaceWraper">
+      <HintPath>lib\SystemInterfaceWraper.dll</HintPath>
+    </Reference>
+    <Reference Include="SystemManagement.LenovoSettingsApp, Version=1.1.5.4, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Lenovo.Sif.Contracts.HwsSettings.1.1.5\lib\net45\SystemManagement.LenovoSettingsApp.dll</HintPath>
+    </Reference>
+    <Reference Include="TechTalk.SpecFlow, Version=3.4.0.0, Culture=neutral, PublicKeyToken=0778194805d6db41, processorArchitecture=MSIL">
+      <HintPath>..\packages\SpecFlow.3.4.3\lib\net461\TechTalk.SpecFlow.dll</HintPath>
+    </Reference>
+    <Reference Include="TechTalk.SpecFlow.NUnit.SpecFlowPlugin, Version=3.4.0.0, Culture=neutral, PublicKeyToken=0778194805d6db41, processorArchitecture=MSIL">
+      <HintPath>..\packages\SpecFlow.NUnit.3.4.3\lib\net461\TechTalk.SpecFlow.NUnit.SpecFlowPlugin.dll</HintPath>
+    </Reference>
+    <Reference Include="Telerik.NetworkConnections">
+      <HintPath>..\FiddlerCoreAPI\packages\Telerik.NetworkConnections.0.2.0\lib\net40\Telerik.NetworkConnections.dll</HintPath>
+    </Reference>
+    <Reference Include="UIAutomationClient" />
+    <Reference Include="UIAutomationTypes" />
+    <Reference Include="Utf8Json, Version=1.3.7.0, Culture=neutral, PublicKeyToken=8a73d3ba7e392e27, processorArchitecture=MSIL">
+      <HintPath>..\packages\Utf8Json.1.3.7\lib\net47\Utf8Json.dll</HintPath>
+    </Reference>
+    <Reference Include="VisionProtectionContract, Version=1.1.5.4, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Lenovo.Sif.Contracts.HwsSettings.1.1.5\lib\net45\VisionProtectionContract.dll</HintPath>
+    </Reference>
+    <Reference Include="WebDriver, Version=3.141.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Selenium.WebDriver.3.141.0\lib\net45\WebDriver.dll</HintPath>
+    </Reference>
+    <Reference Include="WebDriver.Support, Version=3.141.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Selenium.Support.3.141.0\lib\net45\WebDriver.Support.dll</HintPath>
+    </Reference>
+    <Reference Include="Windows">
+      <HintPath>lib\Windows.winmd</HintPath>
+    </Reference>
+    <Reference Include="WindowsBase" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BasicReport.cs" />
+    <Compile Include="Commands\CmdCommands.cs" />
+    <Compile Include="Commands\CommandBase.cs" />
+    <Compile Include="Commands\PowerShellCommands.cs" />
+    <Compile Include="Constants.cs" />
+    <Compile Include="Pages\HardwareSettingsPages\SMBCreatorsettingsPage.cs" />
+    <Compile Include="Pages\NeverCenterPages\GamingLightingItem.cs" />
+    <Compile Include="Pages\NeverCenterPages\GamingLightingPages.cs" />
+    <Compile Include="Pages\NeverCenterPages\LightingBlockIdTypeItem.cs" />
+    <Compile Include="Steps\UWP\CommonHeaderStepDefinition.cs" />
+    <Compile Include="Pages\WifiSecurityPages\LenovoWifiSecurityPage.cs" />
+    <Compile Include="Steps\UWP\MultipleClientsSpecFlowFeatureSteps.cs" />
+    <Compile Include="Steps\UWP\Vantage_HardwareSettingsSteps\DayTimeColorTemperature.cs" />
+    <Compile Include="Steps\UWP\Vantage_HardwareSettingsSteps\DisplayCameraSteps.cs" />
+    <Compile Include="Steps\UWP\Vantage_HardwareSettingsSteps\BatterySettingsAdPolicySteps.cs" />
+    <Compile Include="Steps\UWP\Vantage_HardwareSettingsSteps\HardwareSettingsVideoPlaybackSteps.cs" />
+    <Compile Include="Steps\UWP\Vantage_HardwareSettingsSteps\HPDOnYogaModelsUI.cs" />
+    <Compile Include="Steps\UWP\Vantage_HardwareSettingsSteps\MicrophoneSettingsAdPolicySteps.cs" />
+    <Compile Include="Steps\UWP\Vantage_HardwareSettingsSteps\OSToolbarRegressionTestSteps.cs" />
+    <Compile Include="Steps\UWP\Vantage_HardwareSettingsSteps\PinToolBarToastForNewOSFunction.cs" />
+    <Compile Include="Steps\UWP\Vantage_HardwareSettingsSteps\RetrySteps.cs" />
+    <Compile Include="Steps\UWP\Vantage_HardwareSettingsSteps\SettingsSealedBatteryWarrantySteps.cs" />
+    <Compile Include="Steps\UWP\Vantage_HardwareSettingsSteps\IntelligentKeyboardSteps.cs" />
+    <Compile Include="Steps\UWP\Vantage_HardwareSettingsSteps\PowerSmartSettingsAdPolicySteps.cs" />
+    <Compile Include="Steps\UWP\Vantage_HardwareSettingsSteps\PowerSettingsAdPolicySteps.cs" />
+    <Compile Include="Steps\UWP\Vantage_HardwareSettingsSteps\SMBAudioMicrophoneSteps.cs" />
+    <Compile Include="Steps\UWP\Vantage_HardwareSettingsSteps\HeartbeatMetricsNewOSQuickRegressionSteps.cs" />
+    <Compile Include="Steps\UWP\Vantage_HardwareSettingsSteps\StandbySettingsAdPolicySteps.cs" />
+    <Compile Include="Steps\UWP\Vantage_HardwareSettingsSteps\ToastMessageForSealedBatteryWarranty.cs" />
+    <Compile Include="Steps\UWP\Vantage_HardwareSettingsSteps\VAN7141_SmartStandbyV1FeatureTestSteps.cs" />
+    <Compile Include="Pages\ConnectedHomeSecurityPages\CHSAdminPage.cs" />
+    <Compile Include="Pages\ConnectedHomeSecurityPages\CHSWebEnvPage.cs" />
+    <Compile Include="Pages\ConnectedHomeSecurityPages\CHSMarketingPage.cs" />
+    <Compile Include="Pages\ConnectedHomeSecurityPages\CHSWebXpath.cs" />
+    <Compile Include="Pages\Helper\ProgrammableLogicControllersHelper.cs" />
+    <Compile Include="Pages\IntelligentCoolingPages\PermissionManager.cs" />
+    <Compile Include="Pages\NeverCenterPages\GamingMachineListPage.cs" />
+    <Compile Include="Steps\UWP\Vantage_ConnectedHomeSecurity\CreateNewStatusPageOfAllUserInCHSGroupSteps.cs" />
+    <Compile Include="Steps\UWP\Vantage_ConnectedHomeSecurity\Removeslides2and3fromCHSOnboardingTutorial_StepsDefinition.cs" />
+    <Compile Include="Steps\UWP\Vantage_ConnectedHomeSecurity\RequireuserstoregisterforLenovoID_StepsDefinition.cs" />
+    <Compile Include="Steps\UWP\Vantage_ConnectedHomeSecurity\RemoveLIDLoginFromVANDuringTrialSignUpStepsDefinition.cs" />
+    <Compile Include="Steps\UWP\Vantage_ConnectedHomeSecurity\CreateBuyNowRenewoptionadminonnewCHSandingpage_StepsDefinition.cs" />
+    <Compile Include="Steps\UWP\Vantage_HardwareSettingsSteps\BatteryConditionOnThinkPadFunction.cs" />
+    <Compile Include="Steps\UWP\Vantage_HardwareSettingsSteps\HSBatteryInformationTestSteps.cs" />
+    <Compile Include="Steps\UWP\Vantage_HardwareSettingsSteps\KeyboardTopRowFunctionSteps.cs" />
+    <Compile Include="Steps\UWP\Vantage_ConnectedHomeSecurity\VAN8580_AddSecurityHealthSteps.cs" />
+    <Compile Include="Steps\UWP\Vantage_HardwareSettingsSteps\OLEDPowerSettingsOnThinkPadModel.cs" />
+    <Compile Include="Steps\UWP\Vantage_HardwareSettingsSteps\CameraAndCameraPrivacyRegressionTest.cs" />
+    <Compile Include="Steps\UWP\Vantage_HardwareSettingsSteps\HPDCheckboxQuickRegressionTest.cs" />
+    <Compile Include="Steps\UWP\Vantage_HardwareSettingsSteps\BatteryHealthQuickRegressionTest.cs" />
+    <Compile Include="Steps\UWP\Vantage_HardwareSettingsSteps\CameraBlurRegressiontestSteps.cs" />
+    <Compile Include="Steps\UWP\Vantage_HardwareSettingsSteps\FlipToBootQuickRegressionTest.cs" />
+    <Compile Include="Steps\UWP\Vantage_HardwareSettingsSteps\AlwaysOnUSBQuickRegressionTest.cs" />
+    <Compile Include="Steps\UWP\Vantage_HardwareSettingsSteps\RapidChargeToggleQuickRegressionTest.cs" />
+    <Compile Include="Steps\UWP\Vantage_HardwareSettingsSteps\KeyboardTopRowForIdeaPadQuickRegression.cs" />
+    <Compile Include="Steps\UWP\Vantage_HardwareSettingsSteps\HardwareSettingsAPSSteps.cs" />
+    <Compile Include="Steps\UWP\Vantage_HardwareSettingsSteps\VAN10164_CS20KeyboardQuickRegressionSteps.cs" />
+    <Compile Include="Steps\UWP\Vantage_HardwareSettingsSteps\VAN18068RemoveECMQuickRegressionTest.cs" />
+    <Compile Include="Steps\UWP\Vantage_HardwareSettingsSteps\ECMToolbarRegressionSteps.cs" />
+    <Compile Include="Steps\UWP\Vantage_HardwareSettingsSteps\PrivacyGuardQuickRegressionTest.cs" />
+    <Compile Include="Steps\UWP\Vantage_HardwareSettingsSteps\EasyResumeRegressionTest.cs" />
+    <Compile Include="Steps\UWP\Vantage_HardwareSettingsSteps\HiddenKeyboardFunctions.cs" />
+    <Compile Include="Steps\UWP\Vantage_ConnectedHomeSecurity\NotifyUserThatLocationServicesAreDisabled_StepsDefinition.cs" />
+    <Compile Include="Steps\UWP\Vantage_HardwareSettingsSteps\VAN4630_HardwareSettingsBatteryConditionOIdeaPadSteps.cs" />
+    <Compile Include="Steps\UWP\Vantage_HardwareSettingsSteps\VAN7120_DaytimeColorAndECMColorSteps.cs" />
+    <Compile Include="Steps\UWP\Vantage_HardwareSettingsSteps\VAN9377_AirplanePowerModeRegressionSteps.cs" />
+    <Compile Include="Steps\UWP\Vantage_HardwareSettingsSteps\VantageHardwareSettingsQuickSettingsRegressionfunction.cs" />
+    <Compile Include="Steps\UWP\Vantage_HardwareSettingsSteps\VFC1138_HPDFeatures.cs" />
+    <Compile Include="Steps\UWP\Vantage_HardwareSettingsSteps\VFC1676_QuickSettingsSteps.cs" />
+    <Compile Include="Steps\UWP\Vantage_HardwareSettingsSteps\VFC1807LarkKeyBoardSteps_.cs" />
+    <Compile Include="Steps\UWP\Vantage_HardwareSettingsSteps\VFC198_OptimizeMyMicrophoneSteps.cs" />
+    <Compile Include="Steps\UWP\Vantage_HardwareSettingsSteps\HSAudioSteps.cs" />
+    <Compile Include="Steps\UWP\Vantage_HardwareSettingsSteps\VFC_1996_StandbyAdPolicySteps.cs" />
+    <Compile Include="Steps\UWP\Vantage_HardwareSettingsSteps\VoipHotkeyFunctionTestSteps.cs" />
+    <Compile Include="Steps\UWP\Vantage_IntelligentCoolingSteps\AutoITSFullTestCaseLegacyCQLDYTC3Steps.cs" />
+    <Compile Include="Steps\UWP\Vantage_IntelligentCoolingSteps\ITSGpuOcMethods.cs" />
+    <Compile Include="Steps\UWP\Vantage_NeverCenterSteps\GamingDriverLackTestSteps.cs" />
+    <Compile Include="Steps\UWP\Vantage_NeverCenterSteps\GamingFamiliyNameFor331Steps.cs" />
+    <Compile Include="Pages\HardwareSettingsPages\HSHPDPage.cs" />
+    <Compile Include="Pages\HardwareSettingsPages\HSSmartAssistPage.cs" />
+    <Compile Include="Steps\UWP\Vantage_HardwareSettingsSteps\HardwareSettingsHPDTestSteps.cs" />
+    <Compile Include="Pages\NeverCenterPages\OperateIniFile.cs" />
+    <Compile Include="Steps\UWP\NLSStepDefinition.cs" />
+    <Compile Include="Steps\UWP\Vantage_HardwareSettingsSteps\HSCameraBlurRegressionSteps.cs" />
+    <Compile Include="Steps\UWP\Vantage_HardwareSettingsSteps\HSKeyboardBacklightSteps.cs" />
+    <Compile Include="Steps\UWP\Vantage_HardwareSettingsSteps\HSToolbarRegressionSteps.cs" />
+    <Compile Include="Steps\UWP\Vantage_HardwareSettingsSteps\IntelligentScreenQucikTestSteps.cs" />
+    <Compile Include="Steps\UWP\Vantage_HardwareSettingsSteps\IntelliggentMediaSteps.cs" />
+    <Compile Include="Steps\UWP\Vantage_NeverCenterSteps\GamingGPULightingSteps.cs" />
+    <Compile Include="Steps\UWP\Vantage_NeverCenterSteps\GamingGPUOCVRAMSteps.cs" />
+    <Compile Include="Steps\UWP\Vantage_NeverCenterSteps\GamingLightingT750T550AMDSixligthsRearSteps.cs" />
+    <Compile Include="Steps\UWP\Vantage_NeverCenterSteps\GamingNetworkBoostAutoCloseToastSteps.cs" />
+    <Compile Include="Steps\UWP\Vantage_NeverCenterSteps\GamingNahimcEntranceSteps.cs" />
+    <Compile Include="Steps\UWP\Vantage_NeverCenterSteps\GamingNVTurboBoostSteps.cs" />
+    <Compile Include="Steps\UWP\Vantage_NeverCenterSteps\GamingSearchSteps.cs" />
+    <Compile Include="Steps\UWP\Vantage_NeverCenterSteps\GamingX50AdvancedOCSaveChangesSteps.cs" />
+    <Compile Include="Steps\UWP\Vantage_IntelligentCoolingSteps\InteligentCoolingIdeapadITS5ToolbarMetrics.cs" />
+    <Compile Include="Steps\UWP\Vantage_NeverCenterSteps\GamingX50AdvanceOcSetToDefaultSteps.cs" />
+    <Compile Include="Steps\UWP\Vantage_NeverCenterSteps\GamingX50OCcheck.cs" />
+    <Compile Include="Steps\UWP\Vantage_HardwareSettingsSteps\Vantage_Settings_TemproraryMode_ThinkPadSteps.cs" />
+    <Compile Include="Steps\UWP\Vantage_NeverCenterSteps\GamingE_GPUSteps.cs" />
+    <Compile Include="Steps\UWP\Vantage_NeverCenterSteps\GamingMemory_OCSteps.cs" />
+    <Compile Include="Steps\UWP\Vantage_NeverCenterSteps\GamingAdvanceOcSteps.cs" />
+    <Compile Include="Steps\UWP\Vantage_NeverCenterSteps\GamingX50CPUPreCoreOCSteps.cs" />
+    <Compile Include="Foundation\CommentTestSettings.cs" />
+    <Compile Include="Foundation\DriverFromSession.cs" />
+    <Compile Include="Foundation\Utility.cs" />
+    <Compile Include="Hooks.cs" />
+    <Compile Include="LogHelper\Logger.cs" />
+    <Compile Include="LogHelper\LogType.cs" />
+    <Compile Include="Pages\ConnectedHomeSecurityPages\HSConnectedHomeSecurityPage.cs" />
+    <Compile Include="Pages\DesktopPowerManagementPages\DesktopPowerManagementPages.cs" />
+    <Compile Include="Pages\HardwareSettingsPages\HSAudioSettingsPage.cs" />
+    <Compile Include="Pages\HardwareSettingsPages\HSDispalyCameraPage.cs" />
+    <Compile Include="Pages\HardwareSettingsPages\HSQuickSettingsPage.cs" />
+    <Compile Include="Pages\HardwareSettingsPages\HSToolbarPage.cs" />
+    <Compile Include="Pages\HardwareSettingsPages\HSInputPage.cs" />
+    <Compile Include="Pages\HardwareSettingsPages\HSPowerSettingsPage.cs" />
+    <Compile Include="Pages\HardwareSettingsPages\HSSystemUpdatePage.cs" />
+    <Compile Include="Pages\NeverCenterPages\CpuOCValueItem.cs" />
+    <Compile Include="Pages\Helper\ImageDiff.cs" />
+    <Compile Include="Pages\Helper\DesktopPowerManagementHelper.cs" />
+    <Compile Include="Pages\Helper\IntelligentCoolingBaseHelper.cs" />
+    <Compile Include="Pages\Helper\NerveCenterHelper.cs" />
+    <Compile Include="Pages\Helper\PowerManagement.cs" />
+    <Compile Include="Pages\Helper\UIAutomationControl.cs" />
+    <Compile Include="Pages\Helper\CHSHelper.cs" />
+    <Compile Include="Pages\Helper\VantageConstContent.cs" />
+    <Compile Include="Pages\Helper\SettingsBase.cs" />
+    <Compile Include="Pages\Helper\VantageCommonHelper.cs" />
+    <Compile Include="Pages\IntelligentCoolingPages\IntelligentCoolingPages.cs" />
+    <Compile Include="Pages\MyDevicePageObject.cs" />
+    <Compile Include="Pages\MyDeviceSettingObject.cs" />
+    <Compile Include="Pages\MySecurityPageObjects.cs" />
+    <Compile Include="Pages\AntiVirusPageObjects.cs" />
+    <Compile Include="Pages\BasePageObject.cs" />
+    <Compile Include="Pages\DashBoardPageObjects.cs" />
+    <Compile Include="Pages\InternetProtectionPageObject.cs" />
+    <Compile Include="Pages\NeverCenterPages\GamingThermalModePages.cs" />
+    <Compile Include="Pages\NeverCenterPages\NerveCenterPages.cs" />
+    <Compile Include="Pages\PasswordHealthPageObjects.cs" />
+    <Compile Include="Pages\PreferenceSettingPage.cs" />
+    <Compile Include="Pages\SecurityPageObjects.cs" />
+    <Compile Include="Pages\DasheboardPage_NarrowWindowObject.cs" />
+    <Compile Include="Pages\SmartAssistPageObject.cs" />
+    <Compile Include="Pages\SupportPageObjects.cs" />
+    <Compile Include="Pages\SystemUpdatePageObjects.cs" />
+    <Compile Include="Pages\VPNPageObject.cs" />
+    <Compile Include="Pages\WIFISecurityPage.cs" />
+    <Compile Include="Pages\WindowsSettingsPage.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Steps\UWP\Vantage_DesktopPowerManagementSteps\DesktopPowerManagementCommonSteps.cs" />
+    <Compile Include="Steps\UWP\Vantage_DesktopPowerManagementSteps\GlobalPowerSettingsSteps.cs" />
+    <Compile Include="Steps\UWP\Vantage_DesktopPowerManagementSteps\PowerUseOptionsAndSettingsSteps.cs" />
+    <Compile Include="Steps\UWP\Vantage_DesktopPowerManagementSteps\PlanProfilePerformanceMetricsSteps.cs" />
+    <Compile Include="Steps\UWP\Vantage_HardwareSettingsSteps\BatteryGaugeResetInThinkPadteps.cs" />
+    <Compile Include="Steps\UWP\Vantage_DesktopPowerManagementSteps\PowerPlanSettingsSteps.cs" />
+    <Compile Include="Steps\UWP\Vantage_HardwareSettingsSteps\DolbyModeAndProfilesforVantageSteps.cs" />
+    <Compile Include="Steps\UWP\Vantage_HardwareSettingsSteps\HardwareSettingsEnergyStarLogoQuickRegressionTest.cs" />
+    <Compile Include="Steps\UWP\Vantage_HardwareSettingsSteps\InputRelatedFeatureSteps.cs" />
+    <Compile Include="Steps\UWP\Vantage_HardwareSettingsSteps\SmartAssistSteps.cs" />
+    <Compile Include="Steps\UWP\Vantage_HardwareSettingsSteps\SmartStandbyTestSteps.cs" />
+    <Compile Include="Steps\UWP\Vantage_ConnectedHomeSecurity\VAN8585_ChangeWifiSecuritypageafterjoiningCHSaccountSteps.cs" />
+    <Compile Include="Steps\UWP\Vantage_HardwareSettingsSteps\ECourseForDolbySteps.cs" />
+    <Compile Include="Steps\UWP\Vantage_HardwareSettingsSteps\HSIdeaBacklight.cs" />
+    <Compile Include="Steps\UWP\Vantage_HardwareSettingsSteps\VAN28223_SmartBattery2.0Steps.cs" />
+    <Compile Include="Steps\UWP\Vantage_HardwareSettingsSteps\SmartStandbyV1FeatureTestSteps.cs" />
+    <Compile Include="Steps\UWP\Vantage_HardwareSettingsSteps\VAN7219_BatteryChargeThresholdThinkPadRegressionTestSteps.cs" />
+    <Compile Include="Steps\UWP\Vantage_HardwareSettingsSteps\VAN280_VantageKeystrokeSuppressionSteps.cs" />
+    <Compile Include="Steps\UWP\Vantage_HardwareSettingsSteps\HardwareSettings_ToolbarRegressionTestSteps.cs" />
+    <Compile Include="Steps\UWP\Vantage_HardwareSettingsSteps\VAN26055_HDR4SMBSteps.cs" />
+    <Compile Include="Steps\UWP\Vantage_HardwareSettingsSteps\VAN270_VantageHardwareSettingsConservationModeSteps.cs" />
+    <Compile Include="Steps\UWP\Vantage_HardwareSettingsSteps\VAN277_SettingMicrophoneToggleSteps.cs" />
+    <Compile Include="Steps\UWP\Vantage_HardwareSettingsSteps\VAN279_MicrophoneVolumeSliderbarSteps.cs" />
+    <Compile Include="Steps\UWP\Vantage_HardwareSettingsSteps\VAN281_AcousticEchoCancellationSteps.cs" />
+    <Compile Include="Steps\UWP\Vantage_HardwareSettingsSteps\VAN282_MicrophoneOptimizationModeSteps.cs" />
+    <Compile Include="Steps\UWP\Vantage_IntelligentCoolingSteps\IntelligentCoolingIdeapadITS4DriverDPTF.cs" />
+    <Compile Include="Steps\UWP\Vantage_IntelligentCoolingSteps\IdeaPadITS5MetricsDatafordriverSteps.cs" />
+    <Compile Include="Steps\UWP\Vantage_IntelligentCoolingSteps\IntelligentCoolingIdeapadITS4DriverMetricsSteps.cs" />
+    <Compile Include="Steps\UWP\Vantage_IntelligentCoolingSteps\IntelligentCoolingThinkPadDYTC6MWSTestStepDefinition.cs" />
+    <Compile Include="Steps\UWP\Vantage_IntelligentCoolingSteps\VAN17172_IntelligentCoolingIdeapadITS5FunctionStepDefinition.cs" />
+    <Compile Include="Steps\UWP\Vantage_IntelligentCoolingSteps\VAN17173_IntelligentCoolingIdeapadITS5StepDefinition.cs" />
+    <Compile Include="Steps\UWP\Vantage_IntelligentCoolingSteps\VAN17174_IntelligentCoolingThinkpadDytc4CQLTIORegressionTestStepDefinition.cs" />
+    <Compile Include="Steps\UWP\Vantage_IntelligentCoolingSteps\VantageHardwareSettingsITSontoolbarfunctiontestStep.cs" />
+    <Compile Include="Steps\UWP\Vantage_IntelligentCoolingSteps\IntelligentCoolingThinkpadDytc6WMSStepDefinition.cs" />
+    <Compile Include="Steps\UWP\Vantage_IntelligentCoolingSteps\VAN20454_ITS3_0ToolbarTestcaseSteps.cs" />
+    <Compile Include="Steps\UWP\Vantage_Metrics\VantageMetrics_StepDefinition.cs" />
+    <Compile Include="Steps\UWP\Vantage_NeverCenterSteps\GamingGPUOCSteps.cs" />
+    <Compile Include="Steps\UWP\Vantage_NeverCenterSteps\GamingHelpPageSteps.cs" />
+    <Compile Include="Steps\UWP\Vantage_NeverCenterSteps\GamingEnableLegionAccessoryCentralSteps.cs" />
+    <Compile Include="Steps\UWP\Vantage_NeverCenterSteps\GamingHybridModeSteps.cs" />
+    <Compile Include="Steps\UWP\Vantage_NeverCenterSteps\GamingHomepageOCLabelSteps.cs" />
+    <Compile Include="Steps\UWP\Vantage_NeverCenterSteps\GamingNetworkBoostSteps.cs" />
+    <Compile Include="Steps\UWP\Vantage_NeverCenterSteps\GamingAppSettingsPreferencePageReskinDefinition.cs" />
+    <Compile Include="Steps\UWP\Vantage_NeverCenterSteps\GamingDolbyTestSteps.cs" />
+    <Compile Include="Steps\UWP\Vantage_NeverCenterSteps\GamingNewThermalModeACModeX50Steps.cs" />
+    <Compile Include="Steps\UWP\Vantage_NeverCenterSteps\GamingOldCPUOCSteps.cs" />
+    <Compile Include="Steps\UWP\Vantage_NeverCenterSteps\GamingOverDriveTestSteps.cs" />
+    <Compile Include="Steps\UWP\Vantage_NeverCenterSteps\GamingPreferenceSettingsSelfSelectOptionsSteps.cs" />
+    <Compile Include="Steps\UWP\Vantage_NeverCenterSteps\GamingRapidChargeSteps.cs" />
+    <Compile Include="Steps\UWP\Vantage_NeverCenterSteps\GamingRemoveGiveFeedbackSteps.cs" />
+    <Compile Include="Steps\UWP\Vantage_NeverCenterSteps\GamingReskinSupportSteps.cs" />
+    <Compile Include="Steps\UWP\Vantage_NeverCenterSteps\GamingAutoCloseAllTestSteps.cs" />
+    <Compile Include="Steps\UWP\Vantage_NeverCenterSteps\GamingOldThermalModeSteps.cs" />
+    <Compile Include="Steps\UWP\Vantage_NeverCenterSteps\GamingEnableHWScanSteps.cs" />
+    <Compile Include="Steps\UWP\Vantage_NeverCenterSteps\GamingReskinHWSettingSteps.cs" />
+    <Compile Include="Steps\UWP\Vantage_NeverCenterSteps\GamingMacroKeyStepDefinition.cs" />
+    <Compile Include="Steps\UWP\Vantage_NeverCenterSteps\GamingReskinWiFiSecurityEntranceSteps.cs" />
+    <Compile Include="Steps\UWP\Vantage_NeverCenterSteps\GamingReskinWiFiSecuritySubpageSteps.cs" />
+    <Compile Include="Steps\UWP\Vantage_NeverCenterSteps\GamingSegmentLayoutSteps.cs" />
+    <Compile Include="Steps\UWP\Vantage_NeverCenterSteps\GamingsystemstatusSteps.cs" />
+    <Compile Include="Steps\UWP\Vantage_NeverCenterSteps\GamingThermalModeCommonSteps.cs" />
+    <Compile Include="Steps\UWP\Vantage_NeverCenterSteps\GamingTouchLockSteps.cs" />
+    <Compile Include="Steps\UWP\Vantage_NeverCenterSteps\GamingX50CPUOCOtherItemsSteps.cs" />
+    <Compile Include="Steps\UWP\Vantage_NeverCenterSteps\GamingX50CPUPackageCoreOCSteps.cs" />
+    <Compile Include="Steps\UWP\Vantage_NeverCenterSteps\GamingUICapabilityCheckSteps.cs" />
+    <Compile Include="Steps\UWP\Vantage_NeverCenterSteps\GamingX60ThermalModeACModeAutoOffSteps.cs" />
+    <Compile Include="Steps\UWP\Vantage_NeverCenterSteps\GamingX60GPUOCOnSteps.cs" />
+    <Compile Include="Steps\UWP\Vantage_NeverCenterSteps\GamingXriteEntranceSteps.cs" />
+    <Compile Include="Steps\UWP\Vantage_NeverCenterSteps\GamingPowerPlanManualSteps.cs" />
+    <Compile Include="Steps\UWP\Vantage_SecurityAdvisorSteps\VantageCommon_StepDefinition.cs" />
+    <Compile Include="Steps\UWP\Vantage_SecurityAdvisorSteps\VPNPage_StepDefinition.cs" />
+    <Compile Include="Steps\UWP\Vantage_SecurityAdvisorSteps\WIFISecurityPage_StepDefinition.cs" />
+    <Compile Include="Steps\UWP\Vantage_SecurityAdvisorSteps\BasicSecurityPageStepDefinition.cs" />
+    <Compile Include="Steps\UWP\Vantage_SecurityAdvisorSteps\ClickPasswordHealthLinkOnAVPageWillGoToPMPageStepDefinition.cs" />
+    <Compile Include="Steps\UWP\Vantage_SecurityAdvisorSteps\MyDevicePage_StepDefinition.cs" />
+    <Compile Include="Steps\UWP\Vantage_SecurityAdvisorSteps\MyDeviceSettingPage_StepDefinition.cs" />
+    <Compile Include="Steps\UWP\Vantage_SecurityAdvisorSteps\AntiVirusPage_StepDefinition.cs" />
+    <Compile Include="Steps\UWP\Vantage_SecurityAdvisorSteps\SupportPage_StepDefinition.cs" />
+    <Compile Include="Steps\UWP\Vantage_SecurityAdvisorSteps\DashBoardPage_StepDefinition.cs" />
+    <Compile Include="Steps\UWP\Vantage_SecurityAdvisorSteps\Dashboard_NarrowWindow_StepDefinition.cs" />
+    <Compile Include="Steps\UWP\Vantage_SecurityAdvisorSteps\DashLaneOneClickInstallDownloadExperienceStepDefinition.cs" />
+    <Compile Include="Steps\UWP\Vantage_SecurityAdvisorSteps\HideWifiSecurityIfNoDriverInstalledStepDefinition.cs" />
+    <Compile Include="Steps\UWP\Vantage_SecurityAdvisorSteps\IntermediateSecurityTabStepDefinition.cs" />
+    <Compile Include="Steps\UWP\Vantage_SecurityAdvisorSteps\ReLaunchVantage.cs" />
+    <Compile Include="Steps\UWP\Vantage_SecurityAdvisorSteps\NoSAWidgetOnDashBoardStepDefinition.cs" />
+    <Compile Include="Steps\UWP\Vantage_SecurityAdvisorSteps\PasswordHealthItemStepDefiniation.cs" />
+    <Compile Include="Steps\UWP\Vantage_SecurityAdvisorSteps\PasswordHealthPageStepDefinition.cs" />
+    <Compile Include="Steps\UWP\Vantage_SecurityAdvisorSteps\SABasicSecurityIntermidateSecurityAdvancedSecurityTabsShowOnSecurityPageStepDefinition.cs" />
+    <Compile Include="Steps\UWP\Vantage_SecurityAdvisorSteps\SecurityAdvisorAboutFingerPrintReaderStepDefinition.cs" />
+    <Compile Include="Steps\UWP\Vantage_SecurityAdvisorSteps\SecurityAdvisor_DefaultAVisMLS_AntiVirusPage_StepDefinition.cs" />
+    <Compile Include="Steps\UWP\Vantage_SecurityAdvisorSteps\SecurityAdvisorDefaultAVIsThirdPartyStepDefinition.cs" />
+    <Compile Include="Steps\UWP\Vantage_SecurityAdvisorSteps\SecurityPageAndGoBackToMainPageStepDefinition.cs" />
+    <Compile Include="Steps\UWP\Vantage_SecurityAdvisorSteps\SecurityPage_StepDefination.cs" />
+    <Compile Include="Steps\UWP\Vantage_SecurityAdvisorSteps\SystemUpdatePageStepDefinition.cs" />
+    <Compile Include="Steps\UWP\Vantage_SecurityAdvisorSteps\SecurityAdvisor_NewStatusWidget_StepDefinition.cs" />
+    <Compile Include="Steps\UWP\Vantage_SecurityAdvisorSteps\SAWidgetOnTheRightSidebarOfEach_SubpageInSAStepDefinition.cs" />
+    <Compile Include="Steps\UWP\Vantage_SecurityAdvisorSteps\SecurityAdvisorDefaultAVBehaviorStepDefinition.cs" />
+    <Compile Include="Steps\UWP\Vantage_SecurityAdvisorSteps\MySecurityPage_StepDefinition.cs" />
+    <Compile Include="Steps\UWP\Vantage_SecurityAdvisorSteps\PreferenceSettingsPage_StepDefinition.cs" />
+    <Compile Include="Steps\UWP\Performance\PerformanceDemoStepDefinition.cs" />
+    <Compile Include="Steps\UWP\Vantage_WifiSecuritySteps\LWSInSecurityAdvisorofVAN_StepDefinition.cs" />
+    <Compile Include="Steps\UWP\Vantage_WifiSecuritySteps\RemoveExcessLUDPMetricsForCHSStepDefinition.cs" />
+    <Compile Include="TestListener.cs" />
+    <Compile Include="Utility\ACDCMachineListBean.cs" />
+    <Compile Include="Utility\AdPolicyRegistryHelper.cs" />
+    <Compile Include="Utility\CriticalException.cs" />
+    <Compile Include="Utility\DBOperation4UIAuto.cs" />
+    <Compile Include="Utility\DeviceInfoCollector.cs" />
+    <Compile Include="Utility\IdeaPluginHelper.cs" />
+    <Compile Include="Utility\KeyboardEvent.cs" />
+    <Compile Include="Utility\Language.cs" />
+    <Compile Include="Utility\LoadSpecificElementFile.cs" />
+    <Compile Include="Utility\Metrics\MetricFiddler.cs" />
+    <Compile Include="Utility\Metrics\VantageMetric.cs" />
+    <Compile Include="Utility\Metrics\DeviceMetricCommon.cs" />
+    <Compile Include="Utility\Metrics\StringCompressor.cs" />
+    <Compile Include="Utility\Networking.cs" />
+    <Compile Include="Utility\Reader\MetricsTestingDataReader.cs" />
+    <Compile Include="Utility\Reader\SearchForStepInStepDefinitions.cs" />
+    <Compile Include="Utility\Reader\TestRequirementHelper.cs" />
+    <Compile Include="Utility\Reader\VantageAssetsHelper.cs" />
+    <Compile Include="Utility\TestRequirementHelper.cs" />
+    <Compile Include="Utility\UIAImplementation\Native\AttributeInfo.cs" />
+    <Compile Include="Utility\UIAImplementation\Native\RootItem.cs" />
+    <Compile Include="Utility\UIAImplementation\Native\UIAAttributeItem.cs" />
+    <Compile Include="Utility\UIAImplementation\Native\UIAIdentifiers.cs" />
+    <Compile Include="Utility\UIAImplementation\Native\UIAItem.cs" />
+    <Compile Include="Utility\UIAImplementation\Native\UIARawTreeTraverser.cs" />
+    <Compile Include="Utility\UIAImplementation\Native\XPathItem.cs" />
+    <Compile Include="Utility\UIAImplementation\Native\XPathNavigatorUIA.cs" />
+    <Compile Include="Utility\VantageAutomationIDCollector.cs" />
+    <Compile Include="Utility\VantageBase.cs" />
+    <Compile Include="Utility\VantageUI.cs" />
+    <Compile Include="Utility\BaseTestClass.cs" />
+    <Compile Include="Utility\CaptureScreen.cs" />
+    <Compile Include="Utility\Common.cs" />
+    <Compile Include="Utility\cryptoGraphy.cs" />
+    <Compile Include="Utility\FileManager.cs" />
+    <Compile Include="Utility\Geo.cs" />
+    <Compile Include="Utility\HttpRequest.cs" />
+    <Compile Include="Utility\IInformationalWebDriver.cs" />
+    <Compile Include="Utility\IMCHelper.cs" />
+    <Compile Include="Utility\InformationalWebDriver.cs" />
+    <Compile Include="Utility\KeyboardMouse.cs" />
+    <Compile Include="Utility\LoadAssembly.cs" />
+    <Compile Include="Utility\MouseSimulator.cs" />
+    <Compile Include="Utility\NotificationMessage.cs" />
+    <Compile Include="Utility\PictureDealer.cs" />
+    <Compile Include="Utility\PipeClient.cs" />
+    <Compile Include="Utility\PowerControl.cs" />
+    <Compile Include="Utility\PowerManagement.cs" />
+    <Compile Include="Utility\Process_Extension.cs" />
+    <Compile Include="Utility\RegistryHelp.cs" />
+    <Compile Include="Utility\Serializer.cs" />
+    <Compile Include="Utility\SQLiteHelper.cs" />
+    <Compile Include="Utility\UIAImplementation\UIAHelper.cs" />
+    <Compile Include="Utility\UnManagedAPI.cs" />
+    <Compile Include="Utility\UwpAppManagement.cs" />
+    <Compile Include="Utility\VantageHelp3.x.cs" />
+    <Compile Include="Utility\WindowsRelatedData.cs" />
+    <Compile Include="Utility\WebSiteUrl.cs" />
+    <Compile Include="Utility\Wincrypt.cs" />
+    <Compile Include="Utility\WindowsImpersonation.cs" />
+    <Compile Include="Utility\WNetAddConnection.cs" />
+    <Compile Include="Utility\XPath4Vantage3.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+    <None Include="BJ_makeDatalink.bat">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="CommercialVantageElements.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="CopyDataForSettings.bat">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Features\UWP\CompatibilityNewShellNewPlugin\NewShellNewPluginITSNewOSMultipleClients.feature" />
+    <None Include="Features\UWP\CompatibilityNewShellNewPlugin\NewShellNewPluginGamingMultipleClients.feature" />
+    <None Include="Features\UWP\CompatibilityNewShellNewPlugin\NewShellNewPluginITSMultipleClients.feature" />
+    <None Include="Features\UWP\CompatibilityNewShellNewPlugin\NewShellNewPluginLWSMultipleClients.feature" />
+    <None Include="Features\UWP\CompatibilityNewShellNewPlugin\NewShellOldWebSettingsMultipleClients.feature" />
+    <None Include="Features\UWP\CompatibilityNewShellNewPlugin\SettingsNewOSNewShellOldWebMultipleClients.feature" />
+    <None Include="Features\UWP\CompatibilityOldShellNewPlugin\GamingMultipleClients.feature" />
+    <None Include="Features\UWP\CompatibilityOldShellNewPlugin\ITSMultipleClients.feature" />
+    <None Include="Features\UWP\CompatibilityOldShellNewPlugin\LWSMultipleClients.feature" />
+    <None Include="Features\UWP\CompatibilityOldShellNewPlugin\LWSNewOSOSNWMultipleClients.feature" />
+    <None Include="Features\UWP\CompatibilityOldShellNewPlugin\ITSNewOSMultipleClients.feature" />
+    <None Include="Features\UWP\CompatibilityOldShellNewPlugin\SettingsOSNWMultipleClients.feature" />
+    <None Include="Features\UWP\CompatibilityOldShellNewPlugin\SettingsNewOSOSNWMultipleClients.feature" />
+    <None Include="Features\UWP\LEMultipleClientsTest\LEAdPolicyDefaultValueMultipleClients.feature" />
+    <None Include="Features\UWP\LEMultipleClientsTest\LEAdPolicyMultipleClients.feature" />
+    <None Include="Features\UWP\LEMultipleClientsTest\LELWSMultipleClients.feature" />
+    <None Include="Features\UWP\LEMultipleClientsTest\LEITSMultipleClientsTest.feature" />
+    <None Include="Features\UWP\LEMultipleClientsTest\LESettingsMultipleClients.feature" />
+    <None Include="Features\UWP\MicroClientsTest\MicroGamingMultipleClients.feature" />
+    <None Include="Features\UWP\MicroClientsTest\MicroITSNewOSMultipleClients.feature" />
+    <None Include="Features\UWP\MicroClientsTest\MicroITSMultipleClients.feature" />
+    <None Include="Features\UWP\MicroClientsTest\MicroLWSMultipleClients.feature" />
+    <None Include="Features\UWP\MicroClientsTest\MicroSettingsMultipleClients.feature" />
+    <None Include="Features\UWP\MicroClientsTest\MicroSettingsNewOSMultipleClients.feature" />
+    <None Include="Features\UWP\MultipleClientsTest\DPMMultipClients.feature" />
+    <None Include="Features\UWP\MultipleClientsTest\GamingPlanMultipleClients.feature" />
+    <None Include="Features\UWP\MultipleClientsTest\GamingMultipleClients.feature" />
+    <None Include="Features\UWP\MultipleClientsTest\ITSMultipleClients.feature" />
+    <None Include="Features\UWP\MultipleClientsTest\LWSMultipleClients.feature" />
+    <None Include="Features\UWP\SmokeTestClientsTest\DPMSmokeClients.feature" />
+    <None Include="Features\UWP\SmokeTestClientsTest\GamingSmokeClients.feature" />
+    <None Include="Features\UWP\SmokeTestClientsTest\ITSSmokeTestClients.feature" />
+    <None Include="Features\UWP\SmokeTestClientsTest\SettingsSmokeTestClients.feature" />
+    <None Include="Features\UWP\SmokeTestClientsTest\LWSSmokeClients.feature" />
+    <None Include="Features\UWP\Vantage_ConnectedHomeSecurity\VAN8586_AddSecurityHealthWithoutAccount.feature" />
+    <None Include="Features\UWP\Vantage_ConnectedHomeSecurity\VAN24409_CHSCompatibilityTest.feature" />
+    <None Include="Features\UWP\Vantage_ConnectedHomeSecurity\VAN8576_Part1_CreateNewStatusPageOfAllUserInCHSGroup.feature" />
+    <None Include="Features\UWP\Vantage_ConnectedHomeSecurity\VAN8576_Part2_CreateNewStatusPageOfAllUserInCHSGroup.feature" />
+    <None Include="Features\UWP\Vantage_ConnectedHomeSecurity\VAN8578_Createdisconnectoptionforlandingpagenormalusersonly.feature" />
+    <None Include="Features\UWP\Vantage_ConnectedHomeSecurity\VAN8580_AddSecurityHealth.feature" />
+    <None Include="Features\UWP\Vantage_ConnectedHomeSecurity\VAN8572_Part2_Removeslides2and3fromCHSOnboardingTutorial.feature" />
+    <None Include="Features\UWP\Vantage_ConnectedHomeSecurity\VAN8572_Part1_Removeslides2and3fromCHSOnboardingTutorial.feature" />
+    <None Include="Features\UWP\Vantage_ConnectedHomeSecurity\VAN19299_Notifyuserthatlocationservicesaredisabed.feature" />
+    <None Include="Features\UWP\Vantage_ConnectedHomeSecurity\VAN8570_RemoveLIDLoginFromVANDuringTrialSignUp.feature" />
+    <None Include="Features\UWP\Vantage_ConnectedHomeSecurity\VAN22602_Part1_RequireuserstoregisterforLenovoID.feature" />
+    <None Include="Features\UWP\Vantage_ConnectedHomeSecurity\VAN8574_AllowuserstojoinexistingCHSaccountfromVantage.feature" />
+    <None Include="Features\UWP\Vantage_ConnectedHomeSecurity\VAN8579_CreateBuyNowRenewoptionadminonnewCHSandingpage.feature" />
+    <None Include="Features\UWP\Vantage_ConnectedHomeSecurity\VAN8584_CreateupdatedCHSmarketinglandingpageforallusers.feature" />
+    <None Include="Features\UWP\Vantage_ConnectedHomeSecurity\VAN8585_ChangeWifiSecuritypageafterjoiningCHSaccount.feature" />
+    <None Include="Features\UWP\Vantage_DesktopPowerManagement\VAN17146_Part1_PowerUseOptionsAndSettings.feature" />
+    <None Include="Features\UWP\Vantage_DesktopPowerManagement\VAN17146_Part2_PowerUseOptionsAndSettings.feature" />
+    <None Include="Features\UWP\Vantage_DesktopPowerManagement\VAN17146_Part3_PowerUseOptionsAndSettings.feature" />
+    <None Include="Features\UWP\Vantage_DesktopPowerManagement\VAN17279_Part1_GlobalPowerSettings.feature" />
+    <None Include="Features\UWP\Vantage_DesktopPowerManagement\VAN17279_Part2_GlobalPowerSettings.feature" />
+    <None Include="Features\UWP\Vantage_DesktopPowerManagement\VAN17280_GlobalPowerSettings.feature" />
+    <None Include="Features\UWP\Vantage_DesktopPowerManagement\VAN17284_Part1_PowerPlanSettings.feature" />
+    <None Include="Features\UWP\Vantage_DesktopPowerManagement\VAN17284_Part2_PowerPlanSettings.feature" />
+    <None Include="Features\UWP\Vantage_DesktopPowerManagement\VAN17284_Part3_PowerPlanSettings.feature" />
+    <None Include="Features\UWP\Vantage_DesktopPowerManagement\VAN17320_PlanProfilePerformanceMetrics.feature" />
+    <None Include="Features\UWP\Vantage_DesktopPowerManagement\VAN17644_DesktopPowerManagementCommon.feature" />
+    <None Include="Features\UWP\Vantage_DesktopPowerManagement\VAN18978_DesktopPowerManagementPerformance.feature" />
+    <None Include="Features\UWP\Vantage_HardwareSettings\Retry.feature" />
+    <None Include="Features\UWP\Vantage_DesktopPowerManagement\VAN30167_DPMSearch.feature" />
+    <None Include="Features\UWP\Vantage_HardwareSettings\Settings_Commercial\VFC1143_HPDCheckboxQuickRegressionTestTwo.feature" />
+    <None Include="Features\UWP\Vantage_HardwareSettings\Settings_Commercial\VFC182_BatteryConditiononThinkPadTwo.feature" />
+    <None Include="Features\UWP\Vantage_HardwareSettings\Settings_Commercial\VFC2243_MicrophoneSettingsPolicyValues.feature" />
+    <None Include="Features\UWP\Vantage_HardwareSettings\Settings_Commercial\VFC3438_AudioSmartSettingsAdPolicy.feature" />
+    <None Include="Features\UWP\Vantage_HardwareSettings\Settings_Commercial\VFC1996_StandbyAdPolicy.feature" />
+    <None Include="Features\UWP\Vantage_HardwareSettings\Settings_Commercial\VFC1295_HPDwithTofSensor.feature" />
+    <None Include="Features\UWP\Vantage_HardwareSettings\Settings_Commercial\VFC1138_HPDFeatures.feature" />
+    <None Include="Features\UWP\Vantage_HardwareSettings\Settings_Commercial\VFC1676_QuickSettings.feature" />
+    <None Include="Features\UWP\Vantage_HardwareSettings\Settings_Commercial\VFC1807_LarkKeyboardquickregression.feature" />
+    <None Include="Features\UWP\Vantage_HardwareSettings\Settings_Commercial\VFC182_BatteryConditiononThinkPad.feature" />
+    <None Include="Features\UWP\Vantage_HardwareSettings\Settings_Commercial\VFC188_RemoveEcmQuickRegression.feature" />
+    <None Include="Features\UWP\Vantage_HardwareSettings\Settings_Commercial\VFC198_OptimizeMyMicrophone.feature" />
+    <None Include="Features\UWP\Vantage_HardwareSettings\Settings_Commercial\VFC196_SuppressKeyboardNoise.feature" />
+    <None Include="Features\UWP\Vantage_HardwareSettings\Settings_Commercial\VFC3440_DisplayCamera_DisplayAdPolicy.feature" />
+    <None Include="Features\UWP\Vantage_HardwareSettings\Settings_Commercial\VFC3439_DisplayCamera_CameraAdPolicy.feature" />
+    <None Include="Features\UWP\Vantage_HardwareSettings\Settings_Commercial\VFC3442_StandbySettingsAdPolicy.feature" />
+    <None Include="Features\UWP\Vantage_HardwareSettings\Settings_Commercial\VFC3441_IntelligentKeyboardAdPolicy.feature" />
+    <None Include="Features\UWP\Vantage_HardwareSettings\Settings_Commercial\VFC3486_BatterySettingsAdPolicy.feature" />
+    <None Include="Features\UWP\Vantage_HardwareSettings\Settings_Commercial\VFC1999_AudioAdPolicyDefaultValue.feature" />
+    <None Include="Features\UWP\Vantage_HardwareSettings\Settings_Commercial\VFC202_VantageAudio.feature" />
+    <None Include="Features\UWP\Vantage_HardwareSettings\Settings_Commercial\VFC206_BatteryChargeThresholdThinkPadRegressionTest.feature" />
+    <None Include="Features\UWP\Vantage_HardwareSettings\Settings_Commercial\VFC208_AlwaysOnUSB.feature" />
+    <None Include="Features\UWP\Vantage_HardwareSettings\Settings_Commercial\VFC246_IntelligentScreenLe.feature" />
+    <None Include="Features\UWP\Vantage_HardwareSettings\VAN13280_BatteryGaugeResetInThinkPad_OneBatteryACDC.feature" />
+    <None Include="Features\UWP\Vantage_HardwareSettings\Settings_Commercial\VFC3488_PowerSmartSettingsAdPolicy.feature" />
+    <None Include="Features\UWP\Vantage_HardwareSettings\VAN25383BackECMToVantage.feature" />
+    <None Include="Features\UWP\Vantage_HardwareSettings\SettingsSmokeTest.feature" />
+    <None Include="Features\UWP\Vantage_HardwareSettings\Settings_Commercial\VFC3252_MicrophoneSettingsAdPolicy.feature" />
+    <None Include="Features\UWP\Vantage_HardwareSettings\Settings_Commercial\VFC3264_PowerSettingsAdPolicy.feature" />
+    <None Include="Features\UWP\Vantage_HardwareSettings\VAN26055_HDR4SMB.feature" />
+    <None Include="Features\UWP\Vantage_HardwareSettings\VAN10164_CS20KeyboardQuickRegression.feature" />
+    <None Include="Features\UWP\Vantage_HardwareSettings\VAN28223_SmartBattery2.0.feature" />
+    <None Include="Features\UWP\Vantage_HardwareSettings\VAN10210_Part10_ToolbarRegressionTest.feature" />
+    <None Include="Features\UWP\Vantage_HardwareSettings\VAN10210_Part9_ToolbarRegressionTest.feature" />
+    <None Include="Features\UWP\Vantage_HardwareSettings\VAN17771_HardwareSettingsVideoPlayback.feature" />
+    <None Include="Features\UWP\Vantage_HardwareSettings\VAN22707_KeyboardBackligt3optionsIdeaPad.feature" />
+    <None Include="Features\UWP\Vantage_HardwareSettings\VAN10210_Part1_ToolbarRegressionTest.feature" />
+    <None Include="Features\UWP\Vantage_HardwareSettings\VAN10210_Part3_ToolbarRegressionTest.feature" />
+    <None Include="Features\UWP\Vantage_HardwareSettings\VAN10210_Part4_ToolbarRegressionTest.feature" />
+    <None Include="Features\UWP\Vantage_HardwareSettings\VAN10210_Part5_ToolbarRegressionTest.feature" />
+    <None Include="Features\UWP\Vantage_HardwareSettings\VAN10210_Part6_ToolbarRegressionTest.feature" />
+    <None Include="Features\UWP\Vantage_HardwareSettings\VAN10210_Part7_ToolbarRegressionTest.feature" />
+    <None Include="Features\UWP\Vantage_HardwareSettings\VAN27994_Part5_HS_VantageToolbarquickregressiontestfornewOS.feature" />
+    <None Include="Features\UWP\Vantage_HardwareSettings\VAN27994_Part6_HS_VantageToolbarquickregressiontestfornewOS.feature" />
+    <None Include="Features\UWP\Vantage_HardwareSettings\VAN27994_Part2_OSToolbarRegressionTest.feature" />
+    <None Include="Features\UWP\Vantage_HardwareSettings\VAN27994_Part3_OSToolbarRegressionTest.feature" />
+    <None Include="Features\UWP\Vantage_HardwareSettings\VAN28222_VantageSettingsToolbarimageforNewWindowsquickregression.feature" />
+    <None Include="Features\UWP\Vantage_HardwareSettings\VAN26397_DaytimeColorAndECMColorIntel.feature" />
+    <None Include="Features\UWP\Vantage_HardwareSettings\VAN26184_SMBAudioMicrophone.feature" />
+    <None Include="Features\UWP\Vantage_HardwareSettings\VAN26254_HSAAudioMicrophone.feature" />
+    <None Include="Features\UWP\Vantage_HardwareSettings\VAN27962_DaytimeColorAndECMColorAMD.feature" />
+    <None Include="Features\UWP\Vantage_HardwareSettings\VAN27994_Part1_OSToolbarRegressionTest.feature" />
+    <None Include="Features\UWP\Vantage_HardwareSettings\VAN27994_Part4_OSToolbarRegressionTest.feature" />
+    <None Include="Features\UWP\Vantage_HardwareSettings\VAN27994_Part7_OSToolbarRegressionTest.feature" />
+    <None Include="Features\UWP\Vantage_HardwareSettings\VAN28380_HeartbeatMetricsNewOSQuickRegression.feature" />
+    <None Include="Features\UWP\Vantage_HardwareSettings\VAN29108_HPDwithTofSensor.feature" />
+    <None Include="Features\UWP\Vantage_HardwareSettings\VAN29462_BatterySettingsTopPosition.feature" />
+    <None Include="Features\UWP\Vantage_HardwareSettings\VAN29653_Part2_SettingsSearchOnGaming.feature" />
+    <None Include="Features\UWP\Vantage_HardwareSettings\VAN29653_Part1_SettingsSearchOnGaming.feature" />
+    <None Include="Features\UWP\Vantage_HardwareSettings\VAN29525_ToastMessageForSealedBatteryWarranty.feature" />
+    <None Include="Features\UWP\Vantage_HardwareSettings\VAN29845_SettingsSearch.feature" />
+    <None Include="Features\UWP\Vantage_HardwareSettings\VAN284_ScheduleEyeCareMode.feature" />
+    <None Include="Features\UWP\Vantage_HardwareSettings\VAN29913_ScheduleEcmAMD.feature" />
+    <None Include="Features\UWP\Vantage_HardwareSettings\VAN29914_ColorTemperatureInEcmAMD.feature" />
+    <None Include="Features\UWP\Vantage_HardwareSettings\VAN29915_DayTimeColorTemperatureAMD.feature" />
+    <None Include="Features\UWP\Vantage_HardwareSettings\VAN3053_Part3_HS_QuickSettingsRegressionfunction.feature" />
+    <None Include="Features\UWP\Vantage_HardwareSettings\VAN30769_Part1_SettingsSealedBatteryWarranty.feature" />
+    <None Include="Features\UWP\Vantage_HardwareSettings\VAN30769_Part2_SettingsSealedBatteryWarranty.feature" />
+    <None Include="Features\UWP\Vantage_HardwareSettings\VAN10210_Part2_ToolbarRegressionTest.feature" />
+    <None Include="Features\UWP\Vantage_HardwareSettings\VAN32060_SettingsSMBSearch.feature" />
+    <None Include="Features\UWP\Vantage_HardwareSettings\VAN32274_SettingsHPDOnYogaModelsUITest.feature" />
+    <None Include="Features\UWP\Vantage_HardwareSettings\VAN32593EnablePinToolBarToastForNewOS.feature" />
+    <None Include="Features\UWP\Vantage_HardwareSettings\VAN32667_Part1_BatteryWarranty.feature" />
+    <None Include="Features\UWP\Vantage_HardwareSettings\VAN32667_Part2_BatteryWarranty.feature" />
+    <None Include="Features\UWP\Vantage_HardwareSettings\VAN4331_DaytimeColorTemperature.feature" />
+    <None Include="Features\UWP\Vantage_HardwareSettings\VAN5107_ColorTemperatureInEyeCareMode.feature" />
+    <None Include="Features\UWP\Vantage_HardwareSettings\VAN7220_IntelligentScreenQucikTestTwo.feature" />
+    <None Include="Features\UWP\Vantage_HardwareSettings\VAN7343_BatteryConditionOnThinkPadFunction.feature" />
+    <None Include="Features\UWP\Vantage_HardwareSettings\VAN13415_VoipHotkeyFunctionTest.feature" />
+    <None Include="Features\UWP\Vantage_HardwareSettings\VAN18004_VantageSettingsTopRowFunctionForThinkPad.feature" />
+    <None Include="Features\UWP\Vantage_HardwareSettings\VAN18068_RemoveECMQuickRegressionTest.feature" />
+    <None Include="Features\UWP\Vantage_HardwareSettings\VAN17995_PrivacyGuardQuickRegressionTest.feature" />
+    <None Include="Features\UWP\Vantage_HardwareSettings\VAN249_HSBatteryInformationTest.feature" />
+    <None Include="Features\UWP\Vantage_HardwareSettings\VAN3336_CameraAndCameraPrivacyRegressionTest.feature" />
+    <None Include="Features\UWP\Vantage_HardwareSettings\VAN24737_BatteryHealthQuickRegressionTest.feature" />
+    <None Include="Features\UWP\Vantage_HardwareSettings\VAN4093_HardwareSettingsAPSFunction.feature" />
+    <None Include="Features\UWP\Vantage_HardwareSettings\VAN4143_HardwareSettingsAPSAdvance.feature" />
+    <None Include="Features\UWP\Vantage_HardwareSettings\VAN7120_DaytimeColorAndECMColor.feature" />
+    <None Include="Features\UWP\Vantage_HardwareSettings\VAN4630_HardwareSettingsBatteryConditionOIdeaPad.feature" />
+    <None Include="Features\UWP\Vantage_HardwareSettings\VAN7221_CameraBlurRegressiontest.feature" />
+    <None Include="Features\UWP\Vantage_HardwareSettings\VAN259_EasyResumeRegressionTest.feature" />
+    <None Include="Features\UWP\Vantage_HardwareSettings\VAN4097_HiddenKeyboardFunctions.feature" />
+    <None Include="Features\UWP\Vantage_HardwareSettings\VAN7218_OLEDPowerSettingsOnThinkPadModel.feature" />
+    <None Include="Features\UWP\Vantage_HardwareSettings\VAN17970_FlipToBootQuickRegressionTest.feature" />
+    <None Include="Features\UWP\Vantage_HardwareSettings\VAN272_AlwaysOnUSBQuickRegressionTest.feature" />
+    <None Include="Features\UWP\Vantage_HardwareSettings\VAN271_RapidChargeToggleQuickRegressionTest.feature" />
+    <None Include="Features\UWP\Vantage_HardwareSettings\VAN7714_ScheduleEyeCareModeAndAccessToLocation.feature" />
+    <None Include="Features\UWP\Vantage_HardwareSettings\VAN9377_AirplanePowerModeRegression.feature" />
+    <None Include="Features\UWP\Vantage_HardwareSettings\VAN14018_KeyboardTopRowForIdeaPadQuickRegression.feature" />
+    <None Include="Features\UWP\Vantage_HardwareSettings\Settings_Commercial\VFC193_UserDefinedKeyLe.feature" />
+    <None Include="Features\UWP\Vantage_HardwareSettings\Settings_Commercial\VFC201_TCLEAutomaticAudioOptimizationForVoIP.feature" />
+    <None Include="Features\UWP\Vantage_HardwareSettings\Settings_Commercial\VFC210_TCLECameraAndCameraPrivacy.feature" />
+    <None Include="Features\UWP\Vantage_HardwareSettings\Settings_Commercial\VFC2273_HSAAudioMicrophone.feature" />
+    <None Include="Features\UWP\Vantage_HardwareSettings\Settings_Commercial\VFC1143_HPDCheckboxQuickRegressionTest.feature" />
+    <None Include="Features\UWP\Vantage_HardwareSettings\Settings_Commercial\VFC186_TemporaryMode.feature" />
+    <None Include="Features\UWP\Vantage_IntelligentCooling\VAN27510_IntelligentCoolingSMBITS4Search.feature" />
+    <None Include="Features\UWP\Vantage_IntelligentCooling\VAN28164_DynamicThermalDYTCToolbarOnNewOS.feature" />
+    <None Include="Features\UWP\Vantage_IntelligentCooling\VAN29860_DynamicThermalDYTC4Search.feature" />
+    <None Include="Features\UWP\Vantage_IntelligentCooling\VAN17159_IntelligentCoolingITS2IdeaPad.feature" />
+    <None Include="Features\UWP\Vantage_IntelligentCooling\VAN17174_Part2_DynamicThermalDYTC4CQL.feature" />
+    <None Include="Features\UWP\Vantage_IntelligentCooling\VAN18037_Part2_DynamicThermalDYTC6MWS.feature" />
+    <None Include="Features\UWP\Vantage_IntelligentCooling\VAN28163_Part1_IntelligentCoolingITS5ToolbarNewOS.feature" />
+    <None Include="Features\UWP\Vantage_IntelligentCooling\VAN24896_IntelligentCoolingSMBCreaterAPP.feature" />
+    <None Include="Features\UWP\Vantage_IntelligentCooling\VAN28158_ITS4ToolbarTestcaseNextWindows.feature" />
+    <None Include="Features\UWP\Vantage_IntelligentCooling\VAN17423_IntelligentCoolingITS4ToolbarMetrics.feature" />
+    <None Include="Features\UWP\Vantage_IntelligentCooling\VAN20706_DynamicThermalDYTC4TIO.feature" />
+    <None Include="Features\UWP\Vantage_IntelligentCooling\VAN17160_IntelligentCoolingITS3IdeaPad.feature" />
+    <None Include="Features\UWP\Vantage_HardwareSettings\VAN14018_KeyboardTopRowForIdeaPadQuickRegression.feature" />
+    <None Include="Features\UWP\Vantage_IntelligentCooling\VAN17162_IntelligentCoolingIdeapadITS4UI.feature" />
+    <None Include="Features\UWP\Vantage_IntelligentCooling\VAN17171_DynamicThermalDYTC3CQL.feature" />
+    <None Include="Features\UWP\Vantage_IntelligentCooling\VAN17177_DynamicThermalDYTC4NOCQLUI.feature" />
+    <None Include="Features\UWP\Vantage_IntelligentCooling\VAN17178_DynamicThermalDYTC5UI.feature" />
+    <None Include="Features\UWP\Vantage_IntelligentCooling\VAN17179_DynamicThermalDYTC5Toolbar.feature" />
+    <None Include="Features\UWP\Vantage_IntelligentCooling\VAN17181_Part2_DynamicThermalDYTC6UI.feature" />
+    <None Include="Features\UWP\Vantage_IntelligentCooling\VAN24854_DynamicThermalToolbarUpdateTips.feature" />
+    <None Include="Features\UWP\Vantage_IntelligentCooling\VAN25388_IntelligentCoolingITS5EnableGpuOC.feature" />
+    <None Include="Features\UWP\Vantage_IntelligentCooling\VAN28156_IntelligentCoolingITS3ToolbarNewOS.feature.feature" />
+    <None Include="Features\UWP\Vantage_IntelligentCooling\VAN28163_Part2_IntelligentCoolingITS5ToolbarNewOS.feature" />
+    <None Include="Features\UWP\Vantage_IntelligentCooling\VAN29860_DynamicThermalDYTC3Search.feature" />
+    <None Include="Features\UWP\Vantage_IntelligentCooling\VAN29860_DynamicThermalDYTC5Search.feature" />
+    <None Include="Features\UWP\Vantage_IntelligentCooling\VAN29860_IntelligentCoolingIdeapadITS2Search.feature" />
+    <None Include="Features\UWP\Vantage_IntelligentCooling\VAN29860_IntelligentCoolingIdeapadITS3Search.feature" />
+    <None Include="Features\UWP\Vantage_IntelligentCooling\VAN29860_IntelligentCoolingIdeapadITS4Search.feature" />
+    <None Include="Features\UWP\Vantage_IntelligentCooling\VAN29860_IntelligentCoolingIdeapadITS5Search.feature" />
+    <None Include="Features\UWP\Vantage_NerveCenter\VAN19271_HomepageLighting.feature" />
+    <None Include="Features\UWP\Vantage_IntelligentCooling\VAN29860_DynamicThermalDYTC6.feature" />
+    <None Include="Features\UWP\Vantage_IntelligentCooling\VAN29860_DynamicThermalDYTC6WMS.feature" />
+    <None Include="Features\UWP\Vantage_NerveCenter\VAN19728_Lighting_T750SixligthsCooling.feature" />
+    <None Include="Features\UWP\Vantage_NerveCenter\VAN32680_LightingT770T570SixligthsCooling.feature" />
+    <None Include="Features\UWP\Vantage_NerveCenter\VAN32670_LightingT770T570SixligthsRear.feature" />
+    <None Include="Features\UWP\Vantage_NerveCenter\VAN19751_GamingLightingSpeedForDT.feature" />
+    <None Include="Features\UWP\Vantage_NerveCenter\VAN19744_GamingLightingBrightnessForDT.feature" />
+    <None Include="Features\UWP\Vantage_NerveCenter\VAN19747_GamingLightingEffectsForDT.feature" />
+    <None Include="Features\UWP\Vantage_NerveCenter\VAN22066_X50MemoryLightingSpeed.feature" />
+    <None Include="Features\UWP\Vantage_NerveCenter\VAN22062_X50MemoryLightingBrightness.feature" />
+    <None Include="Features\UWP\Vantage_NerveCenter\VAN22063_X50MemoryLightingColorSquare.feature" />
+    <None Include="Features\UWP\Vantage_NerveCenter\VAN22064_X50MemoryLighting.feature" />
+    <None Include="Features\UWP\Vantage_NerveCenter\VAN22065_X50MemoryLightingEffect.feature" />
+    <None Include="Features\UWP\Vantage_NerveCenter\VAN19746_GamingLightingColorSquareForDT.feature" />
+    <None Include="Features\UWP\Vantage_NerveCenter\VAN30514_Lighting_GPU_ProfileDefaultAMDLogo.feature" />
+    <None Include="Features\UWP\Vantage_NerveCenter\VAN30517_Lighting_GPU_Speed.feature" />
+    <None Include="Features\UWP\Vantage_NerveCenter\VAN30512_Lighting_GPU_Color.feature" />
+    <None Include="Features\UWP\Vantage_NerveCenter\VAN30511_Lighting_GPU_Brightness.feature" />
+    <None Include="Features\UWP\Vantage_NerveCenter\VAN19729_Lighting_T750T550AMDSixligthsRear.feature" />
+    <None Include="Features\UWP\Vantage_NerveCenter\VAN19757_GamingLightingT550IntelRear.feature" />
+    <None Include="Features\UWP\Vantage_NerveCenter\VAN19758_GamingLightingT550IntelCooling.feature" />
+    <None Include="Features\UWP\Vantage_NerveCenter\VAN25234_GamingEnableX-rite.feature" />
+    <None Include="Features\UWP\Vantage_NerveCenter\VAN25332_GamingTagDetectionInCoreAddIn.feature" />
+    <None Include="Features\UWP\Vantage_NerveCenter\VAN19946_GamingDriverLackforX50.feature" />
+    <None Include="Features\UWP\Vantage_IntelligentCooling\VAN17181_Part1_DynamicThermalDYTC6UI.feature" />
+    <None Include="Features\UWP\Vantage_NerveCenter\VAN19785_GamingUICapabilityCheck.feature" />
+    <None Include="Features\UWP\Vantage_HardwareSettings\VAN10210_Part8_ToolbarRegressionTest.feature" />
+    <None Include="Features\UWP\Vantage_HardwareSettings\VAN12416_UserDefinedKeyFunctionPhase2.feature" />
+    <None Include="Features\UWP\Vantage_HardwareSettings\VAN13280_BatteryGaugeResetInThinkPad_TwoBattery.feature" />
+    <None Include="Features\UWP\Vantage_HardwareSettings\VAN13280_BatteryGaugeResetInThinkPad_OneBattery.feature" />
+    <None Include="Features\UWP\Vantage_HardwareSettings\VAN13723_SmartStandbyV2FeatureTest.feature" />
+    <None Include="Features\UWP\Vantage_HardwareSettings\VAN15185HSKeyboardBacklight.feature" />
+    <None Include="Features\UWP\Vantage_HardwareSettings\VAN15459_Vantage_Settings_TemproraryMode_ThinkPad.feature" />
+    <None Include="Features\UWP\Vantage_HardwareSettings\VAN15463_Part2_HSIdeaBacklight_Metrics.feature" />
+    <None Include="Features\UWP\Vantage_HardwareSettings\VAN15463_Part1_HSIdeaBacklight.feature" />
+    <None Include="Features\UWP\Vantage_HardwareSettings\VAN15886_HardwareSettingsEnergyStarLogoQuickRegressionTest.feature" />
+    <None Include="Features\UWP\Vantage_HardwareSettings\VAN16517_KeyboardBacklightOnIdeaPad.feature" />
+    <None Include="Features\UWP\Vantage_HardwareSettings\VAN17771_HardwareSettingsHPD.feature" />
+    <None Include="Features\UWP\Vantage_HardwareSettings\VAN18058_HSToolbarRegression.feature" />
+    <None Include="Features\UWP\Vantage_HardwareSettings\VAN18503_DolbyModeAndProfilesforVantage3.feature" />
+    <None Include="Features\UWP\Vantage_HardwareSettings\VAN18508_HSAutomaticAudioOptimizationforVoIP.feature" />
+    <None Include="Features\UWP\Vantage_HardwareSettings\VAN18509_VantageDolbySettingsMetrics.feature" />
+    <None Include="Features\UWP\Vantage_HardwareSettings\VAN18509_VantageApplicationbasedDolbySettings.feature" />
+    <None Include="Features\UWP\Vantage_HardwareSettings\VAN18694_Part1_ECourseForDolby.feature" />
+    <None Include="Features\UWP\Vantage_HardwareSettings\VAN18694_Part2_ECourseForDolby.feature" />
+    <None Include="Features\UWP\Vantage_HardwareSettings\VAN18696_Part1_VantageSettingsSuperResolution2.feature" />
+    <None Include="Features\UWP\Vantage_HardwareSettings\VAN18719_SmartMotionAlarm.feature" />
+    <None Include="Features\UWP\Vantage_HardwareSettings\VAN19816_Part1_HS_QuickSettingsCameraButtonFunctionTest.feature" />
+    <None Include="Features\UWP\Vantage_HardwareSettings\VAN19816_Part2_HS_QuickSettingsCameraButtonFunctionTest.feature" />
+    <None Include="Features\UWP\Vantage_HardwareSettings\VAN19816_QuickSettingsCameraButtonFunctionTest.feature" />
+    <None Include="Features\UWP\Vantage_HardwareSettings\VAN19716_HSSwapFunctionTest.feature" />
+    <None Include="Features\UWP\Vantage_HardwareSettings\VAN270_VantageHardwareSettingsConservationMode.feature" />
+    <None Include="Features\UWP\Vantage_HardwareSettings\VAN277_SettingMicrophoneToggle.feature" />
+    <None Include="Features\UWP\Vantage_HardwareSettings\VAN279_MicrophoneVolumeSliderbar.feature" />
+    <None Include="Features\UWP\Vantage_HardwareSettings\VAN280_VantageKeystrokeSuppression.feature" />
+    <None Include="Features\UWP\Vantage_HardwareSettings\VAN281_VantageHardwareSettingAcousticEchoCancellation.feature" />
+    <None Include="Features\UWP\Vantage_HardwareSettings\VAN282_MicrophoneOptimizationMode.feature" />
+    <None Include="Features\UWP\Vantage_HardwareSettings\VAN3053_Part1_HS_QuickSettingsRegressionfunction.feature" />
+    <None Include="Features\UWP\Vantage_HardwareSettings\VAN7141_SmartStandbyV1FeatureTest.feature" />
+    <None Include="Features\UWP\Vantage_HardwareSettings\VAN3053_Part2_HS_QuickSettingsRegressionfunction.feature" />
+    <None Include="Features\UWP\Vantage_HardwareSettings\VAN7219_BatteryChargeThresholdThinkPadRegressionTest.feature" />
+    <None Include="Features\UWP\Vantage_HardwareSettings\VAN7220_IntelligentScreenQucikTest.feature" />
+    <None Include="Features\UWP\Vantage_IntelligentCooling\VAN17182_Part1_DynamicThermalDYTC6ToolbarAMT.feature" />
+    <None Include="Features\UWP\Vantage_IntelligentCooling\VAN17170_DynamicThermalDYTC3TIO.feature" />
+    <None Include="Features\UWP\Vantage_HardwareSettings\VAN7221_HSCameraBlurRegression.feature" />
+    <None Include="Features\UWP\Vantage_IntelligentCooling\VAN17533_IntelligentCoolingIS5DriverFunction.feature" />
+    <None Include="Features\UWP\Vantage_IntelligentCooling\VAN17182_Part2_DynamicThermalDYTC6ToolbarAMT.feature" />
+    <None Include="Features\UWP\Vantage_IntelligentCooling\VAN17182_Part3_DynamicThermalDYTC6ToolbarNoAMT.feature" />
+    <None Include="Features\UWP\Vantage_IntelligentCooling\VAN17182_Part4_DynamicThermalDYTC6ToolbarNoAMT.feature" />
+    <None Include="Features\UWP\Vantage_IntelligentCooling\VAN17592_IntelligentCoolingITS5ToolbarMetrics.feature" />
+    <None Include="Features\UWP\Vantage_IntelligentCooling\VAN18803_DynamicThermalDYTC6MWSUpdateIcon.feature" />
+    <None Include="Features\UWP\Vantage_IntelligentCooling\VAN17167_Part1_IntelligentCoolingIdeapadITS4DriverMetrics.feature" />
+    <None Include="Features\UWP\Vantage_IntelligentCooling\VAN17167_Part2_IntelligentCoolingIdeapadITS4DriverMetrics.feature" />
+    <None Include="Features\UWP\Vantage_IntelligentCooling\VAN17168_IntelligentCoolingITS4DPTF.feature" />
+    <None Include="Features\UWP\Vantage_IntelligentCooling\VAN17172_IntelligentCoolingIdeapadITS5Function.feature" />
+    <None Include="Features\UWP\Vantage_IntelligentCooling\VAN17173_Part1_IntelligentCoolingIdeapadITS5UI.feature" />
+    <None Include="Features\UWP\Vantage_IntelligentCooling\VAN17173_Part2_IntelligentCoolingIdeapadITS5UI.feature" />
+    <None Include="Features\UWP\Vantage_IntelligentCooling\VAN17174_Part1_DynamicThermalDYTC4CQL.feature" />
+    <None Include="Features\UWP\Vantage_IntelligentCooling\VAN19138_Part1_DynamicThermalDYTC5.feature" />
+    <None Include="Features\UWP\Vantage_IntelligentCooling\VAN19138_Part2_DynamicThermalDYTC5.feature" />
+    <None Include="Features\UWP\Vantage_IntelligentCooling\VAN17534_IntelligentCoolingIS5DriverMetrics.feature" />
+    <None Include="Features\UWP\Vantage_IntelligentCooling\VAN18037_Part1_DynamicThermalDYTC6MWS.feature" />
+    <None Include="Features\UWP\Vantage_IntelligentCooling\VAN19138_Part3_DynamicThermalDYTC6.feature" />
+    <None Include="Features\UWP\Vantage_IntelligentCooling\VAN19138_Part4_DynamicThermalDYTC6.feature" />
+    <None Include="Features\UWP\Vantage_IntelligentCooling\VAN20454_IntelligentCoolingITS3Toolbar.feature" />
+    <None Include="Features\UWP\Vantage_IntelligentCooling\VAN20456_IntelligentCoolingITS4Toolbar.feature" />
+    <None Include="Features\UWP\Vantage_IntelligentCooling\VAN20458_IntelligentCoolingITS5Toolbar.feature" />
+    <None Include="Features\UWP\Vantage_NerveCenter\VAN10412_GamingReskinWiFiSecurityEntrance.feature" />
+    <None Include="Features\UWP\Vantage_NerveCenter\VAN19274_GamingE_GPU.feature" />
+    <None Include="Features\UWP\Vantage_NerveCenter\VAN18775_GamingOldCPUOC.feature" />
+    <None Include="Features\UWP\Vantage_NerveCenter\VAN19765_Part5_ThermalModeDCModeX50.feature" />
+    <None Include="Features\UWP\Vantage_NerveCenter\VAN19765_Part4_ThermalModeDCModeX50.feature" />
+    <None Include="Features\UWP\Vantage_NerveCenter\VAN19765_Part3_ThermalModeDCModeX50.feature" />
+    <None Include="Features\UWP\Vantage_NerveCenter\VAN19765_Part2_ThermalModeDCModeX50.feature" />
+    <None Include="Features\UWP\Vantage_NerveCenter\VAN19765_Part1_ThermalModeDCModeX50.feature" />
+    <None Include="Features\UWP\Vantage_NerveCenter\VAN19764_Part1_ThermalModeACModeX50.feature" />
+    <None Include="Features\UWP\Vantage_NerveCenter\VAN19764_Part5_ThermalModeACModeX50.feature" />
+    <None Include="Features\UWP\Vantage_NerveCenter\VAN19764_Part4_ThermalModeACModeX50.feature" />
+    <None Include="Features\UWP\Vantage_NerveCenter\VAN19764_Part3_ThermalModeACModeX50.feature" />
+    <None Include="Features\UWP\Vantage_NerveCenter\VAN19764_Part2_ThermalModeACModeX50.feature" />
+    <None Include="Features\UWP\Vantage_NerveCenter\VAN19762_Part1_ThermalModeCommon.feature" />
+    <None Include="Features\UWP\Vantage_NerveCenter\VAN19762_Part2_ThermalModeCommon.feature" />
+    <None Include="Features\UWP\Vantage_NerveCenter\VAN16948_GamingOverDriveTest.feature" />
+    <None Include="Features\UWP\Vantage_NerveCenter\VAN17321_GamingMemory_OC.feature" />
+    <None Include="Features\UWP\Vantage_NerveCenter\VAN10418_GamingHelpPage.feature" />
+    <None Include="Features\UWP\Vantage_NerveCenter\VAN11322_Part1_GamingSegmentLayout.feature" />
+    <None Include="Features\UWP\Vantage_NerveCenter\VAN11322_Part2_GamingSegmentLayout.feature" />
+    <None Include="Features\UWP\Vantage_NerveCenter\VAN11322_Part3_GamingSegmentLayout.feature" />
+    <None Include="Features\UWP\Vantage_NerveCenter\VAN11322_Part4_GamingSegmentLayout.feature" />
+    <None Include="Features\UWP\Vantage_NerveCenter\VAN11322_Part5_GamingSegmentLayout.feature" />
+    <None Include="Features\UWP\Vantage_NerveCenter\VAN21386_GamingNetworkBoostAutoCloseToast.feature" />
+    <None Include="Features\UWP\Vantage_NerveCenter\VAN21722_Part10_X50CPUPreCoreOC.feature" />
+    <None Include="Features\UWP\Vantage_NerveCenter\VAN21722_Part8_X50CPUPreCoreOC.feature" />
+    <None Include="Features\UWP\Vantage_NerveCenter\VAN21722_Part9_X50CPUPreCoreOC.feature" />
+    <None Include="Features\UWP\Vantage_NerveCenter\VAN21730_GamingX50AdvancedOCSaveChanges.feature" />
+    <None Include="Features\UWP\Vantage_NerveCenter\VAN21720_GamingX50CPUOCOtherItems.feature" />
+    <None Include="Features\UWP\Vantage_NerveCenter\VAN21721_Part10_GamingX50CPUPackageCoreOC.feature" />
+    <None Include="Features\UWP\Vantage_NerveCenter\VAN21721_Part9_GamingX50CPUPackageCoreOC.feature" />
+    <None Include="Features\UWP\Vantage_NerveCenter\VAN21721_Part8_GamingX50CPUPackageCoreOC.feature" />
+    <None Include="Features\UWP\Vantage_NerveCenter\VAN21721_Part7_GamingX50CPUPackageCoreOC.feature" />
+    <None Include="Features\UWP\Vantage_NerveCenter\VAN21721_Part6_GamingX50CPUPackageCoreOC.feature" />
+    <None Include="Features\UWP\Vantage_NerveCenter\VAN21721_Part5_GamingX50CPUPackageCoreOC.feature" />
+    <None Include="Features\UWP\Vantage_NerveCenter\VAN21721_Part4_GamingX50CPUPackageCoreOC.feature" />
+    <None Include="Features\UWP\Vantage_NerveCenter\VAN21721_Part3_GamingX50CPUPackageCoreOC.feature" />
+    <None Include="Features\UWP\Vantage_NerveCenter\VAN21721_Part2_GamingX50CPUPackageCoreOC.feature" />
+    <None Include="Features\UWP\Vantage_NerveCenter\VAN17290_GamingEnableLegionAccessoryCentral.feature" />
+    <None Include="Features\UWP\Vantage_NerveCenter\VAN21722_Part3_X50CPUPreCoreOC.feature" />
+    <None Include="Features\UWP\Vantage_NerveCenter\VAN21722_Part4_X50CPUPreCoreOC.feature" />
+    <None Include="Features\UWP\Vantage_NerveCenter\VAN21722_Part5_X50CPUPreCoreOC.feature" />
+    <None Include="Features\UWP\Vantage_NerveCenter\VAN21722_Part6_X50CPUPreCoreOC.feature" />
+    <None Include="Features\UWP\Vantage_NerveCenter\VAN21722_Part7_X50CPUPreCoreOC.feature" />
+    <None Include="Features\UWP\Vantage_NerveCenter\VAN19886_GamingFamiliyNamefor331.feature" />
+    <None Include="Features\UWP\Vantage_NerveCenter\VAN21724_Part2_X50HomepageOClabel.feature" />
+    <None Include="Features\UWP\Vantage_NerveCenter\VAN21721_Part1_GamingX50CPUPackageCoreOC.feature" />
+    <None Include="Features\UWP\Vantage_NerveCenter\VAN21719_GamingAdvanceOc.feature" />
+    <None Include="Features\UWP\Vantage_NerveCenter\VAN21723_GamingGPUOC.feature" />
+    <None Include="Features\UWP\Vantage_NerveCenter\VAN21724_Part1_x50HomepageOCLabel.feature" />
+    <None Include="Features\UWP\Vantage_NerveCenter\VAN21722_Part1_X50CPUPreCoreOC.feature" />
+    <None Include="Features\UWP\Vantage_NerveCenter\VAN21722_Part2_X50CPUPreCoreOC.feature" />
+    <None Include="Features\UWP\Vantage_NerveCenter\VAN21725_X50_OC_check.feature" />
+    <None Include="Features\UWP\Vantage_NerveCenter\VAN21726_GamingX50AdvancedOCSetToDefault.feature" />
+    <None Include="Features\UWP\Vantage_NerveCenter\VAN23883_Part5_X60GPUOCOffACToDC.feature" />
+    <None Include="Features\UWP\Vantage_NerveCenter\VAN23883_Part6_X60GPUOCOffDCToAC.feature" />
+    <None Include="Features\UWP\Vantage_NerveCenter\VAN23883_Part4_X60GPUOCOff.feature" />
+    <None Include="Features\UWP\Vantage_NerveCenter\VAN23883_Part1_X60GPUOCOn.feature" />
+    <None Include="Features\UWP\Vantage_NerveCenter\VAN23883_Part3_X60GPUOCOnDCToAC.feature" />
+    <None Include="Features\UWP\Vantage_NerveCenter\VAN23883_Part2_X60GPUOCOnACToDC.feature" />
+    <None Include="Features\UWP\Vantage_NerveCenter\VAN23884_Part1_X60ThermalModeDCToACModeAutoOff.feature" />
+    <None Include="Features\UWP\Vantage_NerveCenter\VAN23884_Part2_X60ThermalModeDCToACModeAutoOff.feature" />
+    <None Include="Features\UWP\Vantage_NerveCenter\VAN23884_Part3_X60ThermalModeDCToACModeAutoOff.feature" />
+    <None Include="Features\UWP\Vantage_NerveCenter\VAN23886_Part1_X60ThermalModeDCModeAutoOff.feature" />
+    <None Include="Features\UWP\Vantage_NerveCenter\VAN23886_Part2_X60ThermalModeDCModeAutoOff.feature" />
+    <None Include="Features\UWP\Vantage_NerveCenter\VAN23886_Part3_X60ThermalModeDCModeAutoOff.feature" />
+    <None Include="Features\UWP\Vantage_NerveCenter\VAN23887_Part1_X60ThermalModeDCModeAutoOn.feature" />
+    <None Include="Features\UWP\Vantage_NerveCenter\VAN23887_Part2_X60ThermalModeDCModeAutoOn.feature" />
+    <None Include="Features\UWP\Vantage_NerveCenter\VAN23887_Part3_X60ThermalModeDCModeAutoOn.feature" />
+    <None Include="Features\UWP\Vantage_NerveCenter\VAN23890_Part1_MultiGameDetectionforX60.feature" />
+    <None Include="Features\UWP\Vantage_NerveCenter\VAN23890_Part2_MultiGameDetectionforX60.feature" />
+    <None Include="Features\UWP\Vantage_NerveCenter\VAN23890_Part3_MultiGameDetectionforX60.feature" />
+    <None Include="Features\UWP\Vantage_NerveCenter\VAN23890_Part4_MultiGameDetectionforX60.feature" />
+    <None Include="Features\UWP\Vantage_NerveCenter\VAN23891_Part1_X60ThermalModeACToDCModeAutoOff.feature" />
+    <None Include="Features\UWP\Vantage_NerveCenter\VAN23891_Part2_X60ThermalModeACToDCModeAutoOff.feature" />
+    <None Include="Features\UWP\Vantage_NerveCenter\VAN23891_Part3_X60ThermalModeACToDCModeAutoOff.feature" />
+    <None Include="Features\UWP\Vantage_NerveCenter\VAN23892_Part1_X60ThermalModeACToDCModeAutoOn.feature" />
+    <None Include="Features\UWP\Vantage_NerveCenter\VAN23892_Part2_X60ThermalModeACToDCModeAutoOn.feature" />
+    <None Include="Features\UWP\Vantage_NerveCenter\VAN23892_Part3_X60ThermalModeACToDCModeAutoOn.feature" />
+    <None Include="Features\UWP\Vantage_NerveCenter\VAN23893_Part1_X60ThermalModeACModeAutoOff.feature" />
+    <None Include="Features\UWP\Vantage_NerveCenter\VAN23893_Part2_X60ThermalModeACModeAutoOff.feature" />
+    <None Include="Features\UWP\Vantage_NerveCenter\VAN23893_Part3_X60ThermalModeACModeAutoOff.feature" />
+    <None Include="Features\UWP\Vantage_NerveCenter\VAN23894_Part1_X60ThermalModeACModeAutoOn.feature" />
+    <None Include="Features\UWP\Vantage_NerveCenter\VAN23894_Part2_X60ThermalModeACModeAutoOn.feature" />
+    <None Include="Features\UWP\Vantage_NerveCenter\VAN23894_Part3_X60ThermalModeACModeAutoOn.feature" />
+    <None Include="Features\UWP\Vantage_NerveCenter\VAN23885_Part1_X60ThermalModeDCToACModeAutoOn.feature" />
+    <None Include="Features\UWP\Vantage_NerveCenter\VAN23885_Part2_X60ThermalModeDCToACModeAutoOn.feature" />
+    <None Include="Features\UWP\Vantage_NerveCenter\VAN23885_Part3_X60ThermalModeDCToACModeAutoOn.feature" />
+    <None Include="Features\UWP\Vantage_NerveCenter\VAN25233_GamingEnableNahimic.feature" />
+    <None Include="Features\UWP\Vantage_NerveCenter\VAN25771_GamingPowerPlanManual.feature" />
+    <None Include="Features\UWP\Vantage_NerveCenter\VAN25771_Part2_GamingPowerPlanManual.feature" />
+    <None Include="Features\UWP\Vantage_NerveCenter\VAN25984_Part2_HardWareInfoAMD.feature" />
+    <None Include="Features\UWP\Vantage_NerveCenter\VAN25984_Part1_HardWareInfoAMD.feature" />
+    <None Include="Features\UWP\Vantage_NerveCenter\VAN26007_GamingGPUOCVRAM.feature" />
+    <None Include="Features\UWP\Vantage_NerveCenter\VAN25773_GamingPowerPlanModify.feature" />
+    <None Include="Features\UWP\Vantage_NerveCenter\VAN25771_Part3_GamingPowerPlanManual.feature" />
+    <None Include="Features\UWP\Vantage_NerveCenter\VAN25771_Part4_GamingPowerPlanManual.feature" />
+    <None Include="Features\UWP\Vantage_NerveCenter\VAN26008_Part1_GamingIntelligentSubModeChangeWhenGaming.feature" />
+    <None Include="Features\UWP\Vantage_NerveCenter\VAN26008_Part2_GamingIntelligentSubModeChangeWhenGaming.feature" />
+    <None Include="Features\UWP\Vantage_NerveCenter\VAN26008_Part3_GamingIntelligentSubModeChangeWhenGaming.feature" />
+    <None Include="Features\UWP\Vantage_NerveCenter\VAN27944_Part1_HardWareInfoIntelCPUGPUOn.feature" />
+    <None Include="Features\UWP\Vantage_NerveCenter\VAN28026_Part1_X60CPUOCOn.feature" />
+    <None Include="Features\UWP\Vantage_NerveCenter\VAN28026_Part2_X60CPUOCOnACToDC.feature" />
+    <None Include="Features\UWP\Vantage_NerveCenter\VAN28026_Part3_X60CPUOCOnDCToAC.feature" />
+    <None Include="Features\UWP\Vantage_NerveCenter\VAN28027_Part1_X60CPUGPUOCOn.feature" />
+    <None Include="Features\UWP\Vantage_NerveCenter\VAN28027_Part2_X60CPUGPUOCOnACToDC.feature" />
+    <None Include="Features\UWP\Vantage_NerveCenter\VAN28027_Part3_X60CPUGPUOCOnDCToAC.feature" />
+    <None Include="Features\UWP\Vantage_NerveCenter\VAN27943_FeatureTags.feature" />
+    <None Include="Features\UWP\Vantage_NerveCenter\VAN27944_Part2_HardWareInfoIntelCPUOn.feature" />
+    <None Include="Features\UWP\Vantage_NerveCenter\VAN29847_Part2_GamingSearchNoDriverLighting.feature" />
+    <None Include="Features\UWP\Vantage_NerveCenter\VAN29847_Part4_GamingSearchNoDriverX50CPUOC.feature" />
+    <None Include="Features\UWP\Vantage_NerveCenter\VAN29847_Part3_GamingSearchNoDriverOldCPUOC.feature" />
+    <None Include="Features\UWP\Vantage_NerveCenter\VAN29847_Part5_GamingSearchNoDriverRAMOC.feature" />
+    <None Include="Features\UWP\Vantage_NerveCenter\VAN29847_Part8_GamingSearchNoDriverVRAMOC.feature" />
+    <None Include="Features\UWP\Vantage_NerveCenter\VAN29847_Part6_GamingSearchNoDriverX60GPUOC.feature" />
+    <None Include="Features\UWP\Vantage_NerveCenter\VAN29847_Part7_GamingSearchNoDriverX50GPUOC.feature" />
+    <None Include="Features\UWP\Vantage_NerveCenter\VAN29849_Part6_GamingSearchNoTouchpadLockLighting.feature" />
+    <None Include="Features\UWP\Vantage_NerveCenter\VAN29849_Part5_GamingSearchNoHybridModeOverDrive.feature" />
+    <None Include="Features\UWP\Vantage_NerveCenter\VAN29849_Part4_GamingSearchNoAutoClose.feature" />
+    <None Include="Features\UWP\Vantage_NerveCenter\VAN29849_Part3_GamingSearchNoNetworkBoost.feature" />
+    <None Include="Features\UWP\Vantage_NerveCenter\VAN29849_Part1_GamingSearchNoMacroKey.feature" />
+    <None Include="Features\UWP\Vantage_NerveCenter\VAN29848_Part4_GamingSearchHybridModeOverDrive.feature" />
+    <None Include="Features\UWP\Vantage_NerveCenter\VAN29849_Part7_GamingSearchNoRAMOCGPUOC.feature" />
+    <None Include="Features\UWP\Vantage_NerveCenter\VAN29849_Part8_GamingSearchNoCPUOCVRAMOC.feature" />
+    <None Include="Features\UWP\Vantage_NerveCenter\VAN19760_GamingLighting_X50_SingleColor.feature" />
+    <None Include="Features\UWP\Vantage_NerveCenter\VAN29850_GamingEffectSynchronousTipsEffecDropdownMenu.feature" />
+    <None Include="Features\UWP\Vantage_NerveCenter\VAN29851_GamingEffectSynchronousTipsEffecItem.feature" />
+    <None Include="Features\UWP\Vantage_NerveCenter\VAN30136_Part2_GamingSearchOverClocking.feature" />
+    <None Include="Features\UWP\Vantage_NerveCenter\VAN30136_Part3_GamingSearchOverClocking.feature" />
+    <None Include="Features\UWP\Vantage_NerveCenter\VAN29848_Part5_GamingSearchTouchpadLockLighting.feature" />
+    <None Include="Features\UWP\Vantage_NerveCenter\VAN29848_Part3_GamingSearchAutoClose.feature" />
+    <None Include="Features\UWP\Vantage_NerveCenter\VAN29848_Part2_GamingSearchNetworkBoost.feature" />
+    <None Include="Features\UWP\Vantage_NerveCenter\VAN29847_Part1_GamingSearchNoDriverNB.feature" />
+    <None Include="Features\UWP\Vantage_NerveCenter\VAN30136_Part1_GamingSearchOverClocking.feature" />
+    <None Include="Features\UWP\Vantage_NerveCenter\VAN29849_Part2_GamingSearchNoThermalMode.feature" />
+    <None Include="Features\UWP\Vantage_NerveCenter\VAN30137_Part2_GamingSearchThermalMode3.feature" />
+    <None Include="Features\UWP\Vantage_NerveCenter\VAN30137_Part1_GamingSearchThermalMode2.feature" />
+    <None Include="Features\UWP\Vantage_NerveCenter\VAN30518_Part1_LightingSwitchEightLights.feature" />
+    <None Include="Features\UWP\Vantage_NerveCenter\VAN30518_Part2_LightingSwitchEightLights.feature" />
+    <None Include="Features\UWP\Vantage_NerveCenter\VAN30847_dGPULightingDriverLackNV.feature" />
+    <None Include="Features\UWP\Vantage_NerveCenter\VAN30519_Part1_LightingSwitchNineLights.feature" />
+    <None Include="Features\UWP\Vantage_NerveCenter\VAN30519_Part2_LightingSwitchNineLights.feature" />
+    <None Include="Features\UWP\Vantage_NerveCenter\VAN30513_Lighting_GPU_ProfileDefaultAMDBrand.feature" />
+    <None Include="Features\UWP\Vantage_NerveCenter\VAN30516_GPULightingEffect.feature" />
+    <None Include="Features\UWP\Vantage_NerveCenter\VAN30867_GamingOCCapabilityInAMD.feature" />
+    <None Include="Features\UWP\Vantage_NerveCenter\VAN30515_GamingGPULightingProfileDefaultNV.feature" />
+    <None Include="Features\UWP\Vantage_NerveCenter\VAN32669_NVTurboBoost.feature" />
+    <None Include="Features\UWP\Vantage_NerveCenter\VAN4313_Gamingsystemstatus.feature" />
+    <None Include="Features\UWP\Vantage_NerveCenter\VAN29848_Part1_GamingSearchMacroKey.feature" />
+    <None Include="Features\UWP\Vantage_NerveCenter\VAN4317_Part2_GamingMacroKey.feature" />
+    <None Include="Features\UWP\Vantage_NerveCenter\VAN4317_Part1_GamingMacroKey.feature" />
+    <None Include="Features\UWP\Vantage_NerveCenter\VAN10414_GamingAppSettingsPreferencePageReskin.feature" />
+    <None Include="Features\UWP\Vantage_NerveCenter\VAN10888_GamingPreferenceSettingsSelfSelectOptions.feature" />
+    <None Include="Features\UWP\Vantage_NerveCenter\VAN4318_Part1_GamingOldThermalMode.feature" />
+    <None Include="Features\UWP\Vantage_NerveCenter\VAN4318_Part2_GamingOldThermalMode.feature" />
+    <None Include="Features\UWP\Vantage_NerveCenter\VAN4319_GamingHybridMode.feature" />
+    <None Include="Features\UWP\Vantage_NerveCenter\VAN4320_Part1_GamingDriverLackLightingTest.feature" />
+    <None Include="Features\UWP\Vantage_NerveCenter\VAN4320_Part2_GamingDriverLackNetfilterTest.feature" />
+    <None Include="Features\UWP\Vantage_NerveCenter\VAN4320_Part3_GamingDriverLackXTUTest.feature" />
+    <None Include="Features\UWP\Vantage_NerveCenter\VAN4543_Gaming_TouchpadLock.feature" />
+    <None Include="Features\UWP\Vantage_NerveCenter\VAN5935_GamingDolbyTest.feature" />
+    <None Include="Features\UWP\Vantage_NerveCenter\VAN5936_GamingRapidCharge.feature" />
+    <None Include="Features\UWP\Vantage_NerveCenter\VAN15521_Part2_GamingRemoveGivefeedback.feature" />
+    <None Include="Features\UWP\Vantage_NerveCenter\VAN15521_Part1_GamingRemoveGivefeedback.feature" />
+    <None Include="Features\UWP\Vantage_NerveCenter\VAN7421_Part1_GamingAutoCloseAllTest.feature" />
+    <None Include="Features\UWP\Vantage_NerveCenter\VAN7421_Part2_GamingAutoCloseAllTest.feature" />
+    <None Include="Features\UWP\Vantage_NerveCenter\VAN7421_Part3_GamingAutoCloseAllTest.feature" />
+    <None Include="Features\UWP\Vantage_NerveCenter\VAN7421_Part4_GamingAutoCloseAllTest.feature" />
+    <None Include="Features\UWP\Vantage_NerveCenter\VAN7421_Part5_GamingAutoCloseAllTest.feature" />
+    <None Include="Features\UWP\Vantage_NerveCenter\VAN7746_Part1_GamingNetworkBoost.feature" />
+    <None Include="Features\UWP\Vantage_NerveCenter\VAN7746_Part2_GamingNetworkBoost.feature" />
+    <None Include="Features\UWP\Vantage_NerveCenter\VAN7746_Part3_GamingNetworkBoost.feature" />
+    <None Include="Features\UWP\Vantage_NerveCenter\VAN7746_Part4_GamingNetworkBoost.feature" />
+    <None Include="Features\UWP\Vantage_NerveCenter\VAN7746_Part5_GamingNetworkBoost.feature" />
+    <None Include="Features\UWP\Vantage_NerveCenter\VAN7746_Part6_GamingNetworkBoost.feature" />
+    <None Include="Features\UWP\Vantage_NerveCenter\VAN7746_Part7_GamingNetworkBoost.feature" />
+    <None Include="Features\UWP\Vantage_NerveCenter\VAN8128_GamingEnableHWScan.feature" />
+    <None Include="Features\UWP\Vantage_NerveCenter\VAN8148_GamingReskinHWSetting.feature" />
+    <None Include="Features\UWP\Vantage_NerveCenter\VAN8149_GamingReskinSupport.feature" />
+    <None Include="Features\UWP\Vantage_WifiSecurity\VAN10352_Part2_LWS_Toastmessagingtest.feature" />
+    <None Include="Features\UWP\Vantage_WifiSecurity\LWS_Gaming\VAN9695_LWSInSecurityAdvisorofVantage.feature" />
+    <None Include="Features\UWP\Vantage_WifiSecurity\LWS_Commercial\VFC2224_LWSUiForLE.feature" />
+    <None Include="Features\UWP\Vantage_WifiSecurity\VAN10352_Part1_LWS_ToastMessagingTest.feature" />
+    <None Include="Features\UWP\Vantage_WifiSecurity\VAN10729_Part1_LWSInSecurityAdvisorofVantage.feature" />
+    <None Include="Features\UWP\Vantage_WifiSecurity\VAN10729_Part2_LWSInSecurityAdvisorofVantage.feature" />
+    <None Include="Features\UWP\Vantage_WifiSecurity\VAN14081_NewPluginLWSCompatibilityTest.feature" />
+    <None Include="Features\UWP\Vantage_WifiSecurity\VAN14081_OldPluginLWSCompatibilityTest.feature" />
+    <None Include="Features\UWP\Vantage_WifiSecurity\VAN14772_RemoveExcessLUDPMetricsForCHSProgram.feature" />
+    <None Include="lib\Windows.winmd" />
+    <None Include="makeDatalink.bat">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="packages.config" />
+    <None Include="TestCycleRequirement.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="UpdateVantage.bat" />
+    <None Include="VantageAutomationIDs.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="VantageTest.runsettings" />
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="IWshRuntimeLibrary">
+      <Guid>{F935DC20-1CF0-11D0-ADB9-00C04FD58A0B}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="NetFwTypeLib">
+      <Guid>{58FBCF7C-E7A9-467C-80B3-FC65E8FCCA08}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="SHDocVw">
+      <Guid>{EAB22AC0-30C1-11CF-A7EB-0000C05BAE0B}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>1</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="ACDC.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="lib\DeviceInformation.dll" />
+    <Content Include="lib\Interop.NETCONLib.dll" />
+    <Content Include="lib\Interop.TaskScheduler.dll" />
+    <Content Include="lib\interop.UIAutomationCore.dll" />
+    <Content Include="lib\SystemInterfaceWraper.dll" />
+    <Content Include="Pages\ConnectedHomeSecurityPages\CHSAccount.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\ExtentReports\ExtentReports.csproj">
+      <Project>{c0955edb-2dcd-4fa9-831e-2f5b7635d41a}</Project>
+      <Name>ExtentReports</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\FiddlerCoreAPI\FiddlerCoreAPI\FiddlerCoreAPI.csproj">
+      <Project>{9840c21b-ceaf-42eb-8d76-3619d49cec3d}</Project>
+      <Name>FiddlerCoreAPI</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\FiddlerHelper\FiddlerHelper.csproj">
+      <Project>{b4436616-28a2-4b98-9c39-3da4ac95537e}</Project>
+      <Name>FiddlerHelper</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\HttpAnalyzerHelper\HttpAnalyzerHelper.csproj">
+      <Project>{df55de85-3690-4382-be5b-71fc2351fea3}</Project>
+      <Name>HttpAnalyzerHelper</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Connected Services\" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\packages\NUnit.3.12.0\build\NUnit.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\NUnit.3.12.0\build\NUnit.props'))" />
+    <Error Condition="!Exists('..\packages\EntityFramework.6.4.4\build\EntityFramework.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\EntityFramework.6.4.4\build\EntityFramework.props'))" />
+    <Error Condition="!Exists('..\packages\EntityFramework.6.4.4\build\EntityFramework.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\EntityFramework.6.4.4\build\EntityFramework.targets'))" />
+    <Error Condition="!Exists('..\packages\NUnit3TestAdapter.3.17.0\build\net35\NUnit3TestAdapter.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\NUnit3TestAdapter.3.17.0\build\net35\NUnit3TestAdapter.props'))" />
+    <Error Condition="!Exists('..\packages\System.Data.SQLite.Core.1.0.113.1\build\net46\System.Data.SQLite.Core.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\System.Data.SQLite.Core.1.0.113.1\build\net46\System.Data.SQLite.Core.targets'))" />
+    <Error Condition="!Exists('..\packages\SpecFlow.3.4.3\build\SpecFlow.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\SpecFlow.3.4.3\build\SpecFlow.targets'))" />
+    <Error Condition="!Exists('..\packages\SpecFlow.Tools.MsBuild.Generation.3.4.3\build\SpecFlow.Tools.MsBuild.Generation.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\SpecFlow.Tools.MsBuild.Generation.3.4.3\build\SpecFlow.Tools.MsBuild.Generation.props'))" />
+    <Error Condition="!Exists('..\packages\SpecFlow.Tools.MsBuild.Generation.3.4.3\build\SpecFlow.Tools.MsBuild.Generation.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\SpecFlow.Tools.MsBuild.Generation.3.4.3\build\SpecFlow.Tools.MsBuild.Generation.targets'))" />
+    <Error Condition="!Exists('..\packages\SpecFlow.NUnit.3.4.3\build\SpecFlow.NUnit.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\SpecFlow.NUnit.3.4.3\build\SpecFlow.NUnit.props'))" />
+    <Error Condition="!Exists('..\packages\SpecFlow.NUnit.3.4.3\build\SpecFlow.NUnit.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\SpecFlow.NUnit.3.4.3\build\SpecFlow.NUnit.targets'))" />
+  </Target>
+  <Import Project="..\packages\EntityFramework.6.4.4\build\EntityFramework.targets" Condition="Exists('..\packages\EntityFramework.6.4.4\build\EntityFramework.targets')" />
+  <Import Project="..\packages\System.Data.SQLite.Core.1.0.113.1\build\net46\System.Data.SQLite.Core.targets" Condition="Exists('..\packages\System.Data.SQLite.Core.1.0.113.1\build\net46\System.Data.SQLite.Core.targets')" />
+  <Import Project="..\packages\SpecFlow.3.4.3\build\SpecFlow.targets" Condition="Exists('..\packages\SpecFlow.3.4.3\build\SpecFlow.targets')" />
+  <Import Project="..\packages\SpecFlow.Tools.MsBuild.Generation.3.4.3\build\SpecFlow.Tools.MsBuild.Generation.targets" Condition="Exists('..\packages\SpecFlow.Tools.MsBuild.Generation.3.4.3\build\SpecFlow.Tools.MsBuild.Generation.targets')" />
+  <Import Project="..\packages\SpecFlow.NUnit.3.4.3\build\SpecFlow.NUnit.targets" Condition="Exists('..\packages\SpecFlow.NUnit.3.4.3\build\SpecFlow.NUnit.targets')" />
+  <ProjectExtensions />
+</Project>

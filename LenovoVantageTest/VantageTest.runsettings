@@ -1,0 +1,12 @@
+<RunSettings>
+	<TestRunParameters>
+		<Parameter name="CommonBrand" value="Common" />
+		<Parameter name="EnterpriseBrand" value="Commercial" />
+		<Parameter name="VantageUWPType" value="MicroFrontendsVantage" />
+		<Parameter name="NewShellOldPlugin" value="NewShellOldPlugin" />	<!--Production Web, No Changed-->
+		<Parameter name="NewShellNewPlugin" value="NewShellNewPlugin" />	<!--Production Web, No Changed-->
+		<Parameter name="OldShellNewPlugin" value="OldShellNewPlugin" />	<!--Beta Web, Old Config-->
+		<Parameter name="OldShellOldPlugin" value="OldShellOldPlugin" />	<!--Beta Web, Old Config-->
+		<Parameter name="TestSelf" value="Test" />	<!--Test Run By Self-->
+	</TestRunParameters>
+</RunSettings>

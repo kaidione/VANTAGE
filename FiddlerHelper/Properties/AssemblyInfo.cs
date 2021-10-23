@@ -1,0 +1,13 @@
+﻿using System.Reflection;
+using System.Runtime.InteropServices;
+[assembly: AssemblyTitle("FiddlerHelper")]
+[assembly: AssemblyDescription("")]
+[assembly: AssemblyConfiguration("")]
+[assembly: AssemblyCompany("Lenovo")]
+[assembly: AssemblyProduct("FiddlerHelper")]
+[assembly: AssemblyCopyright("")]
+[assembly: AssemblyTrademark("Nanshan")]
+[assembly: AssemblyCulture("")]
+[assembly: AssemblyVersion("1.0.0.0")]
+[assembly: AssemblyFileVersion("1.0.0.0")]
+[assembly: ComVisible(false)]

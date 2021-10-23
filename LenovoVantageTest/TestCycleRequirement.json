@@ -1,0 +1,23 @@
+﻿{
+  "VantageShell": "10.2011.3.0",
+  "Server": "beta",
+  "VantagePackagePath": "data\\Vantage\\bj_latest\\Add-AppDevPackage.ps1",
+  "DefaultSegment": "personal",
+  "VantageAssetPath": "data\\TestData\\Vantage_Assets\\assets",
+  "VantageServiceVersion": "3.4.1.0",
+  "VantageStorePath": "data\\Vantage\\StoreVersion\\Vantage3.3_10.2006.30_mssigned\\bdc7c171e48448fbb0bddc5cc11d69d0.appxbundle",
+  "NLS": {
+    "vantage-sz-01": "ar,cs,sr-latn",
+    "vantage-sz-02": "da,de,sv",
+    "vantage-sz-03": "el,en,tr",
+    "vantage-sz-04": "es,fi,uk",
+    "vantage-sz-06": "hr,hu,zh-hant",
+    "vantage-sz-E590(10.176.33.193)": "it,ja,fr",
+    "vantage-sz-K4450(10.176.33.32)": "ko,nb",
+    "vantage-sz-T460s(10.176.33.61)": "nl,pl,he",
+    "vantage-sz-V310(10.176.33.196)": "pt,pt-br",
+    "vantage-sz-W550s(10.176.33.163)": "ro,ru,zh-hans",
+    "vantage-sz-Y740(10.176.33.98)": "sk,sl"
+  },
+  "FileDownloadServer": "10.103.208.62"
+}

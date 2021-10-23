@@ -1,0 +1,15 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\LenovoVantageTest",
+    "\\LenovoVantageTest\\Features",
+    "\\LenovoVantageTest\\Features\\UWP",
+    "\\LenovoVantageTest\\Features\\UWP\\Vantage_HardwareSettings",
+    "\\LenovoVantageTest\\Features\\UWP\\Vantage_IntelligentCooling",
+    "\\LenovoVantageTest\\Steps",
+    "\\LenovoVantageTest\\Steps\\UWP",
+    "\\LenovoVantageTest\\Steps\\UWP\\Vantage_HardwareSettingsSteps"
+  ],
+  "SelectedNode": "\\LenovoVantageTest\\Features\\UWP\\Vantage_IntelligentCooling\\VAN29860_IntelligentCoolingIdeapadITS2Search.feature",
+  "PreviewInSolutionExplorer": false
+}

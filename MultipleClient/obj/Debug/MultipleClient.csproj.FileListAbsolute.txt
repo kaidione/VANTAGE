@@ -1,0 +1,62 @@
+C:\Users\ThinkBook 14p ACH\Desktop\code\vantage-uwp-automation-bj\MultipleClient\bin\Debug\MultipleClientConfig.xml
+C:\Users\ThinkBook 14p ACH\Desktop\code\vantage-uwp-automation-bj\MultipleClient\bin\Debug\LenovoMultipleClient.exe.config
+C:\Users\ThinkBook 14p ACH\Desktop\code\vantage-uwp-automation-bj\MultipleClient\bin\Debug\LenovoMultipleClient.exe
+C:\Users\ThinkBook 14p ACH\Desktop\code\vantage-uwp-automation-bj\MultipleClient\bin\Debug\LenovoMultipleClient.pdb
+C:\Users\ThinkBook 14p ACH\Desktop\code\vantage-uwp-automation-bj\MultipleClient\bin\Debug\Microsoft.WindowsAPICodePack.dll
+C:\Users\ThinkBook 14p ACH\Desktop\code\vantage-uwp-automation-bj\MultipleClient\bin\Debug\Newtonsoft.Json.dll
+C:\Users\ThinkBook 14p ACH\Desktop\code\vantage-uwp-automation-bj\MultipleClient\bin\Debug\Microsoft.WindowsAPICodePack.xml
+C:\Users\ThinkBook 14p ACH\Desktop\code\vantage-uwp-automation-bj\MultipleClient\bin\Debug\Newtonsoft.Json.xml
+C:\Users\ThinkBook 14p ACH\Desktop\code\vantage-uwp-automation-bj\MultipleClient\obj\Debug\MultipleClient.csproj.AssemblyReference.cache
+C:\Users\ThinkBook 14p ACH\Desktop\code\vantage-uwp-automation-bj\MultipleClient\obj\Debug\Interop.IWshRuntimeLibrary.dll
+C:\Users\ThinkBook 14p ACH\Desktop\code\vantage-uwp-automation-bj\MultipleClient\obj\Debug\MultipleClient.csproj.ResolveComReference.cache
+C:\Users\ThinkBook 14p ACH\Desktop\code\vantage-uwp-automation-bj\MultipleClient\obj\Debug\winformUI.LenovoMultipleClient.resources
+C:\Users\ThinkBook 14p ACH\Desktop\code\vantage-uwp-automation-bj\MultipleClient\obj\Debug\LenovoMultipleClient.Properties.Resources.resources
+C:\Users\ThinkBook 14p ACH\Desktop\code\vantage-uwp-automation-bj\MultipleClient\obj\Debug\winformUI.UserControls.Uc_HardwareInfo.resources
+C:\Users\ThinkBook 14p ACH\Desktop\code\vantage-uwp-automation-bj\MultipleClient\obj\Debug\winformUI.UserControls.Uc_SystemInfo.resources
+C:\Users\ThinkBook 14p ACH\Desktop\code\vantage-uwp-automation-bj\MultipleClient\obj\Debug\winformUI.UserControls.Uc_ViewLog.resources
+C:\Users\ThinkBook 14p ACH\Desktop\code\vantage-uwp-automation-bj\MultipleClient\obj\Debug\MultipleClient.csproj.GenerateResource.cache
+C:\Users\ThinkBook 14p ACH\Desktop\code\vantage-uwp-automation-bj\MultipleClient\obj\Debug\MultipleClient.csproj.CoreCompileInputs.cache
+C:\Users\ThinkBook 14p ACH\Desktop\code\vantage-uwp-automation-bj\MultipleClient\obj\Debug\MultipleClient.csproj.CopyComplete
+C:\Users\ThinkBook 14p ACH\Desktop\code\vantage-uwp-automation-bj\MultipleClient\obj\Debug\LenovoMultipleClient.exe
+C:\Users\ThinkBook 14p ACH\Desktop\code\vantage-uwp-automation-bj\MultipleClient\obj\Debug\LenovoMultipleClient.pdb
+F:\code\vantage-uwp-automation-bj\MultipleClient\bin\Debug\MultipleClientConfig.xml
+F:\code\vantage-uwp-automation-bj\MultipleClient\bin\Debug\LenovoMultipleClient.exe.config
+F:\code\vantage-uwp-automation-bj\MultipleClient\bin\Debug\LenovoMultipleClient.exe
+F:\code\vantage-uwp-automation-bj\MultipleClient\bin\Debug\LenovoMultipleClient.pdb
+F:\code\vantage-uwp-automation-bj\MultipleClient\bin\Debug\Microsoft.WindowsAPICodePack.dll
+F:\code\vantage-uwp-automation-bj\MultipleClient\bin\Debug\Newtonsoft.Json.dll
+F:\code\vantage-uwp-automation-bj\MultipleClient\bin\Debug\Microsoft.WindowsAPICodePack.xml
+F:\code\vantage-uwp-automation-bj\MultipleClient\bin\Debug\Newtonsoft.Json.xml
+F:\code\vantage-uwp-automation-bj\MultipleClient\obj\Debug\Interop.IWshRuntimeLibrary.dll
+F:\code\vantage-uwp-automation-bj\MultipleClient\obj\Debug\MultipleClient.csproj.ResolveComReference.cache
+F:\code\vantage-uwp-automation-bj\MultipleClient\obj\Debug\winformUI.LenovoMultipleClient.resources
+F:\code\vantage-uwp-automation-bj\MultipleClient\obj\Debug\LenovoMultipleClient.Properties.Resources.resources
+F:\code\vantage-uwp-automation-bj\MultipleClient\obj\Debug\winformUI.UserControls.Uc_HardwareInfo.resources
+F:\code\vantage-uwp-automation-bj\MultipleClient\obj\Debug\winformUI.UserControls.Uc_SystemInfo.resources
+F:\code\vantage-uwp-automation-bj\MultipleClient\obj\Debug\winformUI.UserControls.Uc_ViewLog.resources
+F:\code\vantage-uwp-automation-bj\MultipleClient\obj\Debug\MultipleClient.csproj.GenerateResource.cache
+F:\code\vantage-uwp-automation-bj\MultipleClient\obj\Debug\MultipleClient.csproj.CoreCompileInputs.cache
+F:\code\vantage-uwp-automation-bj\MultipleClient\obj\Debug\MultipleClient.csproj.CopyComplete
+F:\code\vantage-uwp-automation-bj\MultipleClient\obj\Debug\LenovoMultipleClient.exe
+F:\code\vantage-uwp-automation-bj\MultipleClient\obj\Debug\LenovoMultipleClient.pdb
+F:\code\VANTAGE\MultipleClient\bin\Debug\MultipleClientConfig.xml
+F:\code\VANTAGE\MultipleClient\bin\Debug\LenovoMultipleClient.exe.config
+F:\code\VANTAGE\MultipleClient\bin\Debug\LenovoMultipleClient.exe
+F:\code\VANTAGE\MultipleClient\bin\Debug\LenovoMultipleClient.pdb
+F:\code\VANTAGE\MultipleClient\bin\Debug\Microsoft.WindowsAPICodePack.dll
+F:\code\VANTAGE\MultipleClient\bin\Debug\Newtonsoft.Json.dll
+F:\code\VANTAGE\MultipleClient\bin\Debug\Microsoft.WindowsAPICodePack.xml
+F:\code\VANTAGE\MultipleClient\bin\Debug\Newtonsoft.Json.xml
+F:\code\VANTAGE\MultipleClient\obj\Debug\MultipleClient.csproj.AssemblyReference.cache
+F:\code\VANTAGE\MultipleClient\obj\Debug\Interop.IWshRuntimeLibrary.dll
+F:\code\VANTAGE\MultipleClient\obj\Debug\MultipleClient.csproj.ResolveComReference.cache
+F:\code\VANTAGE\MultipleClient\obj\Debug\winformUI.LenovoMultipleClient.resources
+F:\code\VANTAGE\MultipleClient\obj\Debug\LenovoMultipleClient.Properties.Resources.resources
+F:\code\VANTAGE\MultipleClient\obj\Debug\winformUI.UserControls.Uc_HardwareInfo.resources
+F:\code\VANTAGE\MultipleClient\obj\Debug\winformUI.UserControls.Uc_SystemInfo.resources
+F:\code\VANTAGE\MultipleClient\obj\Debug\winformUI.UserControls.Uc_ViewLog.resources
+F:\code\VANTAGE\MultipleClient\obj\Debug\MultipleClient.csproj.GenerateResource.cache
+F:\code\VANTAGE\MultipleClient\obj\Debug\MultipleClient.csproj.CoreCompileInputs.cache
+F:\code\VANTAGE\MultipleClient\obj\Debug\MultipleClient.csproj.CopyComplete
+F:\code\VANTAGE\MultipleClient\obj\Debug\LenovoMultipleClient.exe
+F:\code\VANTAGE\MultipleClient\obj\Debug\LenovoMultipleClient.pdb

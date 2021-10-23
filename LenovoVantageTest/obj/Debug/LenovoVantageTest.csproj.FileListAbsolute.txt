@@ -1,0 +1,591 @@
+C:\Users\ThinkBook 14p ACH\Desktop\code\vantage-uwp-automation-bj\LenovoVantageTest\bin\Debug\TechTalk.SpecFlow.NUnit.SpecFlowPlugin.dll
+C:\Users\ThinkBook 14p ACH\Desktop\code\vantage-uwp-automation-bj\LenovoVantageTest\bin\Debug\BasicFormatsForCore.dll
+C:\Users\ThinkBook 14p ACH\Desktop\code\vantage-uwp-automation-bj\LenovoVantageTest\bin\Debug\NUnit3.TestAdapter.dll
+C:\Users\ThinkBook 14p ACH\Desktop\code\vantage-uwp-automation-bj\LenovoVantageTest\bin\Debug\NUnit3.TestAdapter.pdb
+C:\Users\ThinkBook 14p ACH\Desktop\code\vantage-uwp-automation-bj\LenovoVantageTest\bin\Debug\nunit.engine.dll
+C:\Users\ThinkBook 14p ACH\Desktop\code\vantage-uwp-automation-bj\LenovoVantageTest\bin\Debug\nunit.engine.api.dll
+C:\Users\ThinkBook 14p ACH\Desktop\code\vantage-uwp-automation-bj\LenovoVantageTest\bin\Debug\nunit.engine.core.dll
+C:\Users\ThinkBook 14p ACH\Desktop\code\vantage-uwp-automation-bj\LenovoVantageTest\bin\Debug\ACDC.xml
+C:\Users\ThinkBook 14p ACH\Desktop\code\vantage-uwp-automation-bj\LenovoVantageTest\bin\Debug\Pages\ConnectedHomeSecurityPages\CHSAccount.xml
+C:\Users\ThinkBook 14p ACH\Desktop\code\vantage-uwp-automation-bj\LenovoVantageTest\bin\Debug\BJ_makeDatalink.bat
+C:\Users\ThinkBook 14p ACH\Desktop\code\vantage-uwp-automation-bj\LenovoVantageTest\bin\Debug\CommercialVantageElements.json
+C:\Users\ThinkBook 14p ACH\Desktop\code\vantage-uwp-automation-bj\LenovoVantageTest\bin\Debug\CopyDataForSettings.bat
+C:\Users\ThinkBook 14p ACH\Desktop\code\vantage-uwp-automation-bj\LenovoVantageTest\bin\Debug\makeDatalink.bat
+C:\Users\ThinkBook 14p ACH\Desktop\code\vantage-uwp-automation-bj\LenovoVantageTest\bin\Debug\TestCycleRequirement.json
+C:\Users\ThinkBook 14p ACH\Desktop\code\vantage-uwp-automation-bj\LenovoVantageTest\bin\Debug\VantageAutomationIDs.json
+C:\Users\ThinkBook 14p ACH\Desktop\code\vantage-uwp-automation-bj\LenovoVantageTest\bin\Debug\LenovoVantageTest.dll.config
+C:\Users\ThinkBook 14p ACH\Desktop\code\vantage-uwp-automation-bj\LenovoVantageTest\bin\Debug\LenovoVantageTest.dll
+C:\Users\ThinkBook 14p ACH\Desktop\code\vantage-uwp-automation-bj\LenovoVantageTest\bin\Debug\LenovoVantageTest.pdb
+C:\Users\ThinkBook 14p ACH\Desktop\code\vantage-uwp-automation-bj\LenovoVantageTest\bin\Debug\Appium.Net.dll
+C:\Users\ThinkBook 14p ACH\Desktop\code\vantage-uwp-automation-bj\LenovoVantageTest\bin\Debug\AssertiveDisplayContract.dll
+C:\Users\ThinkBook 14p ACH\Desktop\code\vantage-uwp-automation-bj\LenovoVantageTest\bin\Debug\BCMakeCert.dll
+C:\Users\ThinkBook 14p ACH\Desktop\code\vantage-uwp-automation-bj\LenovoVantageTest\bin\Debug\BoDi.dll
+C:\Users\ThinkBook 14p ACH\Desktop\code\vantage-uwp-automation-bj\LenovoVantageTest\bin\Debug\Castle.Core.dll
+C:\Users\ThinkBook 14p ACH\Desktop\code\vantage-uwp-automation-bj\LenovoVantageTest\bin\Debug\Contract_AppScenario.dll
+C:\Users\ThinkBook 14p ACH\Desktop\code\vantage-uwp-automation-bj\LenovoVantageTest\bin\Debug\Contract_APS.dll
+C:\Users\ThinkBook 14p ACH\Desktop\code\vantage-uwp-automation-bj\LenovoVantageTest\bin\Debug\Contract_Display.dll
+C:\Users\ThinkBook 14p ACH\Desktop\code\vantage-uwp-automation-bj\LenovoVantageTest\bin\Debug\Contract_KBDManager.dll
+C:\Users\ThinkBook 14p ACH\Desktop\code\vantage-uwp-automation-bj\LenovoVantageTest\bin\Debug\Contract_Keyboard.dll
+C:\Users\ThinkBook 14p ACH\Desktop\code\vantage-uwp-automation-bj\LenovoVantageTest\bin\Debug\Contract_SmartSense.dll
+C:\Users\ThinkBook 14p ACH\Desktop\code\vantage-uwp-automation-bj\LenovoVantageTest\bin\Debug\Contract_Spectrum.dll
+C:\Users\ThinkBook 14p ACH\Desktop\code\vantage-uwp-automation-bj\LenovoVantageTest\bin\Debug\CoreAudioApi.dll
+C:\Users\ThinkBook 14p ACH\Desktop\code\vantage-uwp-automation-bj\LenovoVantageTest\bin\Debug\Cucumber.Messages.dll
+C:\Users\ThinkBook 14p ACH\Desktop\code\vantage-uwp-automation-bj\LenovoVantageTest\bin\Debug\DeviceInformation.dll
+C:\Users\ThinkBook 14p ACH\Desktop\code\vantage-uwp-automation-bj\LenovoVantageTest\bin\Debug\DotNetZip.dll
+C:\Users\ThinkBook 14p ACH\Desktop\code\vantage-uwp-automation-bj\LenovoVantageTest\bin\Debug\EntityFramework.dll
+C:\Users\ThinkBook 14p ACH\Desktop\code\vantage-uwp-automation-bj\LenovoVantageTest\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\ThinkBook 14p ACH\Desktop\code\vantage-uwp-automation-bj\LenovoVantageTest\bin\Debug\ExtentReports.dll
+C:\Users\ThinkBook 14p ACH\Desktop\code\vantage-uwp-automation-bj\LenovoVantageTest\bin\Debug\FiddlerCore.dll
+C:\Users\ThinkBook 14p ACH\Desktop\code\vantage-uwp-automation-bj\LenovoVantageTest\bin\Debug\FiddlerCoreAPI.dll
+C:\Users\ThinkBook 14p ACH\Desktop\code\vantage-uwp-automation-bj\LenovoVantageTest\bin\Debug\FiddlerHelper.dll
+C:\Users\ThinkBook 14p ACH\Desktop\code\vantage-uwp-automation-bj\LenovoVantageTest\bin\Debug\Gherkin.dll
+C:\Users\ThinkBook 14p ACH\Desktop\code\vantage-uwp-automation-bj\LenovoVantageTest\bin\Debug\Google.Protobuf.dll
+C:\Users\ThinkBook 14p ACH\Desktop\code\vantage-uwp-automation-bj\LenovoVantageTest\bin\Debug\HotspotContract.dll
+C:\Users\ThinkBook 14p ACH\Desktop\code\vantage-uwp-automation-bj\LenovoVantageTest\bin\Debug\HtmlAgilityPack.dll
+C:\Users\ThinkBook 14p ACH\Desktop\code\vantage-uwp-automation-bj\LenovoVantageTest\bin\Debug\HttpAnalyzerHelper.dll
+C:\Users\ThinkBook 14p ACH\Desktop\code\vantage-uwp-automation-bj\LenovoVantageTest\bin\Debug\ICSharpCode.SharpZipLib.dll
+C:\Users\ThinkBook 14p ACH\Desktop\code\vantage-uwp-automation-bj\LenovoVantageTest\bin\Debug\Interop.NETCONLib.dll
+C:\Users\ThinkBook 14p ACH\Desktop\code\vantage-uwp-automation-bj\LenovoVantageTest\bin\Debug\Interop.TaskScheduler.dll
+C:\Users\ThinkBook 14p ACH\Desktop\code\vantage-uwp-automation-bj\LenovoVantageTest\bin\Debug\Lenovo.Beijing.PA.dll
+C:\Users\ThinkBook 14p ACH\Desktop\code\vantage-uwp-automation-bj\LenovoVantageTest\bin\Debug\Lenovo.ImController.EventLogging.dll
+C:\Users\ThinkBook 14p ACH\Desktop\code\vantage-uwp-automation-bj\LenovoVantageTest\bin\Debug\Lenovo.Modern.Contracts.Battery.Common.dll
+C:\Users\ThinkBook 14p ACH\Desktop\code\vantage-uwp-automation-bj\LenovoVantageTest\bin\Debug\Lenovo.Modern.Contracts.BatteryInformation.dll
+C:\Users\ThinkBook 14p ACH\Desktop\code\vantage-uwp-automation-bj\LenovoVantageTest\bin\Debug\Lenovo.Modern.Contracts.BatteryManagement.dll
+C:\Users\ThinkBook 14p ACH\Desktop\code\vantage-uwp-automation-bj\LenovoVantageTest\bin\Debug\Lenovo.Modern.Contracts.Fan.dll
+C:\Users\ThinkBook 14p ACH\Desktop\code\vantage-uwp-automation-bj\LenovoVantageTest\bin\Debug\Lenovo.Modern.Contracts.NetworkWirelessContracts.dll
+C:\Users\ThinkBook 14p ACH\Desktop\code\vantage-uwp-automation-bj\LenovoVantageTest\bin\Debug\Lenovo.Modern.Contracts.PointingDevice.dll
+C:\Users\ThinkBook 14p ACH\Desktop\code\vantage-uwp-automation-bj\LenovoVantageTest\bin\Debug\Lenovo.Modern.Contracts.PointingDeviceContracts.dll
+C:\Users\ThinkBook 14p ACH\Desktop\code\vantage-uwp-automation-bj\LenovoVantageTest\bin\Debug\Lenovo.Modern.Contracts.Power.dll
+C:\Users\ThinkBook 14p ACH\Desktop\code\vantage-uwp-automation-bj\LenovoVantageTest\bin\Debug\Lenovo.Modern.Contracts.PowerProfile.dll
+C:\Users\ThinkBook 14p ACH\Desktop\code\vantage-uwp-automation-bj\LenovoVantageTest\bin\Debug\Lenovo.Modern.Contracts.SystemInformation.BatteryInformation.dll
+C:\Users\ThinkBook 14p ACH\Desktop\code\vantage-uwp-automation-bj\LenovoVantageTest\bin\Debug\Lenovo.Modern.Contracts.SystemManagement.BatteryManagement.dll
+C:\Users\ThinkBook 14p ACH\Desktop\code\vantage-uwp-automation-bj\LenovoVantageTest\bin\Debug\Lenovo.Modern.Contracts.SystemManagement.BatteryStretch.dll
+C:\Users\ThinkBook 14p ACH\Desktop\code\vantage-uwp-automation-bj\LenovoVantageTest\bin\Debug\Lenovo.Modern.Contracts.SystemManagement.Power.dll
+C:\Users\ThinkBook 14p ACH\Desktop\code\vantage-uwp-automation-bj\LenovoVantageTest\bin\Debug\Lenovo.Modern.Contracts.SystemManagement.WiFiSecurity.dll
+C:\Users\ThinkBook 14p ACH\Desktop\code\vantage-uwp-automation-bj\LenovoVantageTest\bin\Debug\Lenovo.Modern.CoreTypes.dll
+C:\Users\ThinkBook 14p ACH\Desktop\code\vantage-uwp-automation-bj\LenovoVantageTest\bin\Debug\Lenovo.Modern.ImController.ImClient.dll
+C:\Users\ThinkBook 14p ACH\Desktop\code\vantage-uwp-automation-bj\LenovoVantageTest\bin\Debug\Lenovo.Modern.Utilities.dll
+C:\Users\ThinkBook 14p ACH\Desktop\code\vantage-uwp-automation-bj\LenovoVantageTest\bin\Debug\Lenovo.Multimedia.Contracts.Audio.dll
+C:\Users\ThinkBook 14p ACH\Desktop\code\vantage-uwp-automation-bj\LenovoVantageTest\bin\Debug\Lenovo.Multimedia.Contracts.AudioProfile.dll
+C:\Users\ThinkBook 14p ACH\Desktop\code\vantage-uwp-automation-bj\LenovoVantageTest\bin\Debug\Lenovo.Multimedia.Contracts.Camera.dll
+C:\Users\ThinkBook 14p ACH\Desktop\code\vantage-uwp-automation-bj\LenovoVantageTest\bin\Debug\Lenovo.Multimedia.Contracts.Core.dll
+C:\Users\ThinkBook 14p ACH\Desktop\code\vantage-uwp-automation-bj\LenovoVantageTest\bin\Debug\Lenovo.Multimedia.CoreTypes.dll
+C:\Users\ThinkBook 14p ACH\Desktop\code\vantage-uwp-automation-bj\LenovoVantageTest\bin\Debug\LiteDB.dll
+C:\Users\ThinkBook 14p ACH\Desktop\code\vantage-uwp-automation-bj\LenovoVantageTest\bin\Debug\LocationAwareContract.dll
+C:\Users\ThinkBook 14p ACH\Desktop\code\vantage-uwp-automation-bj\LenovoVantageTest\bin\Debug\MachineInfoHelper.dll
+C:\Users\ThinkBook 14p ACH\Desktop\code\vantage-uwp-automation-bj\LenovoVantageTest\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\ThinkBook 14p ACH\Desktop\code\vantage-uwp-automation-bj\LenovoVantageTest\bin\Debug\Microsoft.InternationalSettings.Commands.dll
+C:\Users\ThinkBook 14p ACH\Desktop\code\vantage-uwp-automation-bj\LenovoVantageTest\bin\Debug\Microsoft.Win32.TaskScheduler.dll
+C:\Users\ThinkBook 14p ACH\Desktop\code\vantage-uwp-automation-bj\LenovoVantageTest\bin\Debug\MongoDB.Bson.dll
+C:\Users\ThinkBook 14p ACH\Desktop\code\vantage-uwp-automation-bj\LenovoVantageTest\bin\Debug\MongoDB.Driver.Core.dll
+C:\Users\ThinkBook 14p ACH\Desktop\code\vantage-uwp-automation-bj\LenovoVantageTest\bin\Debug\MongoDB.Driver.dll
+C:\Users\ThinkBook 14p ACH\Desktop\code\vantage-uwp-automation-bj\LenovoVantageTest\bin\Debug\Newtonsoft.Json.dll
+C:\Users\ThinkBook 14p ACH\Desktop\code\vantage-uwp-automation-bj\LenovoVantageTest\bin\Debug\nunit.framework.dll
+C:\Users\ThinkBook 14p ACH\Desktop\code\vantage-uwp-automation-bj\LenovoVantageTest\bin\Debug\PaperDisplay_Contract.dll
+C:\Users\ThinkBook 14p ACH\Desktop\code\vantage-uwp-automation-bj\LenovoVantageTest\bin\Debug\PlatformInterface.dll
+C:\Users\ThinkBook 14p ACH\Desktop\code\vantage-uwp-automation-bj\LenovoVantageTest\bin\Debug\RazorEngine.dll
+C:\Users\ThinkBook 14p ACH\Desktop\code\vantage-uwp-automation-bj\LenovoVantageTest\bin\Debug\SeleniumExtras.PageObjects.dll
+C:\Users\ThinkBook 14p ACH\Desktop\code\vantage-uwp-automation-bj\LenovoVantageTest\bin\Debug\SmartSenseHsaRpcClient.dll
+C:\Users\ThinkBook 14p ACH\Desktop\code\vantage-uwp-automation-bj\LenovoVantageTest\bin\Debug\System.Buffers.dll
+C:\Users\ThinkBook 14p ACH\Desktop\code\vantage-uwp-automation-bj\LenovoVantageTest\bin\Debug\System.Data.SQLite.dll
+C:\Users\ThinkBook 14p ACH\Desktop\code\vantage-uwp-automation-bj\LenovoVantageTest\bin\Debug\System.Data.SQLite.EF6.dll
+C:\Users\ThinkBook 14p ACH\Desktop\code\vantage-uwp-automation-bj\LenovoVantageTest\bin\Debug\System.Data.SQLite.Linq.dll
+C:\Users\ThinkBook 14p ACH\Desktop\code\vantage-uwp-automation-bj\LenovoVantageTest\bin\Debug\System.Management.Automation.dll
+C:\Users\ThinkBook 14p ACH\Desktop\code\vantage-uwp-automation-bj\LenovoVantageTest\bin\Debug\System.Memory.dll
+C:\Users\ThinkBook 14p ACH\Desktop\code\vantage-uwp-automation-bj\LenovoVantageTest\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\ThinkBook 14p ACH\Desktop\code\vantage-uwp-automation-bj\LenovoVantageTest\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\ThinkBook 14p ACH\Desktop\code\vantage-uwp-automation-bj\LenovoVantageTest\bin\Debug\System.Text.Encodings.Web.dll
+C:\Users\ThinkBook 14p ACH\Desktop\code\vantage-uwp-automation-bj\LenovoVantageTest\bin\Debug\System.Text.Json.dll
+C:\Users\ThinkBook 14p ACH\Desktop\code\vantage-uwp-automation-bj\LenovoVantageTest\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\ThinkBook 14p ACH\Desktop\code\vantage-uwp-automation-bj\LenovoVantageTest\bin\Debug\System.ValueTuple.dll
+C:\Users\ThinkBook 14p ACH\Desktop\code\vantage-uwp-automation-bj\LenovoVantageTest\bin\Debug\System.Web.Razor.dll
+C:\Users\ThinkBook 14p ACH\Desktop\code\vantage-uwp-automation-bj\LenovoVantageTest\bin\Debug\SystemInterfaceWraper.dll
+C:\Users\ThinkBook 14p ACH\Desktop\code\vantage-uwp-automation-bj\LenovoVantageTest\bin\Debug\SystemManagement.LenovoSettingsApp.dll
+C:\Users\ThinkBook 14p ACH\Desktop\code\vantage-uwp-automation-bj\LenovoVantageTest\bin\Debug\TechTalk.SpecFlow.dll
+C:\Users\ThinkBook 14p ACH\Desktop\code\vantage-uwp-automation-bj\LenovoVantageTest\bin\Debug\Telerik.NetworkConnections.dll
+C:\Users\ThinkBook 14p ACH\Desktop\code\vantage-uwp-automation-bj\LenovoVantageTest\bin\Debug\Utf8Json.dll
+C:\Users\ThinkBook 14p ACH\Desktop\code\vantage-uwp-automation-bj\LenovoVantageTest\bin\Debug\VisionProtectionContract.dll
+C:\Users\ThinkBook 14p ACH\Desktop\code\vantage-uwp-automation-bj\LenovoVantageTest\bin\Debug\WebDriver.dll
+C:\Users\ThinkBook 14p ACH\Desktop\code\vantage-uwp-automation-bj\LenovoVantageTest\bin\Debug\WebDriver.Support.dll
+C:\Users\ThinkBook 14p ACH\Desktop\code\vantage-uwp-automation-bj\LenovoVantageTest\bin\Debug\Windows.winmd
+C:\Users\ThinkBook 14p ACH\Desktop\code\vantage-uwp-automation-bj\LenovoVantageTest\bin\Debug\Interop.HTTPAnalyzerStd.dll
+C:\Users\ThinkBook 14p ACH\Desktop\code\vantage-uwp-automation-bj\LenovoVantageTest\bin\Debug\Interop.HTTPAnalyzer.dll
+C:\Users\ThinkBook 14p ACH\Desktop\code\vantage-uwp-automation-bj\LenovoVantageTest\bin\Debug\Lenovo.VantageService.Utilities.dll
+C:\Users\ThinkBook 14p ACH\Desktop\code\vantage-uwp-automation-bj\LenovoVantageTest\bin\Debug\Microsoft.Management.Infrastructure.dll
+C:\Users\ThinkBook 14p ACH\Desktop\code\vantage-uwp-automation-bj\LenovoVantageTest\bin\Debug\EQATEC.Analytics.Monitor.dll
+C:\Users\ThinkBook 14p ACH\Desktop\code\vantage-uwp-automation-bj\LenovoVantageTest\bin\Debug\ExtentReports.pdb
+C:\Users\ThinkBook 14p ACH\Desktop\code\vantage-uwp-automation-bj\LenovoVantageTest\bin\Debug\ExtentReports.dll.config
+C:\Users\ThinkBook 14p ACH\Desktop\code\vantage-uwp-automation-bj\LenovoVantageTest\bin\Debug\FiddlerCoreAPI.pdb
+C:\Users\ThinkBook 14p ACH\Desktop\code\vantage-uwp-automation-bj\LenovoVantageTest\bin\Debug\FiddlerCoreAPI.dll.config
+C:\Users\ThinkBook 14p ACH\Desktop\code\vantage-uwp-automation-bj\LenovoVantageTest\bin\Debug\FiddlerHelper.pdb
+C:\Users\ThinkBook 14p ACH\Desktop\code\vantage-uwp-automation-bj\LenovoVantageTest\bin\Debug\HttpAnalyzerHelper.pdb
+C:\Users\ThinkBook 14p ACH\Desktop\code\vantage-uwp-automation-bj\LenovoVantageTest\bin\Debug\HttpAnalyzerHelper.dll.config
+C:\Users\ThinkBook 14p ACH\Desktop\code\vantage-uwp-automation-bj\LenovoVantageTest\bin\Debug\AssertiveDisplayContract.pdb
+C:\Users\ThinkBook 14p ACH\Desktop\code\vantage-uwp-automation-bj\LenovoVantageTest\bin\Debug\BoDi.pdb
+C:\Users\ThinkBook 14p ACH\Desktop\code\vantage-uwp-automation-bj\LenovoVantageTest\bin\Debug\Castle.Core.xml
+C:\Users\ThinkBook 14p ACH\Desktop\code\vantage-uwp-automation-bj\LenovoVantageTest\bin\Debug\Contract_AppScenario.pdb
+C:\Users\ThinkBook 14p ACH\Desktop\code\vantage-uwp-automation-bj\LenovoVantageTest\bin\Debug\Contract_APS.pdb
+C:\Users\ThinkBook 14p ACH\Desktop\code\vantage-uwp-automation-bj\LenovoVantageTest\bin\Debug\Contract_Display.pdb
+C:\Users\ThinkBook 14p ACH\Desktop\code\vantage-uwp-automation-bj\LenovoVantageTest\bin\Debug\Contract_KBDManager.pdb
+C:\Users\ThinkBook 14p ACH\Desktop\code\vantage-uwp-automation-bj\LenovoVantageTest\bin\Debug\Contract_Keyboard.pdb
+C:\Users\ThinkBook 14p ACH\Desktop\code\vantage-uwp-automation-bj\LenovoVantageTest\bin\Debug\Contract_SmartSense.pdb
+C:\Users\ThinkBook 14p ACH\Desktop\code\vantage-uwp-automation-bj\LenovoVantageTest\bin\Debug\Contract_Spectrum.pdb
+C:\Users\ThinkBook 14p ACH\Desktop\code\vantage-uwp-automation-bj\LenovoVantageTest\bin\Debug\DotNetZip.pdb
+C:\Users\ThinkBook 14p ACH\Desktop\code\vantage-uwp-automation-bj\LenovoVantageTest\bin\Debug\DotNetZip.xml
+C:\Users\ThinkBook 14p ACH\Desktop\code\vantage-uwp-automation-bj\LenovoVantageTest\bin\Debug\EntityFramework.xml
+C:\Users\ThinkBook 14p ACH\Desktop\code\vantage-uwp-automation-bj\LenovoVantageTest\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\ThinkBook 14p ACH\Desktop\code\vantage-uwp-automation-bj\LenovoVantageTest\bin\Debug\FiddlerCore.pdb
+C:\Users\ThinkBook 14p ACH\Desktop\code\vantage-uwp-automation-bj\LenovoVantageTest\bin\Debug\FiddlerCore.xml
+C:\Users\ThinkBook 14p ACH\Desktop\code\vantage-uwp-automation-bj\LenovoVantageTest\bin\Debug\Google.Protobuf.pdb
+C:\Users\ThinkBook 14p ACH\Desktop\code\vantage-uwp-automation-bj\LenovoVantageTest\bin\Debug\Google.Protobuf.xml
+C:\Users\ThinkBook 14p ACH\Desktop\code\vantage-uwp-automation-bj\LenovoVantageTest\bin\Debug\HotspotContract.pdb
+C:\Users\ThinkBook 14p ACH\Desktop\code\vantage-uwp-automation-bj\LenovoVantageTest\bin\Debug\Lenovo.ImController.EventLogging.pdb
+C:\Users\ThinkBook 14p ACH\Desktop\code\vantage-uwp-automation-bj\LenovoVantageTest\bin\Debug\Lenovo.Modern.Contracts.Battery.Common.pdb
+C:\Users\ThinkBook 14p ACH\Desktop\code\vantage-uwp-automation-bj\LenovoVantageTest\bin\Debug\Lenovo.Modern.Contracts.Fan.pdb
+C:\Users\ThinkBook 14p ACH\Desktop\code\vantage-uwp-automation-bj\LenovoVantageTest\bin\Debug\Lenovo.Modern.Contracts.NetworkWirelessContracts.pdb
+C:\Users\ThinkBook 14p ACH\Desktop\code\vantage-uwp-automation-bj\LenovoVantageTest\bin\Debug\Lenovo.Modern.Contracts.PointingDeviceContracts.pdb
+C:\Users\ThinkBook 14p ACH\Desktop\code\vantage-uwp-automation-bj\LenovoVantageTest\bin\Debug\Lenovo.Modern.Contracts.PowerProfile.pdb
+C:\Users\ThinkBook 14p ACH\Desktop\code\vantage-uwp-automation-bj\LenovoVantageTest\bin\Debug\Lenovo.Modern.Contracts.SystemManagement.WiFiSecurity.pdb
+C:\Users\ThinkBook 14p ACH\Desktop\code\vantage-uwp-automation-bj\LenovoVantageTest\bin\Debug\Lenovo.Modern.CoreTypes.pdb
+C:\Users\ThinkBook 14p ACH\Desktop\code\vantage-uwp-automation-bj\LenovoVantageTest\bin\Debug\Lenovo.Modern.ImController.ImClient.pdb
+C:\Users\ThinkBook 14p ACH\Desktop\code\vantage-uwp-automation-bj\LenovoVantageTest\bin\Debug\Lenovo.Modern.Utilities.pdb
+C:\Users\ThinkBook 14p ACH\Desktop\code\vantage-uwp-automation-bj\LenovoVantageTest\bin\Debug\Lenovo.Multimedia.CoreTypes.pdb
+C:\Users\ThinkBook 14p ACH\Desktop\code\vantage-uwp-automation-bj\LenovoVantageTest\bin\Debug\LiteDB.xml
+C:\Users\ThinkBook 14p ACH\Desktop\code\vantage-uwp-automation-bj\LenovoVantageTest\bin\Debug\LocationAwareContract.pdb
+C:\Users\ThinkBook 14p ACH\Desktop\code\vantage-uwp-automation-bj\LenovoVantageTest\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\ThinkBook 14p ACH\Desktop\code\vantage-uwp-automation-bj\LenovoVantageTest\bin\Debug\Microsoft.Win32.TaskScheduler.xml
+C:\Users\ThinkBook 14p ACH\Desktop\code\vantage-uwp-automation-bj\LenovoVantageTest\bin\Debug\Newtonsoft.Json.xml
+C:\Users\ThinkBook 14p ACH\Desktop\code\vantage-uwp-automation-bj\LenovoVantageTest\bin\Debug\nunit.framework.pdb
+C:\Users\ThinkBook 14p ACH\Desktop\code\vantage-uwp-automation-bj\LenovoVantageTest\bin\Debug\nunit.framework.xml
+C:\Users\ThinkBook 14p ACH\Desktop\code\vantage-uwp-automation-bj\LenovoVantageTest\bin\Debug\PaperDisplay_Contract.pdb
+C:\Users\ThinkBook 14p ACH\Desktop\code\vantage-uwp-automation-bj\LenovoVantageTest\bin\Debug\System.Buffers.xml
+C:\Users\ThinkBook 14p ACH\Desktop\code\vantage-uwp-automation-bj\LenovoVantageTest\bin\Debug\System.Data.SQLite.xml
+C:\Users\ThinkBook 14p ACH\Desktop\code\vantage-uwp-automation-bj\LenovoVantageTest\bin\Debug\System.Data.SQLite.dll.config
+C:\Users\ThinkBook 14p ACH\Desktop\code\vantage-uwp-automation-bj\LenovoVantageTest\bin\Debug\System.Management.Automation.xml
+C:\Users\ThinkBook 14p ACH\Desktop\code\vantage-uwp-automation-bj\LenovoVantageTest\bin\Debug\System.Memory.xml
+C:\Users\ThinkBook 14p ACH\Desktop\code\vantage-uwp-automation-bj\LenovoVantageTest\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\ThinkBook 14p ACH\Desktop\code\vantage-uwp-automation-bj\LenovoVantageTest\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\ThinkBook 14p ACH\Desktop\code\vantage-uwp-automation-bj\LenovoVantageTest\bin\Debug\System.Text.Encodings.Web.xml
+C:\Users\ThinkBook 14p ACH\Desktop\code\vantage-uwp-automation-bj\LenovoVantageTest\bin\Debug\System.Text.Json.xml
+C:\Users\ThinkBook 14p ACH\Desktop\code\vantage-uwp-automation-bj\LenovoVantageTest\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\ThinkBook 14p ACH\Desktop\code\vantage-uwp-automation-bj\LenovoVantageTest\bin\Debug\System.ValueTuple.xml
+C:\Users\ThinkBook 14p ACH\Desktop\code\vantage-uwp-automation-bj\LenovoVantageTest\bin\Debug\SystemManagement.LenovoSettingsApp.pdb
+C:\Users\ThinkBook 14p ACH\Desktop\code\vantage-uwp-automation-bj\LenovoVantageTest\bin\Debug\TechTalk.SpecFlow.pdb
+C:\Users\ThinkBook 14p ACH\Desktop\code\vantage-uwp-automation-bj\LenovoVantageTest\bin\Debug\TechTalk.SpecFlow.xml
+C:\Users\ThinkBook 14p ACH\Desktop\code\vantage-uwp-automation-bj\LenovoVantageTest\bin\Debug\TechTalk.SpecFlow.NUnit.SpecFlowPlugin.pdb
+C:\Users\ThinkBook 14p ACH\Desktop\code\vantage-uwp-automation-bj\LenovoVantageTest\bin\Debug\Telerik.NetworkConnections.pdb
+C:\Users\ThinkBook 14p ACH\Desktop\code\vantage-uwp-automation-bj\LenovoVantageTest\bin\Debug\Telerik.NetworkConnections.xml
+C:\Users\ThinkBook 14p ACH\Desktop\code\vantage-uwp-automation-bj\LenovoVantageTest\bin\Debug\Utf8Json.xml
+C:\Users\ThinkBook 14p ACH\Desktop\code\vantage-uwp-automation-bj\LenovoVantageTest\bin\Debug\VisionProtectionContract.pdb
+C:\Users\ThinkBook 14p ACH\Desktop\code\vantage-uwp-automation-bj\LenovoVantageTest\bin\Debug\WebDriver.xml
+C:\Users\ThinkBook 14p ACH\Desktop\code\vantage-uwp-automation-bj\LenovoVantageTest\bin\Debug\WebDriver.Support.xml
+C:\Users\ThinkBook 14p ACH\Desktop\code\vantage-uwp-automation-bj\LenovoVantageTest\bin\Debug\de\Microsoft.Win32.TaskScheduler.resources.dll
+C:\Users\ThinkBook 14p ACH\Desktop\code\vantage-uwp-automation-bj\LenovoVantageTest\bin\Debug\es\Microsoft.Win32.TaskScheduler.resources.dll
+C:\Users\ThinkBook 14p ACH\Desktop\code\vantage-uwp-automation-bj\LenovoVantageTest\bin\Debug\fr\Microsoft.Win32.TaskScheduler.resources.dll
+C:\Users\ThinkBook 14p ACH\Desktop\code\vantage-uwp-automation-bj\LenovoVantageTest\bin\Debug\it\Microsoft.Win32.TaskScheduler.resources.dll
+C:\Users\ThinkBook 14p ACH\Desktop\code\vantage-uwp-automation-bj\LenovoVantageTest\bin\Debug\pl\Microsoft.Win32.TaskScheduler.resources.dll
+C:\Users\ThinkBook 14p ACH\Desktop\code\vantage-uwp-automation-bj\LenovoVantageTest\bin\Debug\ru\Microsoft.Win32.TaskScheduler.resources.dll
+C:\Users\ThinkBook 14p ACH\Desktop\code\vantage-uwp-automation-bj\LenovoVantageTest\bin\Debug\zh-CN\Microsoft.Win32.TaskScheduler.resources.dll
+C:\Users\ThinkBook 14p ACH\Desktop\code\vantage-uwp-automation-bj\LenovoVantageTest\obj\Debug\LenovoVantageTest.csproj.AssemblyReference.cache
+C:\Users\ThinkBook 14p ACH\Desktop\code\vantage-uwp-automation-bj\LenovoVantageTest\obj\Debug\Interop.IWshRuntimeLibrary.dll
+C:\Users\ThinkBook 14p ACH\Desktop\code\vantage-uwp-automation-bj\LenovoVantageTest\obj\Debug\Interop.NetFwTypeLib.dll
+C:\Users\ThinkBook 14p ACH\Desktop\code\vantage-uwp-automation-bj\LenovoVantageTest\obj\Debug\Interop.SHDocVw.dll
+C:\Users\ThinkBook 14p ACH\Desktop\code\vantage-uwp-automation-bj\LenovoVantageTest\obj\Debug\LenovoVantageTest.csproj.ResolveComReference.cache
+C:\Users\ThinkBook 14p ACH\Desktop\code\vantage-uwp-automation-bj\LenovoVantageTest\obj\Debug\LenovoVantageTest.csproj.CoreCompileInputs.cache
+C:\Users\ThinkBook 14p ACH\Desktop\code\vantage-uwp-automation-bj\LenovoVantageTest\obj\Debug\LenovoVantageTest.csproj.CopyComplete
+C:\Users\ThinkBook 14p ACH\Desktop\code\vantage-uwp-automation-bj\LenovoVantageTest\obj\Debug\LenovoVantageTest.dll
+C:\Users\ThinkBook 14p ACH\Desktop\code\vantage-uwp-automation-bj\LenovoVantageTest\obj\Debug\LenovoVantageTest.pdb
+F:\code\vantage-uwp-automation-bj\LenovoVantageTest\bin\Debug\TechTalk.SpecFlow.NUnit.SpecFlowPlugin.dll
+F:\code\vantage-uwp-automation-bj\LenovoVantageTest\bin\Debug\BasicFormatsForCore.dll
+F:\code\vantage-uwp-automation-bj\LenovoVantageTest\bin\Debug\NUnit3.TestAdapter.dll
+F:\code\vantage-uwp-automation-bj\LenovoVantageTest\bin\Debug\NUnit3.TestAdapter.pdb
+F:\code\vantage-uwp-automation-bj\LenovoVantageTest\bin\Debug\nunit.engine.dll
+F:\code\vantage-uwp-automation-bj\LenovoVantageTest\bin\Debug\nunit.engine.api.dll
+F:\code\vantage-uwp-automation-bj\LenovoVantageTest\bin\Debug\nunit.engine.core.dll
+F:\code\vantage-uwp-automation-bj\LenovoVantageTest\bin\Debug\ACDC.xml
+F:\code\vantage-uwp-automation-bj\LenovoVantageTest\bin\Debug\Pages\ConnectedHomeSecurityPages\CHSAccount.xml
+F:\code\vantage-uwp-automation-bj\LenovoVantageTest\bin\Debug\BJ_makeDatalink.bat
+F:\code\vantage-uwp-automation-bj\LenovoVantageTest\bin\Debug\CommercialVantageElements.json
+F:\code\vantage-uwp-automation-bj\LenovoVantageTest\bin\Debug\CopyDataForSettings.bat
+F:\code\vantage-uwp-automation-bj\LenovoVantageTest\bin\Debug\makeDatalink.bat
+F:\code\vantage-uwp-automation-bj\LenovoVantageTest\bin\Debug\TestCycleRequirement.json
+F:\code\vantage-uwp-automation-bj\LenovoVantageTest\bin\Debug\VantageAutomationIDs.json
+F:\code\vantage-uwp-automation-bj\LenovoVantageTest\bin\Debug\LenovoVantageTest.dll.config
+F:\code\vantage-uwp-automation-bj\LenovoVantageTest\bin\Debug\LenovoVantageTest.dll
+F:\code\vantage-uwp-automation-bj\LenovoVantageTest\bin\Debug\LenovoVantageTest.pdb
+F:\code\vantage-uwp-automation-bj\LenovoVantageTest\bin\Debug\Appium.Net.dll
+F:\code\vantage-uwp-automation-bj\LenovoVantageTest\bin\Debug\AssertiveDisplayContract.dll
+F:\code\vantage-uwp-automation-bj\LenovoVantageTest\bin\Debug\BCMakeCert.dll
+F:\code\vantage-uwp-automation-bj\LenovoVantageTest\bin\Debug\BoDi.dll
+F:\code\vantage-uwp-automation-bj\LenovoVantageTest\bin\Debug\Castle.Core.dll
+F:\code\vantage-uwp-automation-bj\LenovoVantageTest\bin\Debug\Contract_AppScenario.dll
+F:\code\vantage-uwp-automation-bj\LenovoVantageTest\bin\Debug\Contract_APS.dll
+F:\code\vantage-uwp-automation-bj\LenovoVantageTest\bin\Debug\Contract_Display.dll
+F:\code\vantage-uwp-automation-bj\LenovoVantageTest\bin\Debug\Contract_KBDManager.dll
+F:\code\vantage-uwp-automation-bj\LenovoVantageTest\bin\Debug\Contract_Keyboard.dll
+F:\code\vantage-uwp-automation-bj\LenovoVantageTest\bin\Debug\Contract_SmartSense.dll
+F:\code\vantage-uwp-automation-bj\LenovoVantageTest\bin\Debug\Contract_Spectrum.dll
+F:\code\vantage-uwp-automation-bj\LenovoVantageTest\bin\Debug\CoreAudioApi.dll
+F:\code\vantage-uwp-automation-bj\LenovoVantageTest\bin\Debug\Cucumber.Messages.dll
+F:\code\vantage-uwp-automation-bj\LenovoVantageTest\bin\Debug\DeviceInformation.dll
+F:\code\vantage-uwp-automation-bj\LenovoVantageTest\bin\Debug\DotNetZip.dll
+F:\code\vantage-uwp-automation-bj\LenovoVantageTest\bin\Debug\EntityFramework.dll
+F:\code\vantage-uwp-automation-bj\LenovoVantageTest\bin\Debug\EntityFramework.SqlServer.dll
+F:\code\vantage-uwp-automation-bj\LenovoVantageTest\bin\Debug\ExtentReports.dll
+F:\code\vantage-uwp-automation-bj\LenovoVantageTest\bin\Debug\FiddlerCore.dll
+F:\code\vantage-uwp-automation-bj\LenovoVantageTest\bin\Debug\FiddlerCoreAPI.dll
+F:\code\vantage-uwp-automation-bj\LenovoVantageTest\bin\Debug\FiddlerHelper.dll
+F:\code\vantage-uwp-automation-bj\LenovoVantageTest\bin\Debug\Gherkin.dll
+F:\code\vantage-uwp-automation-bj\LenovoVantageTest\bin\Debug\Google.Protobuf.dll
+F:\code\vantage-uwp-automation-bj\LenovoVantageTest\bin\Debug\HotspotContract.dll
+F:\code\vantage-uwp-automation-bj\LenovoVantageTest\bin\Debug\HtmlAgilityPack.dll
+F:\code\vantage-uwp-automation-bj\LenovoVantageTest\bin\Debug\HttpAnalyzerHelper.dll
+F:\code\vantage-uwp-automation-bj\LenovoVantageTest\bin\Debug\ICSharpCode.SharpZipLib.dll
+F:\code\vantage-uwp-automation-bj\LenovoVantageTest\bin\Debug\Interop.NETCONLib.dll
+F:\code\vantage-uwp-automation-bj\LenovoVantageTest\bin\Debug\Interop.TaskScheduler.dll
+F:\code\vantage-uwp-automation-bj\LenovoVantageTest\bin\Debug\Lenovo.Beijing.PA.dll
+F:\code\vantage-uwp-automation-bj\LenovoVantageTest\bin\Debug\Lenovo.ImController.EventLogging.dll
+F:\code\vantage-uwp-automation-bj\LenovoVantageTest\bin\Debug\Lenovo.Modern.Contracts.Battery.Common.dll
+F:\code\vantage-uwp-automation-bj\LenovoVantageTest\bin\Debug\Lenovo.Modern.Contracts.BatteryInformation.dll
+F:\code\vantage-uwp-automation-bj\LenovoVantageTest\bin\Debug\Lenovo.Modern.Contracts.BatteryManagement.dll
+F:\code\vantage-uwp-automation-bj\LenovoVantageTest\bin\Debug\Lenovo.Modern.Contracts.Fan.dll
+F:\code\vantage-uwp-automation-bj\LenovoVantageTest\bin\Debug\Lenovo.Modern.Contracts.NetworkWirelessContracts.dll
+F:\code\vantage-uwp-automation-bj\LenovoVantageTest\bin\Debug\Lenovo.Modern.Contracts.PointingDevice.dll
+F:\code\vantage-uwp-automation-bj\LenovoVantageTest\bin\Debug\Lenovo.Modern.Contracts.PointingDeviceContracts.dll
+F:\code\vantage-uwp-automation-bj\LenovoVantageTest\bin\Debug\Lenovo.Modern.Contracts.Power.dll
+F:\code\vantage-uwp-automation-bj\LenovoVantageTest\bin\Debug\Lenovo.Modern.Contracts.PowerProfile.dll
+F:\code\vantage-uwp-automation-bj\LenovoVantageTest\bin\Debug\Lenovo.Modern.Contracts.SystemInformation.BatteryInformation.dll
+F:\code\vantage-uwp-automation-bj\LenovoVantageTest\bin\Debug\Lenovo.Modern.Contracts.SystemManagement.BatteryManagement.dll
+F:\code\vantage-uwp-automation-bj\LenovoVantageTest\bin\Debug\Lenovo.Modern.Contracts.SystemManagement.BatteryStretch.dll
+F:\code\vantage-uwp-automation-bj\LenovoVantageTest\bin\Debug\Lenovo.Modern.Contracts.SystemManagement.Power.dll
+F:\code\vantage-uwp-automation-bj\LenovoVantageTest\bin\Debug\Lenovo.Modern.Contracts.SystemManagement.WiFiSecurity.dll
+F:\code\vantage-uwp-automation-bj\LenovoVantageTest\bin\Debug\Lenovo.Modern.CoreTypes.dll
+F:\code\vantage-uwp-automation-bj\LenovoVantageTest\bin\Debug\Lenovo.Modern.ImController.ImClient.dll
+F:\code\vantage-uwp-automation-bj\LenovoVantageTest\bin\Debug\Lenovo.Modern.Utilities.dll
+F:\code\vantage-uwp-automation-bj\LenovoVantageTest\bin\Debug\Lenovo.Multimedia.Contracts.Audio.dll
+F:\code\vantage-uwp-automation-bj\LenovoVantageTest\bin\Debug\Lenovo.Multimedia.Contracts.AudioProfile.dll
+F:\code\vantage-uwp-automation-bj\LenovoVantageTest\bin\Debug\Lenovo.Multimedia.Contracts.Camera.dll
+F:\code\vantage-uwp-automation-bj\LenovoVantageTest\bin\Debug\Lenovo.Multimedia.Contracts.Core.dll
+F:\code\vantage-uwp-automation-bj\LenovoVantageTest\bin\Debug\Lenovo.Multimedia.CoreTypes.dll
+F:\code\vantage-uwp-automation-bj\LenovoVantageTest\bin\Debug\LiteDB.dll
+F:\code\vantage-uwp-automation-bj\LenovoVantageTest\bin\Debug\LocationAwareContract.dll
+F:\code\vantage-uwp-automation-bj\LenovoVantageTest\bin\Debug\MachineInfoHelper.dll
+F:\code\vantage-uwp-automation-bj\LenovoVantageTest\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+F:\code\vantage-uwp-automation-bj\LenovoVantageTest\bin\Debug\Microsoft.InternationalSettings.Commands.dll
+F:\code\vantage-uwp-automation-bj\LenovoVantageTest\bin\Debug\Microsoft.Win32.TaskScheduler.dll
+F:\code\vantage-uwp-automation-bj\LenovoVantageTest\bin\Debug\MongoDB.Bson.dll
+F:\code\vantage-uwp-automation-bj\LenovoVantageTest\bin\Debug\MongoDB.Driver.Core.dll
+F:\code\vantage-uwp-automation-bj\LenovoVantageTest\bin\Debug\MongoDB.Driver.dll
+F:\code\vantage-uwp-automation-bj\LenovoVantageTest\bin\Debug\Newtonsoft.Json.dll
+F:\code\vantage-uwp-automation-bj\LenovoVantageTest\bin\Debug\nunit.framework.dll
+F:\code\vantage-uwp-automation-bj\LenovoVantageTest\bin\Debug\PaperDisplay_Contract.dll
+F:\code\vantage-uwp-automation-bj\LenovoVantageTest\bin\Debug\PlatformInterface.dll
+F:\code\vantage-uwp-automation-bj\LenovoVantageTest\bin\Debug\RazorEngine.dll
+F:\code\vantage-uwp-automation-bj\LenovoVantageTest\bin\Debug\SeleniumExtras.PageObjects.dll
+F:\code\vantage-uwp-automation-bj\LenovoVantageTest\bin\Debug\SmartSenseHsaRpcClient.dll
+F:\code\vantage-uwp-automation-bj\LenovoVantageTest\bin\Debug\System.Buffers.dll
+F:\code\vantage-uwp-automation-bj\LenovoVantageTest\bin\Debug\System.Data.SQLite.dll
+F:\code\vantage-uwp-automation-bj\LenovoVantageTest\bin\Debug\System.Data.SQLite.EF6.dll
+F:\code\vantage-uwp-automation-bj\LenovoVantageTest\bin\Debug\System.Data.SQLite.Linq.dll
+F:\code\vantage-uwp-automation-bj\LenovoVantageTest\bin\Debug\System.Management.Automation.dll
+F:\code\vantage-uwp-automation-bj\LenovoVantageTest\bin\Debug\System.Memory.dll
+F:\code\vantage-uwp-automation-bj\LenovoVantageTest\bin\Debug\System.Numerics.Vectors.dll
+F:\code\vantage-uwp-automation-bj\LenovoVantageTest\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+F:\code\vantage-uwp-automation-bj\LenovoVantageTest\bin\Debug\System.Text.Encodings.Web.dll
+F:\code\vantage-uwp-automation-bj\LenovoVantageTest\bin\Debug\System.Text.Json.dll
+F:\code\vantage-uwp-automation-bj\LenovoVantageTest\bin\Debug\System.Threading.Tasks.Extensions.dll
+F:\code\vantage-uwp-automation-bj\LenovoVantageTest\bin\Debug\System.ValueTuple.dll
+F:\code\vantage-uwp-automation-bj\LenovoVantageTest\bin\Debug\System.Web.Razor.dll
+F:\code\vantage-uwp-automation-bj\LenovoVantageTest\bin\Debug\SystemInterfaceWraper.dll
+F:\code\vantage-uwp-automation-bj\LenovoVantageTest\bin\Debug\SystemManagement.LenovoSettingsApp.dll
+F:\code\vantage-uwp-automation-bj\LenovoVantageTest\bin\Debug\TechTalk.SpecFlow.dll
+F:\code\vantage-uwp-automation-bj\LenovoVantageTest\bin\Debug\Telerik.NetworkConnections.dll
+F:\code\vantage-uwp-automation-bj\LenovoVantageTest\bin\Debug\Utf8Json.dll
+F:\code\vantage-uwp-automation-bj\LenovoVantageTest\bin\Debug\VisionProtectionContract.dll
+F:\code\vantage-uwp-automation-bj\LenovoVantageTest\bin\Debug\WebDriver.dll
+F:\code\vantage-uwp-automation-bj\LenovoVantageTest\bin\Debug\WebDriver.Support.dll
+F:\code\vantage-uwp-automation-bj\LenovoVantageTest\bin\Debug\Windows.winmd
+F:\code\vantage-uwp-automation-bj\LenovoVantageTest\bin\Debug\Interop.HTTPAnalyzerStd.dll
+F:\code\vantage-uwp-automation-bj\LenovoVantageTest\bin\Debug\Interop.HTTPAnalyzer.dll
+F:\code\vantage-uwp-automation-bj\LenovoVantageTest\bin\Debug\Lenovo.VantageService.Utilities.dll
+F:\code\vantage-uwp-automation-bj\LenovoVantageTest\bin\Debug\Microsoft.Management.Infrastructure.dll
+F:\code\vantage-uwp-automation-bj\LenovoVantageTest\bin\Debug\EQATEC.Analytics.Monitor.dll
+F:\code\vantage-uwp-automation-bj\LenovoVantageTest\bin\Debug\ExtentReports.pdb
+F:\code\vantage-uwp-automation-bj\LenovoVantageTest\bin\Debug\ExtentReports.dll.config
+F:\code\vantage-uwp-automation-bj\LenovoVantageTest\bin\Debug\FiddlerCoreAPI.pdb
+F:\code\vantage-uwp-automation-bj\LenovoVantageTest\bin\Debug\FiddlerCoreAPI.dll.config
+F:\code\vantage-uwp-automation-bj\LenovoVantageTest\bin\Debug\FiddlerHelper.pdb
+F:\code\vantage-uwp-automation-bj\LenovoVantageTest\bin\Debug\HttpAnalyzerHelper.pdb
+F:\code\vantage-uwp-automation-bj\LenovoVantageTest\bin\Debug\HttpAnalyzerHelper.dll.config
+F:\code\vantage-uwp-automation-bj\LenovoVantageTest\bin\Debug\AssertiveDisplayContract.pdb
+F:\code\vantage-uwp-automation-bj\LenovoVantageTest\bin\Debug\BoDi.pdb
+F:\code\vantage-uwp-automation-bj\LenovoVantageTest\bin\Debug\Castle.Core.xml
+F:\code\vantage-uwp-automation-bj\LenovoVantageTest\bin\Debug\Contract_AppScenario.pdb
+F:\code\vantage-uwp-automation-bj\LenovoVantageTest\bin\Debug\Contract_APS.pdb
+F:\code\vantage-uwp-automation-bj\LenovoVantageTest\bin\Debug\Contract_Display.pdb
+F:\code\vantage-uwp-automation-bj\LenovoVantageTest\bin\Debug\Contract_KBDManager.pdb
+F:\code\vantage-uwp-automation-bj\LenovoVantageTest\bin\Debug\Contract_Keyboard.pdb
+F:\code\vantage-uwp-automation-bj\LenovoVantageTest\bin\Debug\Contract_SmartSense.pdb
+F:\code\vantage-uwp-automation-bj\LenovoVantageTest\bin\Debug\Contract_Spectrum.pdb
+F:\code\vantage-uwp-automation-bj\LenovoVantageTest\bin\Debug\DotNetZip.pdb
+F:\code\vantage-uwp-automation-bj\LenovoVantageTest\bin\Debug\DotNetZip.xml
+F:\code\vantage-uwp-automation-bj\LenovoVantageTest\bin\Debug\EntityFramework.xml
+F:\code\vantage-uwp-automation-bj\LenovoVantageTest\bin\Debug\EntityFramework.SqlServer.xml
+F:\code\vantage-uwp-automation-bj\LenovoVantageTest\bin\Debug\FiddlerCore.pdb
+F:\code\vantage-uwp-automation-bj\LenovoVantageTest\bin\Debug\FiddlerCore.xml
+F:\code\vantage-uwp-automation-bj\LenovoVantageTest\bin\Debug\Google.Protobuf.pdb
+F:\code\vantage-uwp-automation-bj\LenovoVantageTest\bin\Debug\Google.Protobuf.xml
+F:\code\vantage-uwp-automation-bj\LenovoVantageTest\bin\Debug\HotspotContract.pdb
+F:\code\vantage-uwp-automation-bj\LenovoVantageTest\bin\Debug\Lenovo.ImController.EventLogging.pdb
+F:\code\vantage-uwp-automation-bj\LenovoVantageTest\bin\Debug\Lenovo.Modern.Contracts.Battery.Common.pdb
+F:\code\vantage-uwp-automation-bj\LenovoVantageTest\bin\Debug\Lenovo.Modern.Contracts.Fan.pdb
+F:\code\vantage-uwp-automation-bj\LenovoVantageTest\bin\Debug\Lenovo.Modern.Contracts.NetworkWirelessContracts.pdb
+F:\code\vantage-uwp-automation-bj\LenovoVantageTest\bin\Debug\Lenovo.Modern.Contracts.PointingDeviceContracts.pdb
+F:\code\vantage-uwp-automation-bj\LenovoVantageTest\bin\Debug\Lenovo.Modern.Contracts.PowerProfile.pdb
+F:\code\vantage-uwp-automation-bj\LenovoVantageTest\bin\Debug\Lenovo.Modern.Contracts.SystemManagement.WiFiSecurity.pdb
+F:\code\vantage-uwp-automation-bj\LenovoVantageTest\bin\Debug\Lenovo.Modern.CoreTypes.pdb
+F:\code\vantage-uwp-automation-bj\LenovoVantageTest\bin\Debug\Lenovo.Modern.ImController.ImClient.pdb
+F:\code\vantage-uwp-automation-bj\LenovoVantageTest\bin\Debug\Lenovo.Modern.Utilities.pdb
+F:\code\vantage-uwp-automation-bj\LenovoVantageTest\bin\Debug\Lenovo.Multimedia.CoreTypes.pdb
+F:\code\vantage-uwp-automation-bj\LenovoVantageTest\bin\Debug\LiteDB.xml
+F:\code\vantage-uwp-automation-bj\LenovoVantageTest\bin\Debug\LocationAwareContract.pdb
+F:\code\vantage-uwp-automation-bj\LenovoVantageTest\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+F:\code\vantage-uwp-automation-bj\LenovoVantageTest\bin\Debug\Microsoft.Win32.TaskScheduler.xml
+F:\code\vantage-uwp-automation-bj\LenovoVantageTest\bin\Debug\Newtonsoft.Json.xml
+F:\code\vantage-uwp-automation-bj\LenovoVantageTest\bin\Debug\nunit.framework.pdb
+F:\code\vantage-uwp-automation-bj\LenovoVantageTest\bin\Debug\nunit.framework.xml
+F:\code\vantage-uwp-automation-bj\LenovoVantageTest\bin\Debug\PaperDisplay_Contract.pdb
+F:\code\vantage-uwp-automation-bj\LenovoVantageTest\bin\Debug\System.Buffers.xml
+F:\code\vantage-uwp-automation-bj\LenovoVantageTest\bin\Debug\System.Data.SQLite.xml
+F:\code\vantage-uwp-automation-bj\LenovoVantageTest\bin\Debug\System.Data.SQLite.dll.config
+F:\code\vantage-uwp-automation-bj\LenovoVantageTest\bin\Debug\System.Management.Automation.xml
+F:\code\vantage-uwp-automation-bj\LenovoVantageTest\bin\Debug\System.Memory.xml
+F:\code\vantage-uwp-automation-bj\LenovoVantageTest\bin\Debug\System.Numerics.Vectors.xml
+F:\code\vantage-uwp-automation-bj\LenovoVantageTest\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+F:\code\vantage-uwp-automation-bj\LenovoVantageTest\bin\Debug\System.Text.Encodings.Web.xml
+F:\code\vantage-uwp-automation-bj\LenovoVantageTest\bin\Debug\System.Text.Json.xml
+F:\code\vantage-uwp-automation-bj\LenovoVantageTest\bin\Debug\System.Threading.Tasks.Extensions.xml
+F:\code\vantage-uwp-automation-bj\LenovoVantageTest\bin\Debug\System.ValueTuple.xml
+F:\code\vantage-uwp-automation-bj\LenovoVantageTest\bin\Debug\SystemManagement.LenovoSettingsApp.pdb
+F:\code\vantage-uwp-automation-bj\LenovoVantageTest\bin\Debug\TechTalk.SpecFlow.pdb
+F:\code\vantage-uwp-automation-bj\LenovoVantageTest\bin\Debug\TechTalk.SpecFlow.xml
+F:\code\vantage-uwp-automation-bj\LenovoVantageTest\bin\Debug\TechTalk.SpecFlow.NUnit.SpecFlowPlugin.pdb
+F:\code\vantage-uwp-automation-bj\LenovoVantageTest\bin\Debug\Telerik.NetworkConnections.pdb
+F:\code\vantage-uwp-automation-bj\LenovoVantageTest\bin\Debug\Telerik.NetworkConnections.xml
+F:\code\vantage-uwp-automation-bj\LenovoVantageTest\bin\Debug\Utf8Json.xml
+F:\code\vantage-uwp-automation-bj\LenovoVantageTest\bin\Debug\VisionProtectionContract.pdb
+F:\code\vantage-uwp-automation-bj\LenovoVantageTest\bin\Debug\WebDriver.xml
+F:\code\vantage-uwp-automation-bj\LenovoVantageTest\bin\Debug\WebDriver.Support.xml
+F:\code\vantage-uwp-automation-bj\LenovoVantageTest\bin\Debug\de\Microsoft.Win32.TaskScheduler.resources.dll
+F:\code\vantage-uwp-automation-bj\LenovoVantageTest\bin\Debug\es\Microsoft.Win32.TaskScheduler.resources.dll
+F:\code\vantage-uwp-automation-bj\LenovoVantageTest\bin\Debug\fr\Microsoft.Win32.TaskScheduler.resources.dll
+F:\code\vantage-uwp-automation-bj\LenovoVantageTest\bin\Debug\it\Microsoft.Win32.TaskScheduler.resources.dll
+F:\code\vantage-uwp-automation-bj\LenovoVantageTest\bin\Debug\pl\Microsoft.Win32.TaskScheduler.resources.dll
+F:\code\vantage-uwp-automation-bj\LenovoVantageTest\bin\Debug\ru\Microsoft.Win32.TaskScheduler.resources.dll
+F:\code\vantage-uwp-automation-bj\LenovoVantageTest\bin\Debug\zh-CN\Microsoft.Win32.TaskScheduler.resources.dll
+F:\code\vantage-uwp-automation-bj\LenovoVantageTest\obj\Debug\LenovoVantageTest.csproj.AssemblyReference.cache
+F:\code\vantage-uwp-automation-bj\LenovoVantageTest\obj\Debug\Interop.IWshRuntimeLibrary.dll
+F:\code\vantage-uwp-automation-bj\LenovoVantageTest\obj\Debug\Interop.NetFwTypeLib.dll
+F:\code\vantage-uwp-automation-bj\LenovoVantageTest\obj\Debug\Interop.SHDocVw.dll
+F:\code\vantage-uwp-automation-bj\LenovoVantageTest\obj\Debug\LenovoVantageTest.csproj.ResolveComReference.cache
+F:\code\vantage-uwp-automation-bj\LenovoVantageTest\obj\Debug\LenovoVantageTest.csproj.CoreCompileInputs.cache
+F:\code\vantage-uwp-automation-bj\LenovoVantageTest\obj\Debug\LenovoVantageTest.csproj.CopyComplete
+F:\code\vantage-uwp-automation-bj\LenovoVantageTest\obj\Debug\LenovoVantageTest.dll
+F:\code\vantage-uwp-automation-bj\LenovoVantageTest\obj\Debug\LenovoVantageTest.pdb
+F:\code\VANTAGE\LenovoVantageTest\bin\Debug\BasicFormatsForCore.dll
+F:\code\VANTAGE\LenovoVantageTest\bin\Debug\TechTalk.SpecFlow.NUnit.SpecFlowPlugin.dll
+F:\code\VANTAGE\LenovoVantageTest\bin\Debug\NUnit3.TestAdapter.dll
+F:\code\VANTAGE\LenovoVantageTest\bin\Debug\NUnit3.TestAdapter.pdb
+F:\code\VANTAGE\LenovoVantageTest\bin\Debug\nunit.engine.dll
+F:\code\VANTAGE\LenovoVantageTest\bin\Debug\nunit.engine.api.dll
+F:\code\VANTAGE\LenovoVantageTest\bin\Debug\nunit.engine.core.dll
+F:\code\VANTAGE\LenovoVantageTest\bin\Debug\ACDC.xml
+F:\code\VANTAGE\LenovoVantageTest\bin\Debug\Pages\ConnectedHomeSecurityPages\CHSAccount.xml
+F:\code\VANTAGE\LenovoVantageTest\bin\Debug\BJ_makeDatalink.bat
+F:\code\VANTAGE\LenovoVantageTest\bin\Debug\CommercialVantageElements.json
+F:\code\VANTAGE\LenovoVantageTest\bin\Debug\CopyDataForSettings.bat
+F:\code\VANTAGE\LenovoVantageTest\bin\Debug\makeDatalink.bat
+F:\code\VANTAGE\LenovoVantageTest\bin\Debug\TestCycleRequirement.json
+F:\code\VANTAGE\LenovoVantageTest\bin\Debug\VantageAutomationIDs.json
+F:\code\VANTAGE\LenovoVantageTest\bin\Debug\LenovoVantageTest.dll.config
+F:\code\VANTAGE\LenovoVantageTest\bin\Debug\LenovoVantageTest.dll
+F:\code\VANTAGE\LenovoVantageTest\bin\Debug\LenovoVantageTest.pdb
+F:\code\VANTAGE\LenovoVantageTest\bin\Debug\Appium.Net.dll
+F:\code\VANTAGE\LenovoVantageTest\bin\Debug\AssertiveDisplayContract.dll
+F:\code\VANTAGE\LenovoVantageTest\bin\Debug\BCMakeCert.dll
+F:\code\VANTAGE\LenovoVantageTest\bin\Debug\BoDi.dll
+F:\code\VANTAGE\LenovoVantageTest\bin\Debug\Castle.Core.dll
+F:\code\VANTAGE\LenovoVantageTest\bin\Debug\Contract_AppScenario.dll
+F:\code\VANTAGE\LenovoVantageTest\bin\Debug\Contract_APS.dll
+F:\code\VANTAGE\LenovoVantageTest\bin\Debug\Contract_Display.dll
+F:\code\VANTAGE\LenovoVantageTest\bin\Debug\Contract_KBDManager.dll
+F:\code\VANTAGE\LenovoVantageTest\bin\Debug\Contract_Keyboard.dll
+F:\code\VANTAGE\LenovoVantageTest\bin\Debug\Contract_SmartSense.dll
+F:\code\VANTAGE\LenovoVantageTest\bin\Debug\Contract_Spectrum.dll
+F:\code\VANTAGE\LenovoVantageTest\bin\Debug\CoreAudioApi.dll
+F:\code\VANTAGE\LenovoVantageTest\bin\Debug\Cucumber.Messages.dll
+F:\code\VANTAGE\LenovoVantageTest\bin\Debug\DeviceInformation.dll
+F:\code\VANTAGE\LenovoVantageTest\bin\Debug\DotNetZip.dll
+F:\code\VANTAGE\LenovoVantageTest\bin\Debug\EntityFramework.dll
+F:\code\VANTAGE\LenovoVantageTest\bin\Debug\EntityFramework.SqlServer.dll
+F:\code\VANTAGE\LenovoVantageTest\bin\Debug\ExtentReports.dll
+F:\code\VANTAGE\LenovoVantageTest\bin\Debug\FiddlerCore.dll
+F:\code\VANTAGE\LenovoVantageTest\bin\Debug\FiddlerCoreAPI.dll
+F:\code\VANTAGE\LenovoVantageTest\bin\Debug\FiddlerHelper.dll
+F:\code\VANTAGE\LenovoVantageTest\bin\Debug\Gherkin.dll
+F:\code\VANTAGE\LenovoVantageTest\bin\Debug\Google.Protobuf.dll
+F:\code\VANTAGE\LenovoVantageTest\bin\Debug\HotspotContract.dll
+F:\code\VANTAGE\LenovoVantageTest\bin\Debug\HtmlAgilityPack.dll
+F:\code\VANTAGE\LenovoVantageTest\bin\Debug\HttpAnalyzerHelper.dll
+F:\code\VANTAGE\LenovoVantageTest\bin\Debug\ICSharpCode.SharpZipLib.dll
+F:\code\VANTAGE\LenovoVantageTest\bin\Debug\Interop.NETCONLib.dll
+F:\code\VANTAGE\LenovoVantageTest\bin\Debug\Interop.TaskScheduler.dll
+F:\code\VANTAGE\LenovoVantageTest\bin\Debug\Lenovo.Beijing.PA.dll
+F:\code\VANTAGE\LenovoVantageTest\bin\Debug\Lenovo.ImController.EventLogging.dll
+F:\code\VANTAGE\LenovoVantageTest\bin\Debug\Lenovo.Modern.Contracts.Battery.Common.dll
+F:\code\VANTAGE\LenovoVantageTest\bin\Debug\Lenovo.Modern.Contracts.BatteryInformation.dll
+F:\code\VANTAGE\LenovoVantageTest\bin\Debug\Lenovo.Modern.Contracts.BatteryManagement.dll
+F:\code\VANTAGE\LenovoVantageTest\bin\Debug\Lenovo.Modern.Contracts.Fan.dll
+F:\code\VANTAGE\LenovoVantageTest\bin\Debug\Lenovo.Modern.Contracts.NetworkWirelessContracts.dll
+F:\code\VANTAGE\LenovoVantageTest\bin\Debug\Lenovo.Modern.Contracts.PointingDevice.dll
+F:\code\VANTAGE\LenovoVantageTest\bin\Debug\Lenovo.Modern.Contracts.PointingDeviceContracts.dll
+F:\code\VANTAGE\LenovoVantageTest\bin\Debug\Lenovo.Modern.Contracts.Power.dll
+F:\code\VANTAGE\LenovoVantageTest\bin\Debug\Lenovo.Modern.Contracts.PowerProfile.dll
+F:\code\VANTAGE\LenovoVantageTest\bin\Debug\Lenovo.Modern.Contracts.SystemInformation.BatteryInformation.dll
+F:\code\VANTAGE\LenovoVantageTest\bin\Debug\Lenovo.Modern.Contracts.SystemManagement.BatteryManagement.dll
+F:\code\VANTAGE\LenovoVantageTest\bin\Debug\Lenovo.Modern.Contracts.SystemManagement.BatteryStretch.dll
+F:\code\VANTAGE\LenovoVantageTest\bin\Debug\Lenovo.Modern.Contracts.SystemManagement.Power.dll
+F:\code\VANTAGE\LenovoVantageTest\bin\Debug\Lenovo.Modern.Contracts.SystemManagement.WiFiSecurity.dll
+F:\code\VANTAGE\LenovoVantageTest\bin\Debug\Lenovo.Modern.CoreTypes.dll
+F:\code\VANTAGE\LenovoVantageTest\bin\Debug\Lenovo.Modern.ImController.ImClient.dll
+F:\code\VANTAGE\LenovoVantageTest\bin\Debug\Lenovo.Modern.Utilities.dll
+F:\code\VANTAGE\LenovoVantageTest\bin\Debug\Lenovo.Multimedia.Contracts.Audio.dll
+F:\code\VANTAGE\LenovoVantageTest\bin\Debug\Lenovo.Multimedia.Contracts.AudioProfile.dll
+F:\code\VANTAGE\LenovoVantageTest\bin\Debug\Lenovo.Multimedia.Contracts.Camera.dll
+F:\code\VANTAGE\LenovoVantageTest\bin\Debug\Lenovo.Multimedia.Contracts.Core.dll
+F:\code\VANTAGE\LenovoVantageTest\bin\Debug\Lenovo.Multimedia.CoreTypes.dll
+F:\code\VANTAGE\LenovoVantageTest\bin\Debug\LiteDB.dll
+F:\code\VANTAGE\LenovoVantageTest\bin\Debug\LocationAwareContract.dll
+F:\code\VANTAGE\LenovoVantageTest\bin\Debug\MachineInfoHelper.dll
+F:\code\VANTAGE\LenovoVantageTest\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+F:\code\VANTAGE\LenovoVantageTest\bin\Debug\Microsoft.InternationalSettings.Commands.dll
+F:\code\VANTAGE\LenovoVantageTest\bin\Debug\Microsoft.Win32.TaskScheduler.dll
+F:\code\VANTAGE\LenovoVantageTest\bin\Debug\MongoDB.Bson.dll
+F:\code\VANTAGE\LenovoVantageTest\bin\Debug\MongoDB.Driver.Core.dll
+F:\code\VANTAGE\LenovoVantageTest\bin\Debug\MongoDB.Driver.dll
+F:\code\VANTAGE\LenovoVantageTest\bin\Debug\Newtonsoft.Json.dll
+F:\code\VANTAGE\LenovoVantageTest\bin\Debug\nunit.framework.dll
+F:\code\VANTAGE\LenovoVantageTest\bin\Debug\PaperDisplay_Contract.dll
+F:\code\VANTAGE\LenovoVantageTest\bin\Debug\PlatformInterface.dll
+F:\code\VANTAGE\LenovoVantageTest\bin\Debug\RazorEngine.dll
+F:\code\VANTAGE\LenovoVantageTest\bin\Debug\SeleniumExtras.PageObjects.dll
+F:\code\VANTAGE\LenovoVantageTest\bin\Debug\SmartSenseHsaRpcClient.dll
+F:\code\VANTAGE\LenovoVantageTest\bin\Debug\System.Buffers.dll
+F:\code\VANTAGE\LenovoVantageTest\bin\Debug\System.Data.SQLite.dll
+F:\code\VANTAGE\LenovoVantageTest\bin\Debug\System.Data.SQLite.EF6.dll
+F:\code\VANTAGE\LenovoVantageTest\bin\Debug\System.Data.SQLite.Linq.dll
+F:\code\VANTAGE\LenovoVantageTest\bin\Debug\System.Management.Automation.dll
+F:\code\VANTAGE\LenovoVantageTest\bin\Debug\System.Memory.dll
+F:\code\VANTAGE\LenovoVantageTest\bin\Debug\System.Numerics.Vectors.dll
+F:\code\VANTAGE\LenovoVantageTest\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+F:\code\VANTAGE\LenovoVantageTest\bin\Debug\System.Text.Encodings.Web.dll
+F:\code\VANTAGE\LenovoVantageTest\bin\Debug\System.Text.Json.dll
+F:\code\VANTAGE\LenovoVantageTest\bin\Debug\System.Threading.Tasks.Extensions.dll
+F:\code\VANTAGE\LenovoVantageTest\bin\Debug\System.ValueTuple.dll
+F:\code\VANTAGE\LenovoVantageTest\bin\Debug\System.Web.Razor.dll
+F:\code\VANTAGE\LenovoVantageTest\bin\Debug\SystemInterfaceWraper.dll
+F:\code\VANTAGE\LenovoVantageTest\bin\Debug\SystemManagement.LenovoSettingsApp.dll
+F:\code\VANTAGE\LenovoVantageTest\bin\Debug\TechTalk.SpecFlow.dll
+F:\code\VANTAGE\LenovoVantageTest\bin\Debug\Telerik.NetworkConnections.dll
+F:\code\VANTAGE\LenovoVantageTest\bin\Debug\Utf8Json.dll
+F:\code\VANTAGE\LenovoVantageTest\bin\Debug\VisionProtectionContract.dll
+F:\code\VANTAGE\LenovoVantageTest\bin\Debug\WebDriver.dll
+F:\code\VANTAGE\LenovoVantageTest\bin\Debug\WebDriver.Support.dll
+F:\code\VANTAGE\LenovoVantageTest\bin\Debug\Windows.winmd
+F:\code\VANTAGE\LenovoVantageTest\bin\Debug\Interop.HTTPAnalyzerStd.dll
+F:\code\VANTAGE\LenovoVantageTest\bin\Debug\Interop.HTTPAnalyzer.dll
+F:\code\VANTAGE\LenovoVantageTest\bin\Debug\Lenovo.VantageService.Utilities.dll
+F:\code\VANTAGE\LenovoVantageTest\bin\Debug\Microsoft.Management.Infrastructure.dll
+F:\code\VANTAGE\LenovoVantageTest\bin\Debug\EQATEC.Analytics.Monitor.dll
+F:\code\VANTAGE\LenovoVantageTest\bin\Debug\ExtentReports.pdb
+F:\code\VANTAGE\LenovoVantageTest\bin\Debug\ExtentReports.dll.config
+F:\code\VANTAGE\LenovoVantageTest\bin\Debug\FiddlerCoreAPI.pdb
+F:\code\VANTAGE\LenovoVantageTest\bin\Debug\FiddlerCoreAPI.dll.config
+F:\code\VANTAGE\LenovoVantageTest\bin\Debug\FiddlerHelper.pdb
+F:\code\VANTAGE\LenovoVantageTest\bin\Debug\HttpAnalyzerHelper.pdb
+F:\code\VANTAGE\LenovoVantageTest\bin\Debug\HttpAnalyzerHelper.dll.config
+F:\code\VANTAGE\LenovoVantageTest\bin\Debug\AssertiveDisplayContract.pdb
+F:\code\VANTAGE\LenovoVantageTest\bin\Debug\BoDi.pdb
+F:\code\VANTAGE\LenovoVantageTest\bin\Debug\Castle.Core.xml
+F:\code\VANTAGE\LenovoVantageTest\bin\Debug\Contract_AppScenario.pdb
+F:\code\VANTAGE\LenovoVantageTest\bin\Debug\Contract_APS.pdb
+F:\code\VANTAGE\LenovoVantageTest\bin\Debug\Contract_Display.pdb
+F:\code\VANTAGE\LenovoVantageTest\bin\Debug\Contract_KBDManager.pdb
+F:\code\VANTAGE\LenovoVantageTest\bin\Debug\Contract_Keyboard.pdb
+F:\code\VANTAGE\LenovoVantageTest\bin\Debug\Contract_SmartSense.pdb
+F:\code\VANTAGE\LenovoVantageTest\bin\Debug\Contract_Spectrum.pdb
+F:\code\VANTAGE\LenovoVantageTest\bin\Debug\DotNetZip.pdb
+F:\code\VANTAGE\LenovoVantageTest\bin\Debug\DotNetZip.xml
+F:\code\VANTAGE\LenovoVantageTest\bin\Debug\EntityFramework.xml
+F:\code\VANTAGE\LenovoVantageTest\bin\Debug\EntityFramework.SqlServer.xml
+F:\code\VANTAGE\LenovoVantageTest\bin\Debug\FiddlerCore.pdb
+F:\code\VANTAGE\LenovoVantageTest\bin\Debug\FiddlerCore.xml
+F:\code\VANTAGE\LenovoVantageTest\bin\Debug\Google.Protobuf.pdb
+F:\code\VANTAGE\LenovoVantageTest\bin\Debug\Google.Protobuf.xml
+F:\code\VANTAGE\LenovoVantageTest\bin\Debug\HotspotContract.pdb
+F:\code\VANTAGE\LenovoVantageTest\bin\Debug\Lenovo.ImController.EventLogging.pdb
+F:\code\VANTAGE\LenovoVantageTest\bin\Debug\Lenovo.Modern.Contracts.Battery.Common.pdb
+F:\code\VANTAGE\LenovoVantageTest\bin\Debug\Lenovo.Modern.Contracts.Fan.pdb
+F:\code\VANTAGE\LenovoVantageTest\bin\Debug\Lenovo.Modern.Contracts.NetworkWirelessContracts.pdb
+F:\code\VANTAGE\LenovoVantageTest\bin\Debug\Lenovo.Modern.Contracts.PointingDeviceContracts.pdb
+F:\code\VANTAGE\LenovoVantageTest\bin\Debug\Lenovo.Modern.Contracts.PowerProfile.pdb
+F:\code\VANTAGE\LenovoVantageTest\bin\Debug\Lenovo.Modern.Contracts.SystemManagement.WiFiSecurity.pdb
+F:\code\VANTAGE\LenovoVantageTest\bin\Debug\Lenovo.Modern.CoreTypes.pdb
+F:\code\VANTAGE\LenovoVantageTest\bin\Debug\Lenovo.Modern.ImController.ImClient.pdb
+F:\code\VANTAGE\LenovoVantageTest\bin\Debug\Lenovo.Modern.Utilities.pdb
+F:\code\VANTAGE\LenovoVantageTest\bin\Debug\Lenovo.Multimedia.CoreTypes.pdb
+F:\code\VANTAGE\LenovoVantageTest\bin\Debug\LiteDB.xml
+F:\code\VANTAGE\LenovoVantageTest\bin\Debug\LocationAwareContract.pdb
+F:\code\VANTAGE\LenovoVantageTest\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+F:\code\VANTAGE\LenovoVantageTest\bin\Debug\Microsoft.Win32.TaskScheduler.xml
+F:\code\VANTAGE\LenovoVantageTest\bin\Debug\Newtonsoft.Json.xml
+F:\code\VANTAGE\LenovoVantageTest\bin\Debug\nunit.framework.pdb
+F:\code\VANTAGE\LenovoVantageTest\bin\Debug\nunit.framework.xml
+F:\code\VANTAGE\LenovoVantageTest\bin\Debug\PaperDisplay_Contract.pdb
+F:\code\VANTAGE\LenovoVantageTest\bin\Debug\System.Buffers.xml
+F:\code\VANTAGE\LenovoVantageTest\bin\Debug\System.Data.SQLite.xml
+F:\code\VANTAGE\LenovoVantageTest\bin\Debug\System.Data.SQLite.dll.config
+F:\code\VANTAGE\LenovoVantageTest\bin\Debug\System.Management.Automation.xml
+F:\code\VANTAGE\LenovoVantageTest\bin\Debug\System.Memory.xml
+F:\code\VANTAGE\LenovoVantageTest\bin\Debug\System.Numerics.Vectors.xml
+F:\code\VANTAGE\LenovoVantageTest\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+F:\code\VANTAGE\LenovoVantageTest\bin\Debug\System.Text.Encodings.Web.xml
+F:\code\VANTAGE\LenovoVantageTest\bin\Debug\System.Text.Json.xml
+F:\code\VANTAGE\LenovoVantageTest\bin\Debug\System.Threading.Tasks.Extensions.xml
+F:\code\VANTAGE\LenovoVantageTest\bin\Debug\System.ValueTuple.xml
+F:\code\VANTAGE\LenovoVantageTest\bin\Debug\SystemManagement.LenovoSettingsApp.pdb
+F:\code\VANTAGE\LenovoVantageTest\bin\Debug\TechTalk.SpecFlow.pdb
+F:\code\VANTAGE\LenovoVantageTest\bin\Debug\TechTalk.SpecFlow.xml
+F:\code\VANTAGE\LenovoVantageTest\bin\Debug\TechTalk.SpecFlow.NUnit.SpecFlowPlugin.pdb
+F:\code\VANTAGE\LenovoVantageTest\bin\Debug\Telerik.NetworkConnections.pdb
+F:\code\VANTAGE\LenovoVantageTest\bin\Debug\Telerik.NetworkConnections.xml
+F:\code\VANTAGE\LenovoVantageTest\bin\Debug\Utf8Json.xml
+F:\code\VANTAGE\LenovoVantageTest\bin\Debug\VisionProtectionContract.pdb
+F:\code\VANTAGE\LenovoVantageTest\bin\Debug\WebDriver.xml
+F:\code\VANTAGE\LenovoVantageTest\bin\Debug\WebDriver.Support.xml
+F:\code\VANTAGE\LenovoVantageTest\bin\Debug\de\Microsoft.Win32.TaskScheduler.resources.dll
+F:\code\VANTAGE\LenovoVantageTest\bin\Debug\es\Microsoft.Win32.TaskScheduler.resources.dll
+F:\code\VANTAGE\LenovoVantageTest\bin\Debug\fr\Microsoft.Win32.TaskScheduler.resources.dll
+F:\code\VANTAGE\LenovoVantageTest\bin\Debug\it\Microsoft.Win32.TaskScheduler.resources.dll
+F:\code\VANTAGE\LenovoVantageTest\bin\Debug\pl\Microsoft.Win32.TaskScheduler.resources.dll
+F:\code\VANTAGE\LenovoVantageTest\bin\Debug\ru\Microsoft.Win32.TaskScheduler.resources.dll
+F:\code\VANTAGE\LenovoVantageTest\bin\Debug\zh-CN\Microsoft.Win32.TaskScheduler.resources.dll
+F:\code\VANTAGE\LenovoVantageTest\obj\Debug\LenovoVantageTest.csproj.AssemblyReference.cache
+F:\code\VANTAGE\LenovoVantageTest\obj\Debug\Interop.IWshRuntimeLibrary.dll
+F:\code\VANTAGE\LenovoVantageTest\obj\Debug\Interop.NetFwTypeLib.dll
+F:\code\VANTAGE\LenovoVantageTest\obj\Debug\Interop.SHDocVw.dll
+F:\code\VANTAGE\LenovoVantageTest\obj\Debug\LenovoVantageTest.csproj.ResolveComReference.cache
+F:\code\VANTAGE\LenovoVantageTest\obj\Debug\LenovoVantageTest.csproj.CoreCompileInputs.cache
+F:\code\VANTAGE\LenovoVantageTest\obj\Debug\LenovoVantageTest.csproj.CopyComplete
+F:\code\VANTAGE\LenovoVantageTest\obj\Debug\LenovoVantageTest.dll
+F:\code\VANTAGE\LenovoVantageTest\obj\Debug\LenovoVantageTest.pdb

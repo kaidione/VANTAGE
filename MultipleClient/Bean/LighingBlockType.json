@@ -1,0 +1,73 @@
+﻿{
+  "LightingBlockIdType": [
+    {
+      "Familyname": "Legion T5 28ICB05",
+      "Blockid": [
+        1,
+        2,
+        4,
+        8,
+        16,
+        32
+      ],
+      "Type": {
+        "off": 268435456,
+        "alwayson": 1,
+        "fast": 2,
+        "slow": 3,
+        "breath": 4,
+        "static": 1,
+        "flicker": 2,
+        "wave": 8,
+        "spectrum": 32,
+        "cputemperature": 64,
+        "rainbow": 256,
+        "random": 512
+      }
+    },
+    {
+      "Familyname": "Legion 7 15IMHg05",
+      "Blockid": [
+        1,
+        2,
+        4,
+        8,
+        16,
+        32
+      ],
+      "Type": {
+        "off": 268435456,
+        "static": 1,
+        "fast": 2,
+        "slow": 3,
+        "breath": 4,
+        "wave": 8,
+        "spectrum": 32,
+        "cputemperature": 64,
+        "cpuutilization": 128,
+        "rainbow": 256,
+        "random": 512,
+        "coolblue": 1024,
+        "waveright": 4096,
+        "waveleft": 8192
+      }
+
+    }
+  ],
+  "colorid": [
+    1412573,
+    11393406,
+    8438766,
+    8489432,
+    12936396,
+    1412573,
+    16743244,
+    16769356,
+    37762,
+    1412573,
+    36351,
+    255,
+    16711680,
+    1
+  ]
+}

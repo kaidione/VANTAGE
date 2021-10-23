@@ -1,0 +1,1784 @@
+﻿{
+  "ApplicationId": "E046963F.LenovoCompanion_k1h2ywk1493x8!App",
+  "SnapshotDirectory": "c:\\TestSnapshot",
+  "PWAShell": {
+    "Progressbar": "progressContainer",
+    "MessgeInInstalling": "msg"
+
+  },
+
+  "Windows_Info": {
+    "vantage_launch_path": "e046963f.lenovocompanion_k1h2ywk1493x8",
+    "windowcaption": "Lenovo Vantage",
+    "protocol": "lenovo-companion:PARAM?featureId=E40B12CE-C5DD-4571-BBC6-7EA5879A8472&action=start",
+    "progressContainer": "progressContainer"
+  },
+
+  "Dashboard": {
+    "LImage": "vantage_image_L",
+
+    "su_link": "dashboard-ss-systemupdate",
+
+    "Dashboard_MainTitle": "dashboard-header-title",
+
+    "hero_banner_A": "dashboard-lnk-hero-banner-0-source",
+
+    "windowhello_link": "dashboard-sa-widget-lnk-wh",
+
+    "passwordmanager_install_link": "dashboard-sa-widget-lnk-pm",
+
+    "passwordmanager_notinstall_link": "password-health-sa-widget-lnk-pm",
+
+    "DashboardButton": "menu-main-nav-lnk-dashboard",
+
+    "SecurityAdvisorListboard": {
+      "AntiVirus": "dashboard-sa-widget-lnk-av",
+      "WiFiSecurity": "dashboard-sa-widget-lnk-ws",
+      "PasswordManager": "dashboard-sa-widget-lnk-pm",
+      "VPN": "dashboard-sa-widget-lnk-vpn",
+      "WindowsHello": "dashboard-sa-widget-lnk-wh"
+    },
+
+    "DashboardWarrantyButton": "dashboard-view-warranty-options",
+
+    "DashboardWarrantylogo": "header-warranty-icon",
+
+    "HeaderWarrantyButton": "btn-header-warranty-options",
+
+    "dashboard_warranty_details": "dashboard-warranty-title",
+
+    "dashboard_warranty_status": "dashboard-warranty-status-name",
+
+    "dashboard_status_value": "dashboard-warranty-status-value",
+
+    "dashboard_start_date": "dashboard-warranty-start-date-name",
+
+    "dashboard_start_date_value": "dashboard-warranty-start-date-value",
+
+    "dashboard_end_date": "dashboard-warranty-end-date-name",
+
+    "dashboard_end_date_value": "dashboard-warranty-end-date-value",
+
+    "header_expired_warranty_status": "header-expired-warranty-title",
+
+    "header_in_warranty_status": "header-in-warranty-title",
+
+    "header_start_date": "header-warranty-start-date-name",
+
+    "header_start_date_value": "header-warranty-start-date-value",
+
+    "header_end_date": "header-warranty-end-date-name",
+
+    "header_end_date_value": "header-warranty-end-date-value",
+
+    "Dashboard_SystemUpdate_Widget": "widget-system-update-title",
+
+    "Dashboard_Check_for_System_Updates_Button": "btn-check-for-system-updates",
+
+    "Dashboard_System_Status_Widget": "dashboard-ss-title",
+
+    "Dashboard_Hero_Banner_0": "dashboard-lnk-hero-banner-0",
+
+    "Dashboard_Position_B": "dashboard-card-b",
+
+    "Dashboard_Position_C": "dashboard-card-c",
+
+    "Dashboard_Position_D": "dashboard-card-d",
+
+    "Dashboard_Position_E": "dashboard-card-e",
+
+    "Dashboard_Position_F": "dashboard-card-f",
+    "Dashboard_Position_a": "",
+    "Dashboard_Position_b": "dashboard-lnk-content-b_doc_link",
+    "Dashboard_Position_c": "dashboard-lnk-content-c_doc_link",
+    "Dashboard_Position_e": "dashboard-lnk-content-e_card_article",
+    "Dashboard_Position_f": "dashboard-lnk-content-f_card_article",
+    "Dashboard_Position_d": "dashboard-lnk-content-d_article",
+
+    "Gaming_Dashboard_Content": "lenovo game store",
+
+    "Gaming_System_Tools": "gaming_system_tools",
+
+    "Gaming_Quick_Settings_Wifi_Security": "guicksettins_wifisecurity",
+    "Gaming_SystemStatus": "gaming_system_status",
+    "CameraAccessTip": "Lenovo Vantage doesn't have access to the camera.",
+    "QuickSettingsCameraToggle": "Camera_checkbox",
+    "QuickSettingsMicrphoneToggle": "Microphone_checkbox",
+    "microphoneAccessTip": "qs-microphone-access-link",
+    "QuickSettings": "dashboard-quick-settings-title"
+  },
+
+  "SU_Page": {
+
+    "back_btn": "system-update-back-btn",
+
+    "title": "-header-title",
+
+    "question_mark_for_criticalupdate": "su_auto_updates_question_circle_critical-updates",
+
+    "question_mark_for_recommendedupdate": "su_auto_updates_question_circle_recommended-updates",
+
+    "text_availableupdates": "Available updates",
+
+    "text_UpToDate": "No updates are available. Your system is up to date.",
+
+    "text_noAppUpdates": "There are no applicable updates found for your system since the update catalog is not found.",
+
+    "text_noAppUpdatesMisMatch": "The catalog for your system is currently being updated. Please try again later.",
+
+    "test_downloading": "Downloading updates",
+
+    "test_installing": "Installing updates",
+
+    "text_lastUpTime": "system-update-sub-title1",
+
+    "text_nextUpTime": "system-update-sub-title2",
+
+    "text_AutoUpSettings": "Auto update settings",
+
+    "text_AUTOMATICALLY": "AUTOMATICALLY INSTALL UPDATES",
+
+    "modal_confirm_title": "modal_confirm_title",
+
+    "su_welcome_text": "Welcome to use System Update.",
+
+    "check_updates": "su_check_updates",
+
+    "checking_for_updates": "su-cheking-updates-title",
+
+    "cancel_updates_btn": "su_cancel_updates",
+
+    "available_updates": "su_availableUpdates",
+
+    "su_install_progress": "su_install_progress",
+
+    "LongSearchPackageHistory": "su_history_item_LongSearchInstall",
+
+    "LongSearchPackageFinish": "su_item_installed_description_LongSearchInstall",
+
+    "cancel_downloadinstall_btn": "su_cancel_update_download",
+
+    "checking_progress": "su_check_progress",
+
+    "installing_progress": "su_install_progress",
+
+    "Install_SelectedUD": "su_install_selected_updates",
+
+    "Install_All_btn": "su_install_all_updates",
+
+    "critical_update_text": "su_criticalUpdates",
+
+    "recommended_update_text": "su_recommendedUpdates",
+
+    "optional_update_text": "su_optionalUpdates",
+
+    "ignore_update_text": "su_ignoredUpdates",
+
+    "search_title_noUpdate": "Pane[ClassName=\"Internet Explorer_Server\"]/Pane[Name=\"Lenovo Vantage\"]/Text[contains(Name, \"No update\")]",
+
+    "search_title_beforeSearch": "Pane[ClassName=\"Internet Explorer_Server\"]/Pane[Name=\"Lenovo Vantage\"]/Text[starts-with(Name, \"An up-to\")]",
+
+    "search_result_critical": "Pane[ClassName=\"Internet Explorer_Server\"]/Pane[Name=\"Lenovo Vantage\"]/Text[contains(Name, \"Critical Update\")]",
+
+    "search_result_recommended": "Pane[ClassName=\"Internet Explorer_Server\"]/Pane[Name=\"Lenovo Vantage\"]/Text[contains(Name, \"Recommended Update\")]",
+
+    "search_result_optional": "Pane[ClassName=\"Internet Explorer_Server\"]/Pane[Name=\"Lenovo Vantage\"]/Text[contains(Name, \"Optional Update\")]",
+
+    "search_result_ignore": "Pane[ClassName=\"Internet Explorer_Server\"]/Pane[Name=\"Lenovo Vantage\"]/Text[contains(Name, \"Ignored Update\")]",
+
+    "update_installed_correct_text": "All updates were installed correctly",
+
+    "update_installed_failed_text": "Some updates were not installed correctly",
+
+    "critical_updates_cbox": "critical-updates_checkbox",
+
+    "critical_questionBtn": "su_auto_updates_question_circle",
+
+    "critical_questionToolTip": "ngb-tooltip-0",
+
+    "critical_questionToolTip_text": "Critical updates can prevent significant problem, major malfunctions, hardware failure, or data corruption.",
+
+    "recommend_updates_cbox": "recommended-updates_checkbox",
+
+    "recommend_questionBtn": "/Group[contians(AutomationId)]",
+
+    "recommend_questionToolTip": "ngb-tooltip-1",
+
+    "recommend_questionToolTip_text": "Recommended driver updates keep your computer running at optimal performance.",
+
+    "RT0_questionTip": "su_item_question_mark_reboot_type_0",
+
+    "RT1_questionTip": "su_item_question_mark_reboot_type_1",
+
+    "RT3_questionTip": "su_item_question_mark_reboot_type_3",
+
+    "RT3_1_questionTip": "su_item_question_mark_reboot_type_3_1",
+
+    "RT3_2_questionTip": "su_item_question_mark_reboot_type_3_2",
+
+    "RT4_questionTip": "su_item_question_mark_reboot_type_4",
+
+    "RT5_questionTip": "su_item_question_mark_reboot_type_5",
+
+    "ReadmeExists_questionTip": "su_item_question_mark_readme_exists",
+
+    "NoReadMe_questionTip": "su_item_question_mark_no_readme",
+
+    "ReadmeExists_questiontip_readmore": "su-package-readme-readme_exists",
+
+    "NoReadme_questiontip_readmore": "su-package-readme-no_readme",
+
+    "RT0_RebootTip": "su_rebootDelayed_reboot_type_0",
+
+    "RT1_RebootTip": "su_rebootDelayed_reboot_type_1",
+
+    "RT4_RebootTip": "su_rebootDelayed_reboot_type_4",
+
+    "RT5_RebootTip": "su_rebootDelayed_reboot_type_5",
+
+    "RT1_ForceRebootTip": "su_rebootForced_reboot_type_1",
+
+    "RT4_ForceRebootTip": "su_powerOffForced_reboot_type_4",
+
+    "RT0_package": "su_item_reboot_type_0",
+
+    "RT1_package": "su_item_reboot_type_1",
+
+    "RT3_package": "su_item_reboot_type_3",
+
+    "RT4_package": "su_item_reboot_type_4",
+
+    "RT3_1_package": "su_item_reboot_type_3_1",
+
+    "RT5_package": "su_item_reboot_type_5",
+
+    "RT3_ignored_description": "Pane[ClassName=\"Internet Explorer_Server\"][Name=\"https://vantage-qa.csw.lenovo.com/#/device/system-updates\"]/Pane[Name=\"Lenovo Vantage\"]/List/ListItem[contains(Name, \"reboot_type_3\")]/Text[Name, \"\"]/Text",
+
+    "RT5_ignored_description": "Pane[ClassName=\"Internet Explorer_Server\"][Name=\"https://vantage-qa.csw.lenovo.com/#/device/system-updates\"]/Pane[Name=\"Lenovo Vantage\"]/List/ListItem[contains(Name, \"reboot_type_5\")]/Text[Name, \"\"]/Text",
+
+    "RT0_CheckBox": "updateCheckbox_reboot_type_0",
+
+    "RT1_CheckBox": "updateCheckbox_reboot_type_1",
+
+    "RT2_CheckBox": "updateCheckbox_reboot_type_1",
+
+    "RT3_CheckBox": "updateCheckbox_reboot_type_3",
+
+    "RT31_CheckBox": "updateCheckbox_reboot_type_3_1",
+
+    "RT32_CheckBox": "updateCheckbox_reboot_type_3_2",
+
+    "RT33_CheckBox": "updateCheckbox_reboot_type_3_3",
+
+    "RT34_CheckBox": "updateCheckbox_reboot_type_3_4",
+
+    "RT35_CheckBox": "updateCheckbox_reboot_type_3_5",
+
+    "RT4_CheckBox": "updateCheckbox_reboot_type_4",
+
+    "RT5_CheckBox": "updateCheckbox_reboot_type_5",
+
+    "RT_3_2_CheckBox": "updateCheckbox_reboot_type_3_2",
+
+    "LongSearchInstall_CheckBox": "updateCheckbox_LongSearchInstall",
+
+    "LongSearchInstall2_CheckBox": "updateCheckbox_LongSearchInstall2",
+
+    "LongSearchInstall3_CheckBox": "updateCheckbox_LongSearchInstall3",
+
+    "LongSearchInstall_2_CheckBox": "updateCheckbox_LongSearchInstall_2",
+
+    "coreq_3_3_CheckBox": "updateCheckbox_coreq_3_3",
+
+    "coreq_3_3_Depended_Text": "su_depended_coreq_3_3",
+
+    "coreq_3_2_CheckBox": "updateCheckbox_coreq_3_2",
+
+    "coreq_3_1_CheckBox": "updateCheckbox_coreq_3_1",
+
+    "coreq_3_3_questionTip": "su_item_question_mark_Coreq_3_3",
+
+    "LongSearchInstall_questionTip": "su_item_question_mark_LongSearchInstall",
+
+    "LongSearchInstall3_questionTip": "su_item_question_mark_LongSearchInstall3",
+
+    "LongSearchInstall_2_questionTip": "su_item_question_mark_LongSearchInstall_2",
+
+    "questionTip_Ignore_LongSearchInstall": "su-ignore-update-LongSearchInstall",
+
+    "questionTip_Ignore_LongSearchInstall3": "su-ignore-update-LongSearchInstall3",
+
+    "questionTip_Ignore_LongSearchInstall_2": "su-ignore-update-LongSearchInstall_2",
+
+    "questionTip_Ignore_coreq_3_1": "su-ignore-update-coreq_3_1",
+
+    "questionTip_Ignore_coreq_3_2": "su-ignore-update-coreq_3_2",
+
+    "questionTip_Ignore_coreq_3_3": "su-ignore-update-coreq_3_3",
+
+    "questionTip_unIgnore_coreq_3_1": "su-unignore-update-coreq_3_1",
+
+    "questionTip_unIgnore_coreq_3_2": "su-unignore-update-coreq_3_2",
+
+    "questionTip_unIgnore_coreq_3_3": "su-unignore-update-coreq_3_3",
+
+    "questionTip_unIgnore_LongSearchInstall": "su-unignore-update-LongSearchInstall",
+
+    "questionTip_unIgnore_LongSearchInstall3": "su-unignore-update-LongSearchInstall3",
+
+    "questionTip_unIgnore_LongSearchInstall_2": "su-unignore-update-LongSearchInstall_2",
+
+    "questionTip_Ignore_reboot_type_0": "su-ignore-update-reboot_type_0",
+
+    "questionTip_Ignore_reboot_type_3": "su-ignore-update-reboot_type_3",
+
+    "questionTip_Ignore_reboot_type_3_1": "su-ignore-update-reboot_type_3_1",
+
+    "questionTip_Ignore_reboot_type_3_2": "su-ignore-update-reboot_type_3_2",
+
+    "questionTip_Ignore_reboot_type_4": "su-ignore-update-reboot_type_4",
+
+    "questionTip_Ignore_reboot_type_5": "su-ignore-update-reboot_type_5",
+
+    "questionTip_unIgnore_reboot_type_3": "su-unignore-update-reboot_type_3",
+
+    "questionTip_unIgnore_reboot_type_3_1": "su-unignore-update-reboot_type_3_1",
+
+    "questionTip_unIgnore_reboot_type_3_2": "su-unignore-update-reboot_type_3_2",
+
+    "questionTip_unIgnore_reboot_type_4": "su-unignore-update-reboot_type_4",
+
+    "questionTip_unIgnore_reboot_type_5": "su-unignore-update-reboot_type_5",
+
+    "coreq_3_2_questionTip": "su_item_question_mark_coreq_3_2",
+
+    "coreq_3_1_questionTip": "su_item_question_mark_coreq_3_1",
+
+    "quesTip_Manufacturer": "//Pane[ClassName=\"Internet Explorer_Server\"]/Pane[Name=\"Lenovo Vantage\"]/ToolTip[starts-with(Name,\"Manufacturer:\")]/List/ListItem[contains(Name,\"Manufacturer\")]",
+
+    "quesTip_Version": "//Pane[ClassName=\"Internet Explorer_Server\"]/Pane[Name=\"Lenovo Vantage\"]/ToolTip[starts-with(Name,\"Manufacturer:\")]/List/ListItem[contains(Name,\"Version\")]",
+
+    "quesTip_InstalledVersion": "//Pane[ClassName=\"Internet Explorer_Server\"]/Pane[Name=\"Lenovo Vantage\"]/ToolTip[starts-with(Name,\"Manufacturer:\")]/List/ListItem[contains(Name,\"Installed version\")]",
+
+    "quesTip_DownloadSize": "//Pane[ClassName=\"Internet Explorer_Server\"]/Pane[Name=\"Lenovo Vantage\"]/ToolTip[starts-with(Name,\"Manufacturer:\")]/List/ListItem[contains(Name,\"Download size\")]",
+
+    "quesTip_DiskSpace": "//Pane[ClassName=\"Internet Explorer_Server\"]/Pane[Name=\"Lenovo Vantage\"]/ToolTip[starts-with(Name,\"Manufacturer:\")]/List/ListItem[contains(Name,\"Disk\")]",
+
+    "expand_ignore_btn": "su-col-exp-ignore",
+
+    "expand_collapse_btn": "su-col-exp-ignore",
+
+    "expand_collapse_text": "su-col-exp-ignore",
+
+    "quesTip_Ignore": "su-ignore-update",
+
+    "quesTip_Attend": "su-unIgnore-update",
+
+    "windows_updates": "su-auto-updates-winSettingLink",
+
+    "windows_updates_tittle": "windows-updates",
+
+    "reboot_prompt_title": "modal_confirm_title",
+
+    "reboot_prompt_desc_rt3": "In order to successfully install the updates your computer needs a reboot to ensure everything is running safe and smoothly.",
+
+    "reboot_prompt_desc_rt1": "The update(s) you selected will cause the system to reboot automatically after installation.",
+
+    "reboot_prompt_desc_rt5": "The update(s) you selected will cause the system to reboot after installation, during the installation of updates, please do not turn off your system, remove power source or accessories. We recommend saving your work in preparation for your system rebooting.",
+
+    "reboot_dismiss": "modal_confirm_cancel",
+
+    "shutdown_cancel_btn": "Pane[ClassName=\"Internet Explorer_Server\"]/Pane[Name=\"Lenovo Vantage\"]/Pane/Document/Button[Name=\"Cancel\"]",
+
+    "shutdown_promt_title": "Pane[ClassName=\"Internet Explorer_Server\"]/Pane[Name=\"Lenovo Vantage\"]/Pane/Document/Text[Name=\"Shut Down\"]",
+
+    "reboot_promt_title": "modal_confirm_title",
+
+    "reboot_ok_btn": "modal_confirm_ok",
+
+    "LongSearchInstall_package": "su_item_candidate",
+
+    "Installed_success_icon_LongSearchInstall": "su_item_installed_icon_success_LongSearchInstall",
+
+    "Installed_success_icon_LongSearchInstall2": "su_item_installed_icon_success_LongSearchInstall2",
+
+    "Installed_success_icon_coreq_3_2": "su_item_installed_icon_success_coreq_3_2",
+
+    "Installed_success_icon_coreq_3_3": "su_item_installed_icon_success_coreq_3_3",
+
+    "Installed_success_icon_LongSearchInstall3": "su_item_installed_icon_success_LongSearchInstall3",
+
+    "Installed_success_icon_LongSearchInstall_2": "su_item_installed_icon_success_LongSearchInstall_2",
+
+    "Installed_success_icon_reboot_type_0": "su_item_installed_icon_success_reboot_type_0",
+
+    "Installed_success_icon_reboot_type_3": "su_item_installed_icon_success_reboot_type_3",
+
+    "Installed_success_icon_reboot_type_3_1": "su_item_installed_icon_success_reboot_type_3_1",
+
+    "Installed_success_icon_reboot_type_3_2": "su_item_installed_icon_success_reboot_type_3_2",
+
+    "Installed_success_icon": "su_item_installed_icon_success",
+
+    "Installed_fail_icon_reboot_type_0": "su_item_installed_icon_failure_reboot_type_0",
+
+    "Installed_fail_icon_reboot_type_1": "su_item_installed_icon_failure_reboot_type_1",
+
+    "Installed_fail_icon_reboot_type_3": "su_item_installed_icon_failure_reboot_type_3",
+
+    "Installed_fail_icon_reboot_type_3_1": "su_item_installed_icon_failure_reboot_type_3_1",
+
+    "Installed_fail_icon_reboot_type_4": "su_item_installed_icon_failure_reboot_type_4",
+
+    "Installed_fail_icon_reboot_type_5": "su_item_installed_icon_failure_reboot_type_5",
+
+    "su_history_list": "su_history_list",
+
+    "su_history_collapse_link": "su-history-collapse-link",
+
+    "history_icon_success_LongSearchInstall": "su_history_icon_success_LongSearchInstall",
+
+    "history_icon_success_LongSearchInstall2": "su_history_icon_success_LongSearchInstall2",
+
+    "history_icon_success_LongSearchInstall3": "su_history_icon_success_LongSearchInstall3",
+
+    "history_icon_success_LongSearchInstall4": "su_history_icon_success_LongSearchInstall4",
+
+    "history_icon_success_reboot_type_3": "su_history_icon_success_reboot_type_3",
+
+    "history_icon_fail_RT5": "su_history_icon_failure_reboot_type_5",
+
+    "history_list_name": "su_installation_update_sort_order",
+
+    "installed_list_item": "su_item_installed",
+
+    "history_list_desc_rt0": "[ID: reboot_type_0] Test package need manual reboot",
+
+    "history_list_version_rt0": "1.0",
+
+    "history_list_desc_rt3": "[ID: reboot_type_3] Test package need manual reboot",
+
+    "history_list_version_rt3": "1.0",
+
+    "history_list_fail_rt3": "su_history_icon_failure_reboot_type_3",
+
+    "history_list_success_rt0": "su_history_icon_success_reboot_type_0",
+
+    "history_list_expand_detail_rt0": "su_installation_update_expand_reboot_type_0",
+
+    "history_list_expand_detail_rt3": "su_installation_update_expand_reboot_type_3",
+
+    "history_listitem_failed_name": "Pane[ClassName=\"Internet Explorer_Server\"]/Pane[Name=\"Lenovo Vantage\"]/List/ListItem[contains(Name,\"Failed to install\")]",
+
+    "history_listitem_name": "/Pane[Name=\"https://vantage-qa.csw.lenovo.com/#/device/system-updates\"][ClassName=\"Internet Explorer_Server\"]/Pane[Name=\"Lenovo Vantage\"]/List/ListItem[contains(Name,\"installed:\")]",
+
+    "history_listitem_RT0installed": "/Pane[Name=\"https://vantage-qa.csw.lenovo.com/#/device/system-updates\"][ClassName=\"Internet Explorer_Server\"]/Pane[Name=\"Lenovo Vantage\"]/List/ListItem[contains(Name,\"installed:\")]",
+
+    "history_listitem_RT0_1_installed": "/Pane[Name=\"https://vantage-qa.csw.lenovo.com/#/device/system-updates\"][ClassName=\"Internet Explorer_Server\"]/Pane[Name=\"Lenovo Vantage\"]/List/ListItem[contains(Name,\"reboot_type_0_1\")]",
+
+    "history_none": "No installation history available",
+
+    "history-collapse-title": "su-history-collapse-title",
+
+    "history_listitem_num0": "su_history_item_reboot_type_0",
+
+    "history_listitem_rt3": "su_history_item_reboot_type_3",
+
+    "history_listitem_reboot_type_0_1": "su_history_item_reboot_type_0_1",
+
+    "history_listitem_reboot_type_0_2": "su_history_item_reboot_type_0_2",
+
+    "history_listitem_reboot_type_0_3": "su_history_item_reboot_type_0_3",
+
+    "history_listitem_num4": "su_history_item_reboot_type_0_4",
+
+    "history_listitem_num5": "su_history_item_reboot_type_0_5",
+
+    "history_allBtn": "su_installation_update_showAll",
+
+    "history_listitem_num0_detailBtn": "su_installation_update_expand_reboot_type_0",
+
+    "Support_website": "_side_article",
+
+    "article_link": "-article_link"
+
+  },
+
+  "Device": {
+    "title": "myDevice-header-title",
+
+    "info": "myDevice-machine-info",
+
+    "serial": "myDevice-serial-value",
+
+    "productNumber": "myDevice-product-number-value",
+
+    "biosVersion": "myDevice-bios-version-value",
+
+    "statusTitle": "myDevice-status-title",
+
+    "statusList": "myDevice-status-list",
+
+    "lenovoLogo": "myDevice-logo-lenovo-red",
+
+    "sub1_device_article_0": "myDevice-container-card-article_link",
+
+    "sub2_device_article_0": "device-settings-container-card-caption",
+
+    "su_link": "myDevice-status-learn-more-systemupdate",
+
+    "su_uptoDate": "Updates checked",
+
+    "su_not_checked_recently": "Updates not checked recently",
+
+    "su_nerver_update": "(updates never checked)",
+
+    "su_outdate": "Software outdated",
+
+    "back_btn": "myDevice-back-btn",
+
+    "text_softwareUpToDate": "myDevice-system-details-systemupdate",
+
+    "text_softwareOutDate": "myDevice-system-details-systemupdate",
+
+    "process": "myDevice-system-details-processor",
+
+    "processlink": "myDevice-status-learn-more-processor",
+
+    "memory": "myDevice-system-details-memory",
+
+    "memorylink": "myDevice-status-learn-more-memory",
+
+    "disk": "myDevice-system-details-disk",
+
+    "disklink": "myDevice-status-learn-more-disk",
+
+    "warranty": "myDevice-system-details-warranty",
+
+    "warrantylink": "myDevice-status-learn-more-warranty",
+
+
+    "-qa_widget": "support-detail-qa-title",
+    "qa_widget": "my-device-qa-title",
+    "-qa1_BackupFiles_link": "support-detail-qa-1",
+    "qa1_BackupFiles_link": "myDevice-qa-1",
+    "-qa2_ResetPC_link": "support-detail-qa-2",
+    "qa2_ResetPC_link": "myDevice-qa-2",
+    "-qa3_KnowCPU_link": "support-detail-qa-3",
+    "qa3_KnowCPU_link": "myDevice-qa-3",
+    "-qa4_BatteryUse_link": "support-detail-qa-4",
+    "qa4_BatteryUse_link": "myDevice-qa-4",
+    "-qa5_PCLikeTablet_link": "support-detail-qa-5",
+    "qa5_PCLikeTablet_link": "myDevice-qa-5",
+    "-qa6_KnowCortana_link": "support-detail-qa-6",
+    "qa6_KnowCortana_link": "myDevice-qa-6",
+    "qa1_group": "support-detail-article-1-tittle",
+    "qa2_group": "support-detail-article-2-tittle",
+    "qa3_group": "support-detail-article-3-tittle",
+    "qa4_group": "support-detail-article-4-tittle",
+    "qa5_group": "support-detail-article-5-tittle",
+    "qa6_group": "support-detail-article-6-tittle",
+    "qa1_detail": "widget-support-detail-1",
+    "qa2_detail": "widget-support-detail-2",
+    "qa3_detail": "widget-support-detail-3",
+    "qa4_detail": "widget-support-detail-4",
+    "qa5_detail": "widget-support-detail-5",
+    "qa6_detail": "widget-support-detail-6"
+  },
+
+  "Security": {
+    "back_btn": "sa-ov-btn-back",
+
+    "visitwindowhello_btn": "sa-wh-lnk-visitwindowshello",
+
+    "visitwindowhello_form": "SettingsGroupWindowsHello_GroupTitleTextBlock",
+
+    "visitmicrosoft_btn": "sa-wh-lnk-visitmicrosoft",
+
+    "visitmicrosoft_form": "addressEditBox",
+
+    "privacypolicy_btn": "sa-wh-lnk-privacypolicy",
+
+    "privacypolicy_form": "sa-wh-lnk-privacypolicy",
+
+    "windowhello_enabletext": "/Window[Name=\"Lenovo Vantage\"][ClassName=\"ApplicationFrameWindow\"]/Window[Name=\"Lenovo Vantage\"][ClassName=\"Windows.UI.Core.CoreWindow\"]/Pane[Name=\"Lenovo Vantage\"][ClassName=\"Internet Explorer_Server\"]/Pane[Name=\"Lenovo Vantage\"]/List/ListItem[Name=\"WINDOWS HELLO ENABLED\"]/Text[Name=\"ENABLED\"]",
+
+    "windowhello_why_disabledtext": "/Pane[Name=\"Lenovo Vantage\"][ClassName=\"Internet Explorer_Server\"]/Pane[AutomationId=\"body\"][Name=\"Lenovo Vantage\"]/Pane[AutomationId=\"webview\"]/Window[ClassName=\"Windows.UI.Core.CoreWindow\"]/Window[Name=\"Lenovo Vantage\"][ClassName=\"ApplicationFrameWindow\"]/Window[Name=\"Lenovo Vantage\"][ClassName=\"Windows.UI.Core.CoreWindow\"]/Pane[Name=\"Lenovo Vantage\"][ClassName=\"Internet Explorer_Server\"]/Pane[Name=\"Lenovo Vantage\"]/Text[Name=\"Why Windows Hello?\"]",
+
+    "windowhello_start_disabledtext": "\/Pane[Name=\"Lenovo Vantage\"][ClassName=\"Internet Explorer_Server\"]/Pane[AutomationId=\"body\"][Name=\"Lenovo Vantage\"]/Pane[AutomationId=\"webview\"]/Window[ClassName=\"Windows.UI.Core.CoreWindow\"]/Window[Name=\"Lenovo Vantage\"][ClassName=\"ApplicationFrameWindow\"]/Window[Name=\"Lenovo Vantage\"][ClassName=\"Windows.UI.Core.CoreWindow\"]/Pane[Name=\"Lenovo Vantage\"][ClassName=\"Internet Explorer_Server\"]/Pane[Name=\"Lenovo Vantage\"]/Text[Name=\"Start using Windows Hello Today\"]",
+
+    "passmanager_dashlane_logo": "/Window[Name=\"Lenovo Vantage\"][ClassName=\"ApplicationFrameWindow\"]/Window[Name=\"Lenovo Vantage\"][ClassName=\"Windows.UI.Core.CoreWindow\"]/Pane[Name=\"Lenovo Vantage\"][ClassName=\"Internet Explorer_Server\"]/Pane[Name=\"Lenovo Vantage\"]/Image",
+    "passmanager_bluecircle_img": "/Window[Name=\"Lenovo Vantage\"][ClassName=\"ApplicationFrameWindow\"]/Window[Name=\"Lenovo Vantage\"][ClassName=\"Windows.UI.Core.CoreWindow\"]/Pane[Name=\"Lenovo Vantage\"][ClassName=\"Internet Explorer_Server\"]/Pane[Name=\"Lenovo Vantage\"]/List/ListItem[Name=\"DASHLANE PASSWORD MANAGER INSTALLED\"]/Document",
+
+    "passmanager_redcircle_img": "/Window[Name=\"Lenovo Vantage\"][ClassName=\"ApplicationFrameWindow\"]/Window[Name=\"Lenovo Vantage\"][ClassName=\"Windows.UI.Core.CoreWindow\"]/Pane[Name=\"Lenovo Vantage\"][ClassName=\"Internet Explorer_Server\"]/Pane[Name=\"Lenovo Vantage\"]/List/ListItem[Name=\"DASHLANE PASSWORD MANAGER NOT INSTALLED\"]/Image",
+
+    "SecurityButton": "menu-main-nav-lnk-dropdown-toggle-security",
+
+    "MySecurityFpRegistText": "security-sa-ov-link-windowsHello",
+
+    "MySecurityFpNotRegistText": "security-sa-ov-link-windowsHello",
+
+    "SecurityPageHeaderTitle": "-header-title",
+    "DisplayKeepMyDisplay": null,
+    "SecurityPageBackButton": "sa-pm-btn-back",
+
+    "SecurityMenuTitle": "menu-main-nav-lnk-dropdown-toggle-security",
+    "SecurityMenuTitle_WindowHello": "menu-main-nav-lnk-dropdown-menu-security-5",
+    "SecurityMenuTitle_MySecurity": "menu-main-nav-lnk-dropdown-menu-security-0",
+    "SecurityMenuTitle_PasswordHealth": "menu-main-nav-lnk-dropdown-menu-security-3",
+
+    "WindowHelloEnableWidgetItem": "windows-hello-sa-widget-lnk-wh",
+    "WindowHelloDisableWidgetItem": "windows-hello-sa-widget-lnk-wh",
+
+    "MySecurity_Window_Hello": "security-sa-ov-link-windowsHello",
+
+    "WindowHello_Back": "sa-wh-btn-back",
+
+    "Get_Dashlane": "sa-pm-btn-getdashlane",
+    "SecurityAdvisor101Button": "sa-ov-btn-securityArticle",
+    "SecurityAdvisor": {
+      "Description": "added by Henry Xiao, used for Security Pages",
+
+      "SecurityButton": "menu-main-nav-lnk-dropdown-toggle-security",
+
+      "SecurityDropDownMenu": {
+        "DropDownMenu": "to be done...",
+
+        "SecurityMenuItem": {
+          "MenuItem_AntiVirus": "menu-main-nav-lnk-dropdown-menu-security-1",
+
+          "MenuItem_WiFiSecurity": "menu-main-nav-lnk-dropdown-menu-security-2",
+
+          "MenuItem_PasswordHealth": "menu-main-nav-lnk-dropdown-menu-security-3",
+
+          "MenuItem_InternetProtection": "menu-main-nav-lnk-dropdown-menu-security-4",
+
+          "MenuItem_WindowsHello": "menu-main-nav-lnk-dropdown-menu-security-5"
+        }
+
+      },
+
+      "MainPage": {
+        "Btn_AntiVirus": "security-sa-ov-link-antivirus",
+
+        "AntiVirus_AntiVirus": "security-sa-ov-link-antivirus",
+        "AntiVirus_Firewall": "security-sa-ov-link-firewall",
+        "WiFiSecurity": "-sa-ov-link-wifiSecurity",
+        "PasswordManager": "security-sa-ov-link-passwordManager",
+        "VPN": "security-sa-ov-link-vpn",
+        "WindowsHello": "security-sa-ov-link-windowsHello"
+      },
+
+      "BackButton": {
+        "Page_Security": "sa-ov-btn-back",
+        "to_add_new": "to_add_new_value"
+      },
+
+      "VerifyTitle": {
+        "Page_AntiVirus": "anti-virus-title",
+        "Page_WiFiSecurity": "wifi-security-title",
+        "Page_PasswordManager": "password-health-title",
+        "Page_VPN": "internet-protection-title",
+        "Page_WindowsHello": "windows-hello-title"
+      },
+
+      "ListItem": {
+        "AntiVirus": {
+          "Page_AntiVirus": "anti-virus-sa-widget-lnk-av",
+          "Page_WiFiSecurity": "wifi-security-sa-widget-lnk-av",
+          "Page_PasswordManager": "password-health-sa-widget-lnk-av",
+          "Page_VPN": "internet-protection-sa-widget-lnk-av",
+          "Page_WindowsHello": "windows-hello-sa-widget-lnk-av"
+        },
+
+        "WiFiSecurity": {
+          "Page_AntiVirus": "anti-virus-sa-widget-lnk-ws",
+          "Page_WiFiSecurity": "wifi-security-sa-widget-lnk-ws",
+          "Page_PasswordManager": "password-health-sa-widget-lnk-ws",
+          "Page_VPN": "internet-protection-sa-widget-lnk-ws",
+          "Page_WindowsHello": "windows-hello-sa-widget-lnk-ws"
+        },
+
+        "PasswordManager": {
+          "Page_AntiVirus": "anti-virus-sa-widget-lnk-pm",
+          "Page_WiFiSecurity": "wifi-security-sa-widget-lnk-pm",
+          "Page_PasswordManager": "password-health-sa-widget-lnk-pm",
+          "Page_VPN": "internet-protection-sa-widget-lnk-pm",
+          "Page_WindowsHello": "windows-hello-sa-widget-lnk-pm"
+        },
+
+        "VPN": {
+          "Page_AntiVirus": "anti-virus-sa-widget-lnk-vpn",
+          "Page_WiFiSecurity": "wifi-security-sa-widget-lnk-vpn",
+          "Page_PasswordManager": "password-health-sa-widget-lnk-vpn",
+          "Page_VPN": "internet-protection-sa-widget-lnk-vpn",
+          "Page_WindowsHello": "windows-hello-sa-widget-lnk-vpn"
+        },
+
+        "WindowsHello": {
+          "Page_AntiVirus": "anti-virus-sa-widget-lnk-wh",
+          "Page_WiFiSecurity": "wifi-security-sa-widget-lnk-wh",
+          "Page_PasswordManager": "password-health-sa-widget-lnk-wh",
+          "Page_VPN": "internet-protection-sa-widget-lnk-wh",
+          "Page_WindowsHello": "windows-hello-sa-widget-lnk-wh"
+        }
+      }
+    }
+  },
+
+  "Support": {
+    "back_btn": "support-page-btn-back",
+    "SupportMenuTitle_old": "menu-main-nav-lnk-support",
+    "SupportMenuTitle": "menu-main-nav-lnk-dropdown-toggle-support",
+    "SupportHeader": "support-header-title",
+    "LenovoCommunityLink": "NeedHelp.LenovoCommunityButton",
+    "ContactCustomerServiceLink": "NeedHelp.ContactCustomerServiceButton",
+    "FindUsOnSocialMedia": "NeedHelp.FindUsButton",
+    "ContactUsOnFackbookDlg": "find-us-goto-facebook",
+    "AboutLenovoVantageLink": "Quicklinks.AboutLenovoVantageButton",
+    "ViewWarrantyOption": "support-view-warranty-options",
+    "AboutLenovoVantagePage": "about-dialog",
+    "Version": "about-modal-title",
+    "AboutClosedBtn": "about-close-button",
+    "LicensesAgreementLink": "about-modal-license-link",
+    "CloseBtnOfLicenses": "btn-LicenseAgreementCloseButton",
+    "OtherSoftwareLicensesLink": "about-modal-other-licenses-link",
+    "CloseBtnOfOtherLicenses": "btn-OtherSoftwareLicensesCloseButton",
+    "OurWebsiteLink": "about-modal-web-link",
+    "DateFomat": "about-modal-copyright",
+    "AboutYourDeviceLink": "about-modal-user-guide-link",
+    "NeedHelp": "widget-support-title-need-help",
+    "LenovoCommunity_btn": "NeedHelp.LenovoCommunityButton",
+    "ContactCustomerService_btn": "NeedHelp.ContactCustomerServiceButton",
+    "FindUs_btn": "NeedHelp.FindUsButton",
+    "FindUsOnNo_CS": "find-us-goto-facebook",
+    "CS_wechat-qrcode": "find-us-modal-wechat-qrcode",
+    "CS_title": "find-us-modal-basic-title",
+    "CS_description": "find-us-modal-description",
+    "FindUsClosebutton": "find-us-close-button",
+    "YourVirtualAssistant": "NeedHelp.YourVirtualAssistantButton",
+    "Documentation_UserGuide": "Documentation.UserGuideButton",
+    "Howto_btn": "support-category-4c176647b0964458bdda243b617b90d9",
+    "Design&Innovation_btn": "support-category-3c7802c2c731471a9824444b0a3ff8c3",
+    "Software&Apps_btn": "support-category-606b886f962f47378b136e50d23e3899",
+    "Lifestyle&Entertainment_btn": "support-category-950c58588a294cfb9590a287252a6a1a",
+    "ArticleClose_btn": "article-close-button",
+    "Categories_txt": "support-category-title",
+    "Findhelpfulinfo_txt": "support-category-description",
+    "WarrantyTitle": "support-warranty-title",
+    "WarrantyYear": "support-warranty-year-depot",
+    "WarrantyDescription": "support-warranty-description",
+    "WarrantyDetailsTitle": "support-warranty-details-title",
+    "WarrantyStartDateName": "support-warranty-start-date-name",
+    "WarrantyStartDateValue": "support-warranty-start-date-value",
+    "WarrantyEndDateName": "support-warranty-end-date-name",
+    "WarrantyEndDateValue": "support-warranty-end-date-value",
+    "WarrantyStatusName": "support-warranty-status-name",
+    "WarrantyStatusValue": "support-warranty-status-value",
+    "article1": "article-item-card-1"
+  },
+
+  "Navbar": {
+    "device": "menu-main-nav-lnk-dropdown-toggle-device",
+    "security": "menu-main-nav-lnk-dropdown-toggle-security",
+    "my_device_link": "menu-main-nav-lnk-dropdown-menu-device-0",
+    "device_setting_link": "menu-main-nav-lnk-dropdown-menu-device-1",
+    "device_setting_power_link": "menu-main-nav-lnk-dropdown-menu-device-device-settings-1",
+    "device_setting_details_link": "menu-main-nav-lnk-dropdown-menu-device-device-settings-0",
+    "device_setting_Audio_link": "menu-main-nav-lnk-dropdown-menu-device-device-settings-2",
+    "device_setting_camera_link": "menu-main-nav-lnk-dropdown-menu-device-device-settings-3",
+    "device_setting_input_link": "menu-main-nav-lnk-dropdown-menu-device-device-settings-4",
+    "device_su_link": "menu-main-nav-lnk-dropdown-menu-device-2",
+    "smartAssist_down": "menu-main-nav-lnk-dropdown-menu-device-device-settings-5",
+    //"smartAssist_left": "menu-main-nav-lnk-dropdown-menu-device-device-2",
+    "smartAssist_left": "menu-main-nav-lnk-dropdown-menu-device-device-settings-5",
+    "security": "menu-main-nav-lnk-dropdown-toggle-security",
+    "support": "menu-main-nav-lnk-dropdown-toggle-support",
+    "supportlink": "menu-main-nav-lnk-dropdown-menu-support-0",
+    "LID": "navbarDropdown",
+    "Preference": "menu-main-lnk-open-preference",
+    "GiveFeedback": "menu-main-lnk-open-feedback",
+    "Login": "menu-main-lnk-open-lenovoid-login",
+    "Logout": "menu-main-lnk-user-logout",
+    "Unlock": "menu-main-lnk-open-lenovoid-unlock",
+    "LMA": "menu-main-lnk-open-lma",
+    "HWScan": "menu-main-nav-lnk-hardware-scan",
+    "Adobe": "menu-main-lnk-open-adobe",
+    "unread_count": "menu-main-unread-message-count",
+    "GiveFeedBackLink": "menu-main-lnk-open-feedback",
+    "Gaming_Device": "menu-main-nav-lnk-device",
+    "Hello_User": "menu-main-text-hello-user",
+    "Navbar_Button": "menu-main-btn-navbar-toggler",
+    "Device_Name": "menu-main-text-machineFamilyName",
+    "L_Logo": "menu-main-lnk-l-logo",
+    "L_LogoOnDb": "menu-main-lnk-db-l-logo",
+    "MinimizeWindows": "Minimize",
+    "productivity": "menu-main-nav-lnk-dropdown-toggle-smb",
+    "creatorsettings": "menu-main-nav-lnk-dropdown-menu-smb-creator-centre-0"
+  },
+
+  "AppWindow": {
+    "Browser_support": "/Pane[ClassName=\"Chrome_WidgetWin_\"][starts-with(Name,\"laptops\")]"
+
+  },
+  "Allow Access Prompt Window": {
+    "Access Microphone": "Popup Window",
+
+    "Access Microphone_YesBtn": "Button1",
+
+    "Access Camera": "Popup Window",
+
+    "Access Camera_YesBtn": "Button1"
+  },
+  "Tutorial": {
+    "Welcome_Page1_Title": "welcome-tutorial-page-title",
+    "Tutorial_Next_Button": "tutorial_next_btn",
+
+    "Tutorial_Done_Button": "tutorial_done_btn",
+
+    "Choose_Personal_Use": "segment-choose-personal-use",
+    "Choose_business_Use": "segment-choose-business-use",
+    "Choose_professional_use": "segment-choose-custom-use",
+    "Gaming_Desc": "welcome-tutorial-page-gaming-description",
+    "more_interest": "tutorial_hide_moreInterest",
+    "welcome_privacy_link": "welcome-privacy-link",
+    "welcome_toolbar_check": "welcome-toolbar-label",
+    "welcome_privacy_check": "welcome-privacy-label",
+    "interests": {
+      "games_check": "gamescheckbox-welcome",
+      "news_check": "newscheckbox-welcome",
+      "entertainment_checkbox": "entertainmentcheckbox-welcome",
+      "technology_checkbox": "technologycheckbox-welcome",
+      "sports_checkbox": "sportscheckbox-welcome",
+      "arts_checkbox": "artscheckbox-welcome",
+      "regionalNews_checkbox": "regionalNewscheckbox-welcome",
+      "politics_checkbox": "politicscheckbox-welcome"
+
+    },
+    "interests_more": {
+      "music_checkbox": "musiccheckbox-welcome",
+      "science_checkbox": "sciencecheckbox-welcome"
+
+    }
+
+  },
+  "PreferencePage": {
+
+    "ActionTriggerToggle": "settingsActionTriggeredToggle_checkbox",
+
+    "AppFeatureToggle": "settingsAppFeaturesToggle_checkbox",
+
+    "MarketingToggle": "settingsMarketingToggle_checkbox",
+
+    "MarketingToggleTitle": "settingsMarketingToggle-title",
+
+    "ActionTriggerToggleTitle": "settingsActionTriggeredToggle-title",
+
+    "AppFeatureToggleTitle": "settingsAppFeaturesToggle-title",
+
+    "Metrics_Section": "Other settings-collapse-card-title",
+
+    "UsageStatisticsTitle": "settingsUsageStatisticsToggle-title",
+
+    "UsageStatisticsToggle": "settingsUsageStatisticsToggle_checkbox",
+
+    "VantageUsageStatistics": "settingsUsageStatisticsToggle_checkbox_checkbox",
+
+    "UsageStatisticsDescription": "settingsUsageStatisticsToggle-caption",
+
+    "DeviceStatisticsTitle": "settingsDeviceStatisticsToggle-title",
+
+    "DeviceStatisticsToggle": "settings-deviceStatisticsToggle",
+
+    "DeviceStatisticsDescription": "settingsDeviceStatisticsToggle-caption",
+
+    "BetaToggleDescription": "settingsBetaProgramToggle_checkbox-caption",
+
+    "BetaCollapseButton": "settings-beta-collapse-link",
+
+    "BetaToggle": "settingsBetaProgramToggle_checkbox",
+
+    "BetaCollapseToggleon": "settingsBetaProgramToggle_on_sizeStopProp",
+
+    "BetaCollapseToggleoff": "settingsBetaProgramToggle_off_sizeStopProp",
+
+    "UserProfileExpand": "settings-user-profile-collapse-link",
+    "UserProfileTitle": "settings-user-profile-collapse-card-title",
+
+    "Settings_personaluse": "settings-segment-choose-personal-use",
+
+    "settings_professionaluse": "settings-segment-choose-custom-use",
+
+    "Settings_businessuse": "settings-segment-choose-business-use",
+
+    "SaveBtn": "undefined",
+
+    "backBtn": "setting-page-btn-back"
+
+
+  },
+  "AdobePage": {
+    "Adobe_Redemption_Title": "-header-title",
+
+    "BACK_Button": "apps-for-you-page-btn-back",
+
+    "SEE_MORE_Button": "apps-for-you-btn-see-more",
+
+    "Screenshots_Close_Button": "apps-for-you-screenshot-dialog-close",
+
+    "Screenshot1": "apps-for-you-screenshot-1",
+
+    "Screenshot2": "apps-for-you-screenshot-2",
+
+    "Screenshot3": "apps-for-you-screenshot-3",
+
+    "Adobe_Redemption_Button": "menu-main-lnk-open-",
+
+    "Adobe_Creative_Cloud_Title": "apps-for-you-text-app-title",
+
+    "Description_Title": "apps-for-you-text-description-title",
+
+    "Additional_Info_Title": "apps-for-you-text-additional-Info",
+
+    "By": "apps-for-you-text-by-title",
+
+    "By_Value": "apps-for-you-text-by",
+
+    "Updated": "apps-for-you-text-updated-title",
+
+    "Updated_Value": "apps-for-you-text-updated",
+
+    "Type": "apps-for-you-text-type-title",
+
+    "Type_Value": "apps-for-you-text-type",
+
+    "Category": "apps-for-you-text-category-title",
+
+    "Category_Value": "apps-for-you-text-category",
+
+    "Legal_Agreement_Link": "apps-for-you-link-legal-agreement",
+
+    "unread_sign": "menu-main-adobe-unread-tag",
+
+    "Screenshots_Title": "apps-for-you-text-screenshot-title"
+
+  },
+
+  "LMAPage": {
+    "LMA_Install": "apps-for-you-btn-install",
+    "Title": "-header-title"
+  },
+
+  "NewProtocol": {
+
+    "Antivirus": "lenovo-vantage3:anti-virus",
+    "Security": "lenovo-vantage3:security"
+  },
+
+  "OldProtocol": {
+    "su_old": "lenovo-metro-discovery:PARAM?featureId=e40b12ce-c5dd-4571-bbc6-7ea5879a8472",
+    "input_old": "lenovo-metro-companion:PARAM?section=input",
+    "support_old": "lenovo-companion:PARAM?featureId=18e12fc0-eacb-43cb-8231-87d9c09ee0df",
+    "wrong_old": "lenovo-companion:PARAM?featureId=28e12fc1-eacb-43cb-8231-87d9c09ee0df"
+  },
+
+  "Productivity" :{
+    "Creatorsettings": {
+      "HDRtitle": "windows-hd-color-title",
+      "HDRdescription": "windows-hd-color-caption",
+      "HDRlanuchertext": "smbHdr-link-launcher",
+      "HDRlanucher": "smbHdr-link-here",
+      "RestoreButton": "Maximize"
+    }
+   },
+
+  "PowerPage": {
+    "batterydetail_btn": "myDevice-settings-battery-details-btn",
+    "powerpage_title": "myDevice-settings-power-title",
+    "StandBySettingsTitle": "smart-standby-collapse-collapse-card-title",
+    "PowerSectionTitle": "device-settings-powerSettings-collapse-card-title",
+    "cooling-checkbox": "ds-power-powerSmartSettings_checkbox",
+    "BatterySettingsSectionTitle": "device-settings-batterySettings-collapse-card-title",
+    "HSBatteryGuageStopBtn": "myDevice-settings-battery-gauge-reset-stop-btn1",
+    "HSBatteryGuageResetStopPopYesBtn": "battery-guageReset-popup-yes",
+    "HSBatteryGuageResetBtn": "myDevice-settings-battery-gauge-reset-stop-btn1",
+    "BatteryMissingDriverCondition": "battery-condition-tip-MissingDriver",
+    "HSJumpToBatterySettings": "jumptoSetting-battery",
+    "HSBatteryThresholdTitle": "ds-power-battery-threshold-title",
+    "HSBatteryGuageResetTitle": "ds-power-battery-batteryGaugeReset-title",
+    "HSBatteryGuageResetCaption": "ds-power-battery-batteryGaugeReset-caption",
+    "HSBatteryGuageResetOneBatteryTitle": "deviceSettings-batteryGauge-subtitle",
+    "HSBatteryGuageResetBarcodeTitle": "battery-barcode-title-1",
+    "HSBatteryGuageResetBarcodeValue": "battery-barcode-value-1",
+    "HSBatteryGuageResetlastResetTimeValue": "batterySettings-battery-lastResetTime-value-12hrs-1",
+    "HSBatteryGuageResetlastReset": "batterySettings-gaugeReset-lastReset-title-1",
+    "HSBatteryGuageResetOneBattryNote": "Note: Only one battery can be reset at a time.",
+    "HSBatteryGuageResetPopupTitle": "ds-guageReset-popup",
+    "HSBatteryGuageResetPopupCancelBtn": "battery-guageReset-popup-cancel",
+    "HSBatteryGuageResetPopupContinueBtn": "battery-guageReset-popup-continue",
+    "HSBatteryGuageResetPopupCloseBtn": "ds-guageReset-popup-close-button",
+    "HSBatteryGuageResetPopup_TitleDescription_1": "The resetting process is as follows:",
+    "HSBatteryGuageResetPopup_TitleDescription_2": "Fully charge the battery --> Discharge to low battery power --> Recharge to high battery power or full charge",
+    "HSBatteryGuageResetPopup_Note": "Notes:",
+    "HSBatteryGuageResetPopup_Note_Description1": "1. The process may take several hours. Please avoid using the computer during this period.",
+    "HSBatteryGuageResetPopup_Note_Description2": "2. Close all open apps and connect your computer to ac power.",
+    "HSBatteryGuageResetPopup_Note_Description3": "3. During the process, the battery charge threshold function is disabled.",
+    "HSBatteryGuageResetPerformedProgress": "batterySettings-gaugeReset-progress-title",
+    "HSBatteryGuageResetPerformedRemaining": "batterySettings-gaugeReset-remaining-title",
+    "HSBatteryGuageResetPerformedStartTime": "batterySettings-gaugeReset-startTime-title",
+    "HSBatteryGuageResetStopPopupDescription": "Are you sure you want to stop the battery gauge reset?",
+    "HSThredholdCheckBoxEle": "ds-power-battery-threshold_checkbox",
+    "HSThredholdEnableBtnEle": "battery-threshold-popup-enable",
+    "PrimaryBatteryThresholdCheckbox": "cbthreshold-primary-battery_checkbox",
+    "HSBatteryGuageResetBatteryNote": "Note: The battery gauge reset is in progress. Please keep the ac power adapter connected.",
+    "HSBatteryThresoldBatteryNote": "Note: The battery cannot be fully charged when Battery Charge Threshold is enabled.",
+    "BatteryGaugeProgressStep1TextEle": "Step 1, out of 3 steps in total: Calibrating to full charge",
+    "HSBatteryThresoldOneBatteryStartValue": "threshold-primary-battery-selected-start-charge",
+    "HSBattrtyState": "No activity",
+    "HSBattrtyDetailsButton": "myDevice-settings-battery-details-btn",
+    "HSBatteryGuageResetNotInACNote": "Note: Before resetting the battery gauge, be sure to connect your computer to ac power.",
+    "BatteryGaugePrimaryBatteryPanelTitle": "Battery-1-details",
+    "BatteryGaugeSecondaryBatteryPanelTitle": "Battery-2-details",
+    "HSBatteryGuageResetSecondaryResetBtn": "myDevice-settings-battery-gauge-reset-stop-btn2",
+    "QuestionMarkMessage": "To extend your battery's lifespan, we have optimized its full charge capacity based on your usage. Full battery capacity may not be available until you discharge to 20% and recharge. Click here for more information.",
+    "QuestionMarkClickHereMessageLine1": "To increase battery lifespan, your battery automatically adjusts charge voltage and capacity in response to your personal usage pattern. ",
+    "QuestionMarkClickHereMessageLine2": "- If you use less than 65% of your battery’s capacity for a week or longer, then the battery may temporarily reduce charge voltage and capacity. The reduction in capacity is minor and not noticeable for your usage pattern. ",
+    "QuestionMarkClickHereMessageLine3": "- Full capacity is restored when you discharge your battery below 20% and then fully charge the battery. ",
+    "QuestionMarkClickHereMessageLine4": "- Additionally, if you use less than 10% of your battery’s capacity for 2 weeks or longer, the battery may temporarily reduce charge voltage and capacity further, until such time as 50% of reduced battery capacity is used. ",
+    "IntelligentCoolingCheckBox": "ds-power-powerSmartSettings_checkbox",
+    "IntelligentCoolingDYTCThreeTIODescription": "Intelligent Cooling automatically balances thermal performance to adjust to your needs. The Intelligent Cooling feature adjusts performance settings to provide a cooler surface for your comfort, when the notebook is being held. When the device is on a desktop surface, this feature optimizes performance.",
+    "IntelligentCoolingCaption": "ds-power-powerSmartSettings-caption",
+    "NoBatteryText": "myDevice-settings-batteryGauge-notDetected-title",
+    "BatteryHeaderText": "Battery Charge Threshold",
+    "BatteryThresholdNote": "battery-threshold-note",
+    "QuestionMarkContext": "If your battery is currently charged above the stop-charging threshold, detach the power until the battery discharges to or below the stop-charging threshold. Depending on the battery status (old or new), the exact point at which the charging starts or stops might vary by up to 2 percentage points. If you enable the feature, it is recommended that you perform a Battery Gauge Reset occasionally to ensure an accurate report of the battery health.",
+    "RedTextNote": "Note : Battery Charge Threshold is still not fully active. Please unplug your machine and allow your battery to drain to or below the stop-charging threshold.",
+    "BatteryHealthText": "Note: The battery cannot be fully charged when Battery Charge Threshold is enabled.",
+    "EasyResumeTitle": "ds-power-easyResume-title",
+    "EasyResumeToggle": "ds-power-easyResume_checkbox",
+    "EasyResumeDescriptionId": "ds-power-easyResume-caption",
+    "EasyResumeQuestionMark": "ds-power-easyResume-tooltip_right_icon",
+    "EasyResumeQuestionMarkToolTip": "ds-power-easyResume-toolTip",
+    "EasyResumeQuestionMarkToolTipText": "This feature will improve your resume time if you frequently open and close your computer’s lid. When enabled, your computer will enter a low power mode when you close its lid, but it will resume instantly if you reopen your lid within 15 minutes of closing it. This feature also allows your notebook to attempt to finish pending activities (such as sending email or downloading a file) before the system goes into suspend.",
+    "FlipToStartTitleId": "ds-power-flipToStart-title",
+    "FlipToStartTitleText": "Flip to start",
+    "FlipToStartDescriptionId": "ds-power-flipToStart-caption",
+    "FlipToStartDescriptionText": "This feature enables you to turn on your computer when you open the computer lid, just the same as you pressing the power button.",
+    "FlipToStartToggle": "ds-power-flipToStart_checkbox",
+    "FlipToStartQuestionMark": "ds-power-flipToStart-tooltip_right_icon",
+    "FlipToStartQuestionMarkToolTip": "ds-power-flipToStart-toolTip",
+    "FlipToStartQuestionMarkToolTipText": "This feature automatically starts the computer by opening the lid. It is especially useful if you have set up the face log-in information in Windows Hello.",
+    "AlwaysUSBTitle": "ds-power-alwaysUSB-title",
+    "AlwaysUSBCaptionId": "ds-power-alwaysUSB-caption",
+    "AlwaysUSBDescriptionText": "Charge USB devices through the Always on USB connector on the computer, when the computer is in sleep, hibernation, or off mode. A smartphone or tablet can be charged quickly from the USB connector that is yellow-coded or silk-printed with these icons:",
+    "AlwaysUSBToggle": "ds-power-alwaysUSB_checkbox",
+    "AlwaysUSBCheckbox": "cb-always-on-usb_checkbox",
+    "AlwaysUSBCheckboxLabel": "cb-always-on-usb_checkbox-label",
+    "AlwaysUSBLabelDescriptionText": "Enable USB charging from laptop battery when computer is off. This may increase the battery power consumption when computer is not charging",
+    "AlwaysUSBCheckboxText": "Enable USB charging from laptop battery when computer is off.",
+    "RapidChargeTitle": "ds-power-battery-expressCharging-title",
+    "RapidChargeCaptionId": "ds-power-battery-expressCharging-caption",
+    "RapidChargeDescriptionText": "Rapid Charge allows your battery to a full charge much faster than normal mode.",
+    "RapidChargeCheckbox": "ds-power-battery-expressCharging_checkbox",
+    "ConservationModeTitle": "ds-power-battery-conservationMode-title",
+    "ConservationModeCaptionId": "ds-power-battery-conservationMode-caption",
+    "ConservationModeNoteId": "conservation-mode-limited-note",
+    "ConservationModeCaptionText": "Conservation mode is generally designed for Cylindrical battery cell to extend its battery longevity. For your computer battery with Polymer battery cell, Lenovo battery firmware automatically optimizes the battery charging behavior to provide best battery performance and free you from manual control with conservation mode.",
+    "ConservationModeNoteCaptionText": "Note: Keeping your battery plugged in for extended periods of time will not cause it to be over-charged. However, rechargeable batteries wear out with time and usage. For typical users, noticeable reduction in run time generally occurs after 12 to 18 months of consistent usage although the battery will retain significant capacity for many years. Refer to your specific system specifications and warranty for information as it applies to your system. Lenovo recommends purchasing a new Lenovo battery when the run time does not meet your needs, or Battery Health in Vantage reports poor battery condition.",
+    "ConservationModeDescriptionText": "This function is useful to extend the lifespan of your battery when plugged. When this mode is enabled, the battery will only be charged to 55-60% of capacity and the battery lifespan can be maximized. However, this will shorten the time you use your computer after it is disconnected from the AC power source.",
+    "ConservationModeCheckbox": "ds-power-battery-conservationMode_checkbox",
+    "AirplaneModelTitle": "ds-power-battery-airplane-title",
+    "AirplaneModelCheckbox": "ds-power-battery-airplane_checkbox",
+    "AutoAirplaneModelCheckbox": "cb-airplane-mode_checkbox",
+    "ToolbarDevicesBtn": "ds-power-otherSettings-toolBar_checkbox",
+    "BatteryConditionGreenIcon": "batteryConditionIcon-GoodBattery",
+    "BatteryConditionYellowIcon": "batteryConditionIcon-FairBattery",
+    "BatteryConditionRedIcon": "batteryConditionIcon-BadBattery",
+    "BatteryConditionGoodTip": "battery-condition-tip-Good",
+    "BatteryConditionGoodTipText": "The battery is in good condition.",
+    "BatteryConditionFairTip": "battery-condition-tip-StoreLimitation",
+    "BatteryConditionFairTipText1": "The battery can only store",
+    "BatteryConditionFairTipText2": "% of it's original full charge capacity.",
+    "BatteryConditionPoorTip": "battery-condition-tip-StoreLimitation",
+    "BatteryConditionPoorTipText1": "The battery can only store",
+    "BatteryConditionPoorTipText2": "% of it's original full charge capacity.",
+    "BatteryConditionMissingDriverTip": "battery-condition-tip-MissingDriver",
+    "BatteryConditionMissingDriverTipText": "The Lenovo Power and Battery driver is not installed or not working properly. Please run Windows Update or manually install it from here . After the installation, restart your computer.",
+    "BatteryConditionPermanentErrorTip": "battery-condition-tip-PermanentError",
+    "BatteryConditionPermanentErrorTipText": "The battery capacity has been degraded . Please replace a new one.",
+    "BatteryConditionHighTemperatureTip": "battery-condition-tip-HighTemperature",
+    "BatteryConditionHighTemperatureTipText": "Discharging has been stopped because the battery temperature is too high.",
+    "BatteryConditionTrickleChargeTip": "battery-condition-tip-TrickleCharge",
+    "BatteryConditionTrickleChargeTipText": "The battery was completely discharged and needs to be recharged. This might take ten hours or more.",
+    "BatteryConditionOverheatedBatteryTip": "battery-condition-tip-OverheatedBattery",
+    "BatteryConditionOverheatedBatteryTipText": "The battery is too hot . Remove it from the computer and cool it to room temperature.",
+    "BatteryConditionHWAuthenticationErrorTip": "battery-condition-tip-UnsupportedBattery",
+    "BatteryConditionHWAuthenticationErrorTipText": "The battery installed is not supported by the system and will not charge. Please replace the battery with the correct Lenovo battery for this system.",
+    "BatteryConditionIconGoodBattery": "batteryConditionIcon-GoodBattery",
+    "BatteryConditionTipGood": "battery-condition-tip-Good",
+    "BatteryGaugeSubtitle": "myDevice-settings-batteryGauge-subtitle",
+    "BatteryGaugeRemaingTimeTitle": "myDevice-settings-batteryGauge-remainingTime-title",
+    "BatteryRemainingTimeValue": "remaining-time-value",
+    "BadBatteryRedCrossIcon": "batteryConditionIcon-BadBattery",
+    "BatteryConditionBatteryNotDetected": "battery-condition-battery-not-detected",
+    "BatteryGaugeNotDetectedTitle": "myDevice-settings-batteryGauge-notDetected-title",
+    "BatteryGaugeNotDetectedTitleChildren": "No battery detected",
+    "BatteryConditionAlertId": "1",
+    "ThinkPadNoBatteryTip": "battery-condition-battery-not-detected",
+    "ThinkPadNoBatteryTipText": "No battery detected",
+    "ThinkPadNoBatteryQuestionMarkIcon": "myDevice-settings-batteryInChargeIcon",
+    "ThinkPadNoBatteryQuestionMarkTip": "myDevice-settings-batteryGauge-notDetected-title",
+    "ThinkPadNoBatteryQuestionMarkTipChild": "No battery detected",
+    "BatteryHealthTitle": "ds-power-battery-batteryHealth-title",
+    "BatteryHealthTitleText": "Battery health",
+    "BatteryHealthIcon": "ds-power-battery-batteryHealth-left-icon",
+    "BatteryHealthDescription": "ds-power-battery-batteryHealth-caption",
+    "BatteryHealthDescriptionText": "This section provides information on battery capacity, tips on how to maintain the battery capacity, and so on. The capacity loss depends on the daily use, battery temperature, charging voltage, etc. Follow tips below to extend your battery lifespan.",
+    "BatteryHealthStatus": "battery-health-lifespan-title",
+    "BatteryHealthStatusText": "Battery health status:",
+    "BatteryHealthStatusStars": "battery-health-level-stars",
+    "BatteryCapacityTitle": "battery-health-capacity-title",
+    "BatteryCapacityTitleText": "Battery capacity",
+    "BatteryCapacityQuestionMark": "battery-capacity-tooltip_right_icon",
+    "BatteryCapacityCircle": "battery-health-capacity-percent",
+    "BatteryCapacityTipLine1": "battery-health-capacity-fullChargeCapacity",
+    "BatteryCapacityTipLine1Text": "Full charge capacity:",
+    "BatteryCapacityTipLine2": "battery-health-capacity-originalDesignCapacity",
+    "BatteryCapacityTipLine2Text": "Original designed capacity:",
+    "BatterySettingsCloseTable": "device-settings-batterySettings-collapse-link",
+    "BatterySettingsOpenTable": "device-settings-batterySettings-collapse-link",
+    "BatteryCapacityQuestionMarkTip": "battery-health-capacity-tooltip-content",
+    "BatteryCapacityQuestionMarkTipText": "The full charge capacity of your battery decreases with daily use.",
+    "BatteryCapacityQuestionMarkTip30%Text": "The battery is in poor condition. Battery life and peak power performance will be impacted - we recommend replacing your battery. Note: If your battery is out of warranty, you may be charged for a replacement battery and installation.",
+    "BatteryCapacityQuestionMarkTip50%Text": "The battery is in good condition. Full charge capacity represents the maximum capacity of your battery when fully charged. Note: The full charge capacity of your battery will gradually decrease over time.",
+    "BatteryCapacityQuestionMarkTipTip7Text": "The battery has been disabled. The battery is no longer able to operate in a safe manner – we recommend replacing your battery. Note: If your battery is out of warranty, you may be charged for a replacement battery and installation.",
+    "BatteryCapacityQuestionMarkTipTip8Text": "The battery has been disabled. The battery is no longer able to operate in a safe manner – we recommend replacing your battery. Note: If your battery is out of warranty, you may be charged for a replacement battery and installation.",
+    "BatteryCapacityQuestionMarkTipFCCText": "Battery capacity not available.",
+    "BatteryTemperatureTitle": "battery-health-temperature-title",
+    "BatteryTemperatureTitleText": "Battery temperature",
+    "BatteryTemperatureIndicatorImage": "battery-health-temperature-indicator-image",
+    "BatteryTemperatureIndicatorText": "battery-health-temperature-indicator-text",
+    "BatteryTemperatureDescription": "battery-health-temperature-description",
+    "BatteryTemperatureDescriptionText": "Recommended battery temperature.",
+    "BatteryTemperatureDescriptionFCCText": "Cannot detect the battery temperature now.",
+    "SmartStandbyTQuestionTipSPEC": "When Smart Standby is enabled, your computer switches to Modern Standby before the scheduled START time and enters hibernation after it is inactive for a certain period of time on battery power. This time period is optimized based on the schedule you set, or your computer usage. The computer switches from hibernation to Modern Standby only on scheduled days, and does not switch when it is inactive for consecutive scheduled days.",
+    "SmartStandbyTManualScheduleTimeWithout20": "smartStandby-timer-endTimeNote",
+    "SmartStandbyTManualScheduleTimeWithout20SPEC": "END time must be within 20 hours from START time",
+    "SmartStandbyNotEnoughData": "smartStandby-graphNote",
+    "SmartStandbyNotEnoughDataSPEC": "The activity data of this computer is not sufficient to provide a profile for automatic scheduling. Smart Standby will use the Manual mode schedule until enough data is available.",
+    "FullACAdapterSupportIcon": "icon-FullACAdapterSupport",
+    "FullACAdapterSupportText": "battery-condition-tip-FullACAdapterSupport",
+    "FullACAdapterSupportTextTitle": "AC power adapter is connected.",
+    "ConservationModeBeginDescription": "This function is useful to extend the lifespan of your battery when plugged. When this mode is enabled, the battery will only be charged to ",
+    "ConservationModeEndDescription": " of capacity and the battery lifespan can be maximized. However, this will shorten the time you use your computer after it is disconnected from the AC power source.",
+    "BatteryTemperatureDescription13Text": "Low temperature. The battery performance is limited.",
+    "BatteryTemperatureDescription40Text": "High temperature. Please cool it to extend the battery lifespan.",
+    "BatteryTemperatureDescription51Text": "The battery temperature is too high. Please stop charging.",
+    "BatteryChargeThresholdTitle": "ds-power-battery-threshold-title",
+    "BatteryChargeThresholdCaption": "ds-power-battery-threshold-caption",
+    "BatteryChargeThresholdAlertBox": "modal-battery-charge-threshold",
+    "BatteryChargeThresholdAlertBoxTitle": "ds-threshold-popup",
+    "BatteryChargeThresholdAlertBoxLine1": "Enabling a custom battery charge will allow for the overall battery health to last longer as you use this device. However, not having a full charge will allow less runtime battery life.",
+    "BatteryChargeThresholdAlertBoxLine2": "In order to fully enable this feature, please unplug your machine and allow your battery to drain to or below the stop-charging threshold.",
+    "BatteryChargeThresholdAlertBoxLine3": "Your battery automatically optimizes its charge voltage and capacity based on your usage pattern. If you use your battery lightly, there is no need to enable Battery Charge Threshold.",
+    "BatteryChargeThresholdAlertBoxLine4": "Click here for more information.",
+    "BatteryChargeThresholdAlertBoxHere": "here",
+    "BatteryChargeThresholdJumpPageBack": "< BACK",
+    "BatteryChargeThresholdJumpPageTtile1": "-header-title",
+    "BatteryChargeThresholdJumpPageTtile2": "high-density-battery-tittle",
+    "BatteryChargeThresholdJumpPageTtile1Text": "High density battery",
+    "BatteryChargeThresholdJumpPageTtile2Text": "How your battery works",
+    "BatteryChargeThresholdStartValue": "threshold-primary-battery-selected-start-charge",
+    "BatteryChargeThresholdStopValue": "threshold-primary-battery-selected-stop-at-charge",
+    "BatteryChargeThresholdJumpPageLine1": "To increase battery lifespan, your battery automatically adjusts charge voltage and capacity in response to your personal usage pattern.",
+    "BatteryChargeThresholdJumpPageLine2": "- If you use less than 65% of your battery’s capacity for a week or longer, then the battery may temporarily reduce charge voltage and capacity. The reduction in capacity is minor and not noticeable for your usage pattern.",
+    "BatteryChargeThresholdJumpPageLine3": "- Full capacity is restored when you discharge your battery below 20% and then fully charge the battery.",
+    "BatteryChargeThresholdJumpPageLine4": "- Additionally, if you use less than 10% of your battery’s capacity for 2 weeks or longer, the battery may temporarily reduce charge voltage and capacity further, until such time as 50% of reduced battery capacity is used.",
+    "ThresholdSecondaryBatteryStartDropdown": "threshold-secondary-battery-start-dropdown",
+    "ThresholdSecondaryBatteryStopDropdown": "threshold-secondary-battery-stop-dropdown",
+    "SecondBatteryThresholdCheckbox": "cbthreshold-secondary-battery_checkbox",
+    "TaskBarBatteryLevelButtonNoPluggedin": "//*[contains(@Name, 'remaining')]",
+    "TaskBarBatteryLevelButtonPluggedin": "//*[contains(@Name, 'available (plugged in)')]",
+    "TaskBarBatteryLevelButtonFullCharge": "//*[contains(@Name, 'to full charge')]",
+    "BatteryChargeThresholdSelectedStartChargePrimary": "threshold-primary-battery-selected-start-charge",
+    "BatteryChargeThresholdSelectedStartChargeSecond": "threshold-secondary-battery-selected-start-charge",
+    "NOSToolbardescriptionContexts": "Pin Lenovo Vantage Toolbar to Windows taskbar to easily access the most popular settings, view warranty options, submit feedback, and launch Lenovo Vantage to get customized offerings and updates.",
+    "NOSToolbardescriptionTips": "The options on your Vantage Toolbar might vary depending on the computer model. To unpin Vantage Toolbar, right-click the Vantage Toolbar icon and select Unpin from taskbar .",
+    "NEWOSToolbar": "Lenovo Vantage Toolbar",
+    "ToolbarWindowsNextIcon": "toolbar-img-windows-next",
+    "vantageToolbarCheckBoxGaming": "tutorial_enable_toolbar_checkbox_checked",
+    "Unpinfromtaskbar": "Unpin from taskbar",
+    "SealedBatteryWarranty": {
+      "Title": "batteryUpSellTitle",
+      "BatteryWarrantyTitle": "warrantyTitle",
+      "BatteryWarrantyValue": "notAvailable",
+      "BatteryWarrantyTip": "batteryUpSellCustomerNote",
+      "ExploreMoreButton": "sa-ov-btn-battery-upsell-expolore-more",
+      "QuestionMarklink": "battery-upsell-tooltip_right_icon",
+      "QuestionMarkTip": "battery-upsell-tooltip-content",
+      "BatteryUpSellexpired": "(expired)",
+      "WarrantyDateInfo": "warrantyDateInfo",
+      "BatteryUpSellendDateText": "batteryUpSellendDateText",
+      "WarrantyDetails": "warranty-details",
+      "WarrantyEndDate": "warrantyEndDate",
+      "UpgradeSupportService": "Upgrade Support & Service",
+      "LenovoPremiumService": "Lenovo Premium Service",
+      "SealedBatterySB": "Sealed Battery (SB)",
+      "SealedBattery": "Sealed Battery",
+      "SealedBatteryWarranty": "Sealed Battery Warranty",
+      "LenovoWarranty": "Lenovo Warranty",
+      "Continue": "Continue",
+      "PowerBatteryWarrantyTitle": "power-battery-warranty-title",
+      "PowerBatteryWarrantyCaption": "power-battery-warranty-caption",
+      "BatteryWarrantyLess": "battery-warranty-less",
+      "BatteryWarrantyMore": "battery-warranty-more",
+      "WarrantyAndProtection": "battery-warranty-and-protection-link",
+      "SealedBatteryWarrantyNote": "battery-upsell-contact-us-link",
+      "BatteryWarrantyQuestinonMark": "battery-warranty-tooltip_right_icon",
+      "BatterySettingsWarrantyEXPLOREMOREButton": "battery-warranty-extend-and-explore",
+      "BatteryWarrantyStartDateValue": "battery-warranty-startDate-value",
+      "BatteryWarrantyEndDateValue": "battery-warranty-endDate-value",
+      "BatteryWarrantyDurationMonthValue": "battery-warranty-duration-month-value",
+      "BatteryWarrantyTimeRemainingValue": "battery-warranty-timeRemaining-value",
+      "BatteryWarrantyDurationStatus": "battery-warranty-duration-status"
+    }
+  },
+  "BatteryPage": {
+    "BatteryTitle": "myDevice-settings-batteryGauge-subtitle",
+    "BatteryIcon": "batteryIcon-Charging",
+    "Percentage": "batteryPercentage",
+    "BatteryDetailsBtn": "myDevice-settings-battery-details-btn",
+    "BatteryDetailsCloseBtn": "myDevice-settings-battery-details-card-close-icon",
+    "BatteryRemainingTime": "myDevice-settings-batteryGauge-remainingTime-title",
+    "BatteryRemainingTimeValue": "remaining-time-value",
+    "BatteryTimeToFullChargeText": "myDevice-settings-batteryGauge-time-to-charge-title",
+    "LenovoVantageToobartitle": "device-settings-otherSettings-collapse-card-title",
+    "LenovoVantageToobartitletext": "Lenovo Vantage toolbar"
+  },
+  "InputPage": {
+    "Inputpage_title": "myDevice-settings-ipaccessories-title",
+    "keyboard_title": "inputAccessories-collapse-card-title",
+    "AdvSettings_link": "inputAccessory.topRowFunctions.showAdvSettings",
+    "HiddenKeyboardFunctionsTitleId": "inputAccessories-hiddenKeyboardFunctions-title",
+    "HiddenKeyboardFunctionsTitleText": "Hidden Keyboard Functions",
+    "HiddenKeyboardFnTabText": "enable zooming feature on high resolution displays",
+    "HiddenKeyboardFunctionsTextId": "inputAccessories-hiddenKeyboardFunctions-caption",
+    "HiddenKeyboardFunctionsText": "You can press the Fn key, on the bottom left of your keyboard, simultaneously with other keys to invoke the commands shown in the keyboard map below.",
+    "HiddenKeyboardFunctionsMap": "keyboardMap-background-image",
+    "Fn4Title": "keys-Fn4-title",
+    "Fn4Description": "keys-Fn4-description",
+    "FnTabTitle": "keys-FnTab-title",
+    "FnTabDescription": "keys-FnTab-description",
+    "FnDTitle": "keys-FnD-title",
+    "FnDDescription": "keys-FnD-description",
+    "FnSTitle": "keys-FnSpace-title",
+    "FnSDescription": "keys-FnSpace-description",
+    "KeyboardTopRowFunctionTitleID": "inputAccessory.topRowFunctions-title",
+    "KeyboardTopRowFunctionTitleText": "Keyboard top-row function",
+    "KeyboardTopRowFunctionDescriptionID": "inputAccessory.topRowFunctions-caption",
+    "KeyboardTopRowFunctionDescriptionText": "The top row of the keyboard provides the following two functions. Select the one you want:",
+    "KeyboardTopRowFunctionSpecialFunction": "ideapad-special-key-radio-button",
+    "KeyboardTopRowFunctionF1F12Function": "ideapad-function-key-radio-button",
+    "KeyboardTopRowFunctionTip1": "topRowFunctionsIdeapad-note-sFunKey",
+    "KeyboardTopRowFunctionTip1Text": "To access F1-F12 function, press Fn and the keys on the top row.",
+    "KeyboardTopRowFunctionTip2": "topRowFunctionsIdeapad-note-fnKey",
+    "KeyboardTopRowFunctionTip2Text": "To access special function, press Fn and the keys on the top row.",
+    "KBCaptionContentOfThinkPad": "Activate the keyboard backlight to facilitate typing in a dark or poor light condition. You also can change the keyboard backlight settings by pressing the Fn+Space key combinations.",
+    "InputLarkKeyBoardNote": "input-lark-keyboard-note",
+    "Touchpadlink": "inputAccessories.controlOptions.touchpad",
+    "Trackpointlink": "inputAccessories.controlOptions.trackpoint",
+    "BlueTooth": "SystemSettings_Device_BluetoothRadioToggle_ToggleSwitch",
+    "KBDTopRow": {
+      "KBDTopRowTitle": "inputAccessory-topRowFunctions-title",
+      "KBDTopRowDesc": "inputAccessory-topRowFunctions-caption",
+      "KBDTopRowSubDesc": "inputAccessory.topRowFunctions.subSection.description",
+      "KBDTopRowSpecialFunctionRadioBtn": "//*[contains(@AutomationId,'pad-special-key-radio-button')]",
+      "KBDTopRowF1ToF12FunctionRadioBtn": "//*[contains(@AutomationId,'pad-function-key-radio-button')]",
+      "KBDTopRowAdvanceSettinsLinkXpath": "//*[contains(@AutomationId,'inputAccessory.topRowFunctions.') and contains(@AutomationId,'AdvSettings')]",
+      "ReversingDefaultPrimaryFunctionTitle": "inputAccessories-reversing-primary-function-title",
+      "ReversingDefaultPrimaryFunctionTips": "inputAccessories-reversing-primary-function-toolTip",
+      "ReversingDefaultPrimaryFunctionTipsIcon": "inputAccessories-reversing-primary-function-tooltip_right_icon",
+      "ReversingDefaultPrimaryFunctionDesc": "inputAccessories-reversing-primary-function-caption",
+      "ReversingDefaultPrimaryFunctionToggle": "inputAccessories-reversing-primary-function_checkbox",
+      "KBDTopRowFnKeyCombinationsTitle": "inputAccessory-fnKeyCombinations-title",
+      "KBDTopRowFnKeyCombinationsDesc": "//*[@AutomationId='inputAccessory-fnKeyCombinations-caption']",
+      "KBDTopRowNormalMethodRadio": "nMehod_show",
+      "KBDTopRowFnStickyKeyMethodRadio": "fnKeyMehod_show",
+      "KBDTopRowFnStickyKeyMethodNote": "top-row-sticky-note-title",
+      "KBDTopRowPopupWindowTitle": "ds-reboot-popup",
+      "KBDTopRowPopupWindowDesc": "//*[@AutomationId='modal-reboot-machine']//Text[@AutomationId='']",
+      "KBDTopRowPopupWindowYesBtn": "reboot-popup-enable",
+      "KBDTopRowPopupWindowCloseBtn": "btnClose",
+      "KBDTopRowPopupWindowNotNowBtn": "reboot-popup-cancel"
+    },
+    "UserDefinedKey": {
+      "UserDefinedKeyTitle": "//*[@AutomationId='ds-ip-userdefined-key-title']",
+      "UserDefinedKeyDropDownBtn": "//*[@AutomationId='ip-userdefinedkey-dropdown-btn']",
+      "UserDefinedKeyDropDown_Btn": "ip-userdefinedkey-dropdown-btn",
+      "userDefinedKey_img": "f12-key",
+      "userDefinedKey_caption": "ds-ip-userdefined-key-caption",
+      "PleaseSelectOption": "//*[@AutomationId='userdefinedkey-please select']",
+      "OpenAppFileOption": "//*[@AutomationId='userdefinedkey-open applications or files']",
+      "OpenWebsiteOption": "//*[@AutomationId='userdefinedkey-open website']",
+      "InvokeKeyOption": "//*[@AutomationId='userdefinedkey-invoke key sequence']",
+      "EnterTextOption": "//*[@AutomationId='userdefinedkey-enter text']",
+      "UserDefinedFeatureDescriptionUISPEC": "The key represented by the star icon allows you to set user defined function.",
+      "UserDefinedKeyApplicationsPlusIcon": "//*[@AutomationId='addApplication-icon']",
+      "UserDefinedKeyFilesPlusIcon": "//*[@AutomationId='addFile-icon']",
+      "EnterTextNote": "//*[@AutomationId='inputAccessories.userDefinedKey.dropDown.note']",
+      "EnterTextNoteUISPEC": "Note: This can be used to enter common strings, such as e-mail or postal addresses. Never use this feature to store passwords or any other private information."
+    },
+    "IdeaKeyboardlight": {
+      "KeyboardBacklightTitleOnIdea": "inputAccessories-backlight-title",
+      "KeyboardBacklightDescOnIdea": "inputAccessories-backlight-caption",
+      "KeyboardBacklightOffOnIdea": "backlightModeoff",
+      "KeyboardBacklightLowOnIdea": "backlightModelevel_1",
+      "KeyboardBacklightHighOnIdea": "backlightModelevel_2"
+    }
+  },
+  "WiFiPage": {
+    "Title": "security-wifi-header-title",
+    "WifiToggle": "sa-ws-switch_toggleMain",
+    "CheckThreatButton": "sa-ws-btn-openlocator",
+    "StaySafeArticleLink": "sa-ws-modal-article_link"
+
+  },
+  "RatingBox": {
+    "Title": "store-rating-send-voice",
+    "clostbtn": "store-rating-close-button",
+    "loveus": "store-rating-like-us-button",
+    "leavefeedback": "store-rating-feedback-button"
+
+  },
+
+  "MyDevice": {
+    "Backup and restore your files": "my-device-qa-1",
+    "How to reset Windows 10": "my-device-qa-2",
+    "How to know your machine's CPU": "my-device-qa-3",
+    "Check your machine's battery use": "my-device-qa-4",
+    "Use your PC like a tablet": "my-device-qa-5",
+    "Get to know Cortana, your personal assistant": "my-device-qa-6"
+  },
+
+  "SystemStatus": {
+    "memoryStatus": "dashboard-ss-memory",
+    "diskStatus": "dashboard-ss-disk",
+    "warrantyStatus": "dashboard-ss-warranty",
+    "systemUpdateStatus": "dashboard-ss-systemupdate"
+  },
+  "UserProfile": {
+    "UserProfileTitle": "settings-segment-choose-title",
+    "personalUse": "settings-segment-choose-personal-use",
+    "businessUse": "settings-segment-choose-business-use",
+    "ProfessionalUse": "settings-segment-choose-custom-use",
+    "InterestsTitle": "settings-interests-choose-title",
+    "games": "gamescheckbox",
+    "news": "gamescheckbox",
+    "enterainment": "entertainmentcheckbox",
+    "Technology": "technologycheckbox",
+    "Sports": "sportscheckbox",
+    "Arts": "artscheckbox",
+    "RegionalNews": "regionalNewscheckbox",
+    "Politics": "politicscheckbox",
+    "Music": "musiccheckbox",
+    "Science": "sciencecheckbox",
+    "Savebtn": "settings-profile-save-button"
+
+  },
+  "SmartAssist": {
+    "IntelligentSensing": "jumptoSetting-sensing",
+    "SmartMotionAlarm": "smartAssist-intelligentSensing-smartMotionAlert-switch_checkbox",
+    "AlarmTimeDuration": "smartMotionAlert-alarmTime-dropDown",
+    "EnableFeature": "Smart-motion-alarm.photo-checkbox_checkbox",
+    "Photolink": "smartMotionAlertShowPhotoLinkButton",
+    "PhotoNum": "smartMotionAlert-photoNumber-dropDown",
+    "alarmAndphoto": "ui-dropDown-value",
+    "link2CameraAccess": "showCameraAuthorizedAccessButton",
+    "link2FileSystem": "smartMotionAlertShowPhotoTipsLink",
+    "NOAccessDesc": "smartMotionAlertAuthorizedAccessDescribe",
+    "PrivacyOnDesc": "smartMotionAlertCameraPrivacyDescribe",
+    "NOFileAccessDesc": "smartMotionAlertShowPhotoTips",
+    "link2CameraPrivacy": "showCameraPrivacyPageButton",
+    "SmartMotionAlarmTitle": "smartAssist-intelligentSensing-smartMotionAlert-switch-title",
+    "SmartMotionAlarmDescribe1": "antiTheft-describe-one",
+    "SmartMotionAlarmDescribe2": "antiTheft-describe-two",
+    "SmartMotionAlarmAttention": "smartMotionAlertDescription-title",
+    "SmartMotionAlarmAttention1": "smartMotionAlertDescription1",
+    "SmartMotionAlarmAttention2": "smartMotionAlertDescription2",
+    "SmartMotionAlarmTimeTitle": "smartMotionAlertAlarmTitle",
+    "SmartMotionAlarmTakePhotosTitle": "smartMotionAlertSupportPhotoTitle",
+    "SmartMotionAlarmDescribe3": "smartMotionAlertSupportPhotoDescribeLabel",
+    "SmartMotionAlarmPhotoLinkTitle": "smartMotionAlertShowPhotoTitle",
+    "DisplayCollapse": "intelligentScreen-collapse-link",
+    "DisplayAutSscreenOff": "autoScreenOff-title",
+    "DisplayKeepMyDisplay": "keepMyDisplay-title",
+    "DisplayintelligentScreen": "intelligentScreen-collapse-card-title",
+    "DisplayAutoScreenOfCaption": "autoScreenOff-caption",
+    "DisplayKeepMyDisplayCaption": "keepMyDisplay-caption",
+    "DisplaySlidertitle": "smart-assist-display-slider-title",
+    "DisplaySlider": "keepMyDisplay-slider",
+    "DisplayCheckbox": "autoScreenOff_checkbox",
+    "DisplayContextDescription": "//*[contains(@Name,'Lenovo intelligent sensing combines the various sensors on your computer')]",
+    "DisplayContextDescriptionred": "//*[contains(@Name,'Never turn off the screen on battery power')]",
+    "MinMinutes": "min-legend-keepMyDisplay",
+    "MaxMinutes": "max-legend-keepMyDisplay",
+    "Keepmydisplaybtn": "keepMyDisplay_checkbox",
+    "DisplayAutSscreenOfftext": "Auto screen off",
+    "DisplayKeepMyDisplaytext": "Keep my display",
+    "DisplayAutoScreenOfCaptiontext": "Automatically turn off display when face-down or walking.",
+    "DisplayintelligentScreentext": "Intelligent screen",
+    "DisplayContextDescriptiontext": "Lenovo intelligent sensing combines the various sensors on your computer to detect your activities and adjust settings for power management. For example, it will dim your display if it detects you are walking but will not dim it if it detects you reading.",
+    "DisplayKeepMyDisplayCaptiontext": "Keep my display when I am reading or browsing.",
+    "DisplaySlidertitletext": "Minutes before display dims when browsing",
+    "MinMinutestext": "0 minutes",
+    "MaxMinutestext": "60 minutes",
+    "HPD": {
+      "IntelligentSecurity": "jumptoSetting-security",
+      "HPDResetButton": "intelligentSecurity_reset_btn",
+      "HPDZeroTouchLoginCheckBox": "zeroTouchLogin_checkbox",
+      "HPDZeroTouchLoginCheckBoxThink": "thinkpadZeroTouchLogin_checkbox",
+      "HPDZeroTouchLoginADVSettings": "smartAssist-intelligentSecurity-zeroTouchLogin-advSettings",
+      "HPDZeroTouchLoginADVCheckBox": "smartAssist-intelligentSecurity-zeroTouchLogin-distanceSensitivityAutoAdjusting_checkbox",
+      "HPDZeroTouchLoginADSASldierBar": "distanceSensitivity-slider",
+      "HPDZeroTouchLoginADSASldierBarThink": "thinkpadDistanceSensitivity-slider",
+      "HPDZeroTouchLockCheckbox": "zeroTouchLock_checkbox",
+      "HPDZeroTouchLockADVSettings": "smartAssist-intelligentSecurity-zeroTouchLock-advSettings",
+      "HPDZeroTouchLockFacialRecogoitionCheckbox": "smartAssist-intelligentSecurity-zeroTouchLock-facial-recognition_checkbox",
+      "HPDAutoScreenLockTimerFast": "autoScreenLockTimer_fast",
+      "HPDAutoScreenLockTimerMedium": "autoScreenLockTimer_medium",
+      "HPDAutoScreenLockTimerSlow": "autoScreenLockTimer_slow",
+      "HPDZeroTouchLockADSASldierBar": "smartAssist-intelligentSecurity-zeroTouchLock-distanceSensitivityAdjusting-slider",
+      "HPDZeroTouchLockADSASldierBarThink": "thinkpadSensitivity-slider",
+      "HPDZeroTouchLockADSACheckBox": "smartAssist-intelligentSecurity-zeroTouchLock-distanceSensitivityAutoAdjusting_checkbox",
+      "HPDZeroTouchLoginADVSettingsTitle": "smartAssist-intelligentSecurity-zeroTouchLogin-distanceSensitivityAutoAdjusting-title",
+      "HPDZeroTouchLoginADVSettingsOnDescription": "zeroTouchLogin-DistanceAdjust-statusOn",
+      "HPDZeroTouchLoginADVSettingsOffDescription": "zeroTouchLogin-DistanceAdjust-statusOff",
+      "HPDZeroTouchLoginADVSettingsReadMoreMode1": "zeroTouchLogin-DistanceAdjust-readMoreMode1",
+      "HPDZeroTouchLoginADVSettingsReadMoreMode2": "zeroTouchLogin-DistanceAdjust-readMoreMode2",
+      "HPDZeroTouchLoginADVSettingsReadMoreMode3": "zeroTouchLogin-DistanceAdjust-readMoreMode3",
+      "HPDZeroTouchLoginADVSettingsReadMoreMode4": "zeroTouchLogin-DistanceAdjust-readMoreMode4",
+      "HPDZeroTouchLoginADSAWindowsHelloNote": "smart-assist-intelligent-security-note",
+      "HPDZeroTouchLoginADSAWindowsHelloLink": "goto_hello_link",
+      "HPDZeroTouchLockTitle": "zeroTouchLock-title",
+      "HPDZeroTouchLockDescription": "zeroTouchLock-caption",
+      "HPDZeroTouchLockFaicalRecognitionTitle": "smart-assist-zero-touch-lock-faical-recognition-title",
+      "HPDZeroTouchLockTimerTitle": "autoScreenLockTimer-title",
+      "HPDZeroTouchLockFaicalRecognitionDesc": "smart-assist-zero-touch-lock-faical-recognition-desc",
+      "SystemSettingsCameraGlobalToggleSwitch": "SystemSettings_CapabilityAccess_Camera_UserGlobal_ToggleSwitch",
+      "LenovoCompanionToggleSwitch": "E046963F.LenovoCompanion_k1h2ywk1493x8_ToggleSwitch",
+      "HPDZeroTouchLockFacialRecognitionPermissionNote": "ztl-facial-recognition-permission-note",
+      "HPDZeroTouchLockFacialRecognitionAccessUrl": "ztl-facial-recognition-access-url",
+      "HPDZeroTouchLockFacialRecognitionPrivacyNote": "ztl-facial-recognition-privacy-note",
+      "HPDZeroTouchLockFacialRecognitionPrivacyUrl": "ztl-facial-recognition-privacy-url",
+      "HPDZeroTouchLockAutoScreenLockTimerRightIcon": "autoScreenLockTimer-tooltip_right_icon",
+      "HPDZeroTouchLockAutoScreenLockTimerToolTip": "autoScreenLockTimer-toolTip",
+      "HPDZeroTouchLoginRightIcon": "zeroTouchLogin-tooltip_right_icon",
+      "HPDZeroTouchLoginToolTip": "zeroTouchLogin-toolTip",
+      "HPDZeroTouchLockDistanceAdjustStatusOn": "zeroTouchLock-DistanceAdjust-statusOn",
+      "HPDZeroTouchLockDistanceAdjustStatusOff": "zeroTouchLock-DistanceAdjust-statusOff",
+      "HPDZeroTouchLockDistanceAdjustReadMoreMode1": "zeroTouchLock-DistanceAdjust-readMoreMode1",
+      "HPDZeroTouchLockDistanceAdjustReadMoreMode2": "zeroTouchLock-DistanceAdjust-readMoreMode2",
+      "HPDZeroTouchLockDistanceAdjustReadMoreMode3": "zeroTouchLock-DistanceAdjust-readMoreMode3",
+      "HPDZeroTouchLoginTitle": "zeroTouchLogin-title",
+      "HPDZeroTouchLoginCaption": "zeroTouchLogin-caption",
+      "HPDImage": "intelligent-security-image",
+      "HPDWordTitle": "intelligent-security-image-word-title",
+      "IntelligentSecurityHpdSensorNote": "intelligent-security-hpd-sensor-note",
+      "HumanPresenceSensingTitle": "humanPresenceDetection-title",
+      "IntelligentSecurityToggle": "humanPresenceDetection_checkbox",
+      "IntelligentSecurityHpdSensorNoteText": "Sensor has an issue. This feature is unavailable.",
+      "HPDWordDescription": "intelligent-security-image-word-description",
+      "HPDZeroTouchLoginADSAWindosHelloLeLink": "thinkpad_goto_hello_link",
+      "AutoScreenTimeoutCheckbox": "auto-screen-timeout-checkbox-input",
+      "ThinkPadSensitivityTitle": "thinkpadSensitivity-title",
+      "MinLegendThinkpadSensitivity": "min-legend-thinkpadSensitivity",
+      "MidLegendThinkpadSensitivity": "mid-legend-thinkpadSensitivity",
+      "MaxLegendThinkpadSensitivity": "max-legend-thinkpadSensitivity",
+      "SensitivityAdjustingSliderBarNote": "sensitivity-adjusting-slider-bar-note",
+      "SensitivityAdjustingSliderBarNoteText": "The accuracy varies by body size, posture, and frequency of movement. If your computer is locked unexpectedly, adjust the sensitivity bar to improve the accuracy.",
+      "RemoveFaceButtion": "RemoveFace_Button",
+      "IntelligentSecurityNote": "smart-assist-intelligent-security-note-desc1",
+      "IntelligentSensingTitle": "intelligentSecurity-collapse-card-title",
+      "IntelligentSensingTitleText": "Intelligent sensing",
+      "IntelligentSecurityTitle": "smartAssist-intelligentSensing-smartMotionAlert-collapse-card-title",
+      "IntelligentSecurityTitleText": "Intelligent sensing",
+      "IntelligentSecurityCollapseLink": "intelligentSecurity-collapse-link",
+      "GlobalSettingsTitle": "zero-touch-global-settings-title",
+      "GlobalSettingsCaption": "zero-touch-global-settings-caption",
+      "GlobalSettingsCaptionText": "Your computer supports four modes below. Select the modes in which you would like Zero touch to take effect.",
+      "ClamshellCheckBox": "clamshell_mode-checkbox-input",
+      "SandCheckBox": "stand_mode-checkbox-input",
+      "TentCheckBox": "tent_mode-checkbox-input",
+      "PadCheckBox": "pad_mode-checkbox-input",
+      "GlobalSettingsUncheckTip": "zero-touch-global-settings-uncheck-tip",
+      "GlobalSettingsUncheckTipText": "You have cleared the selection on all modes. Zero touch will not take effect.",
+      "GlobalSettingsContextOne": "smart-assist-intelligent-security-note-desc1",
+      "GlobalSettingsContextTwo": "smart-assist-intelligent-security-note-desc2",
+      "GlobalSettingsContextThree": "smart-assist-intelligent-security-note-desc3",
+      "GlobalSettingsContextOneText": "1. To use Zero touch, please adjust your screen to an appropriate angle to ensure Windows Hello could successfully recognize your face after Zero touch function wakes up your computer.",
+      "GlobalSettingsContextTwoText": "2. Zero touch is not supported when your computer is in hibernation mode or has been turned off.",
+      "GlobalSettingsContextThreeText": "Attention: When your device works in Tent, Stand, Tablet, or Detached mode, Zero touch might not work correctly with specific hinge angles due to smart sensor limitation. You can always manually disable Zero touch in these modes."
+    },
+    "VideoPlayback": {
+      "VideoPalybackToggle": "zero-touch-video-playback.toggle-button_checkbox",
+      "VideoPlaybackTitle": "zero-touch-video-playback.toggle-button-title",
+      "VideoPlaybackDescription": "zero-touch-video-playback.toggle-button-caption",
+      "VideoPlaybackSupportList": "video-playback-supported-list",
+      "VideoPlaybackNote": "video-playback-note"
+    },
+    "IntelligentScreen": {
+      "AutoScreenOffToggle": "autoScreenOff_checkbox",
+      "IntelligentScreenlink": "jumptoSetting-screen",
+      "AutoScreenOffNeverTip": "This feature is not available if your Power Plan settings are set to \"never turn off the screen on battery\" in the Windows Settings \"System section\". Please select a value other than \"Never\" to enable this feature."
+    },
+    "APS": {
+      "APSJumpLink": "jumptoSetting-aps",
+      "APSCardTitle": "activeProtection-collapse-card-title",
+      "APSTitle": "activeProtectionSystem-title",
+      "APSDesc": "smart-assist-active-protection-system-desc",
+      "APSToggle": "activeProtectionSystem_checkbox",
+      "ActiveProtectionDesc": "activeProtectionSystem-caption",
+      "ActiveProtectionSlider": "activeProtectionSystemSensitivity-slider",
+      "ActiveProtectionCheckBox": "aps-toggle-checkbox_checkbox",
+      "ManualActiveProtectionSuspensionTitle": "manualActiveProtectionSuspension-title",
+      "ManualActiveProtectionSuspensionDesc": "manualActiveProtectionSuspension-caption",
+      "ManualActiveProtectionSuspensionToggle": "manualActiveProtectionSuspension_checkbox",
+      "ManualSnoozeTimeDropDown": "manualSnoozeTimeDropDown",
+      "ManualActiveProtectionSuspensionBtn": "manualActiveProtectionSuspension_btn",
+      "APSAdvanceSettingsLinkShow": "activeProtectionSystem_advanced_settings_toggle_show",
+      "APSAdvanceSettingsLinkHide": "activeProtectionSystem_advanced_settings_toggle_hide",
+      "APSAdvanceSettingsLinkXpath": "//*[contains(@AutomationId,'activeProtectionSystem_advanced_settings_toggle_')]",
+      "APSPenInputToggle": "activeProtectionSystem-advanced-pen_checkbox",
+      "APSPenIntervalsDropDown": "penIntervalsDropDown",
+      "APSAdvanceSettingsDesc": "activeProtectionSystem-advanced-settings-desc",
+      "APSTouchInputTitle": "activeProtectionSystem_touchInput-title",
+      "APSTouchInputToggle": "activeProtectionSystem_touchInput_checkbox",
+      "APSAdvancedHandTitle": "activeProtectionSystem_advanced_hand-title",
+      "APSAdvancedHandToggle": "activeProtectionSystem_advanced_hand_checkbox"
+    },
+    "ZeroTouchLocktitle": "zeroTouchLock-title",
+    "zeroTouchLockButton": "zeroTouchLock_checkbox",
+    "AutoScreenTimeoutCheckbox": "auto-screen-timeout-checkbox_checkbox",
+    "AutoScreenTimeoutCheckboxtitle": "auto-screen-timeout-checkbox-text",
+    "AutoScreenTimeoutCheckboxText": "Override Windows screen timeout settings.",
+    "AutoScreenTimeoutCheckboxLink": "auto-screen-timeout-checkbox-link",
+    "SmartAssistScreenTimeoutDesc": "smart-assist-screen-timeout-note",
+    "SmartAssistScreenTimeoutDescNever": "This feature does not work. Because the Windows screen timeout settings is set as \"Never turn off the screen\".",
+    "SmartAssistScreenTimeoutDescNoNever": "This feature may not work when the Windows screen timeout settings is set as \"Never turn off the screen\".",
+    "SmartAssistScreenTimeoutDescNeverOnPlugged": "This feature does not work. Because the Windows screen timeout settings is set as \"Never turn off the screen when plugged in\".",
+    "SmartAssistScreenTimeoutDescNeverOnBattery": "This feature does not work. Because the Windows screen timeout settings is set as \"Never turn off the screen when on battery power\".",
+    "OnBatteryPowerTurnOffAfter": "SystemSettings_PowerAndSleep_DisplayOffTimeoutDC_AoAc_ComboBox",
+    "WindowsSettingsPowerAndSleepPage": "SettingsLabel"
+  },
+  "MyDeviceSettings": {
+    "displayAndCameraLink": "myDevice-settings-header-menu-display-camera",
+    "DisplayAndCamera": {
+      "DisplayCardTitle": "device-settings-display-collapse-card-title",
+      "CameraLink": "jumptoSetting-camera",
+      "privacyToggle": "camera-privacy-mode_checkbox",
+      "DisplayLink": "jumptoSetting-display",
+      "ECMTitle": "day-time-color-temp-title",
+      "ECMTitleText": "Eye Care Mode",
+      "ECMTextId": "day-time-color-temp-caption",
+      "ECMText": "To avoid eye strain, you can adjust the color temperature of your display to filter out the blue light when you use your computer for a long time. In addition, warm colors are good for your sleeping especially in the night.",
+      "ECMHere": "goto-nightlight-link",
+      "ECMWinButton": "SystemSettings_Display_BlueLight_ManualToggleOn_Button",
+      "ECMWinClose": "Close",
+      "ECMColor": "color-temp-eyeCareMode-title",
+      "ScheduleECM": "cb-eye-care-schedule_checkbox",
+      "ScheduleECMlabel": "cb-eye-care-schedule_checkbox-label",
+      "PrivacyGuardTitle": "Privacy Guard",
+      "PrivacyGuardDescriptionText": "privacy guard description, This feature prevents other people from peeking at your screen. When on, it changes the viewing angle of your display, keeping it private from those around you. You also can toggle modes by pressing the \"Fn+D\" keys.",
+      "PrivacyGuardNoteText": "privacy guard note, Privacy Guard does not work in screen portrait mode. In this mode, your screen is still visible from the sides.",
+      "PrivacyGuardCBText": "Enable this feature when typing passwords",
+      "PrivacyGuardTitleId": "privacy-guard-title",
+      "PrivacyGuardDescriptionId": "privacy-guard-description",
+      "PrivacyGuardNoteId": "privacy-guard-note",
+      "PrivacyGuardCBId": "cb-privacy-guard_checkbox-label",
+      "PrivacyGuardToggle": "privacy-guard_checkbox",
+      "PrivacyGuardCheckbox": "cb-privacy-guard_checkbox",
+      "CameraPrivacyQuestionMark": "device-settings-camera-tooltip_right_icon",
+      "CameraPrivacyQuestionMarkToolTip": "device-settings-camera-toolTip",
+      "CameraPrivacyQuestionMarkToolTipText": "Click here to reset Camera properties to default settings.",
+      "CameraResetBtn": "device-settings-camera-reset-btn",
+      "CameraBrightnessSlider": "cameraSettings-brightness-slider",
+      "CameraContrastSlider": "cameraSettings-contrast-slider",
+      "CameraAutoExposureSlider": "cameraSettings-autoExposure-slider",
+      "CameraAutoExposureBtn": "cameraSettings-autoExposure_checkbox",
+      "OLEDPowerSettingsTitleID": "-title",
+      "OLEDPowerSettingsTitleText": "OLED Power Settings",
+      "OLEDPowerSettingsDescription1ID": "oled-power-settings-caption1",
+      "OLEDPowerSettingsdescription1Text": "Your computer's OLED display can also reduce power consumption and increase battery life by selectively dimming portions of the display.",
+      "OLEDPowerSettingsDescription2ID": "oled-power-settings-caption2",
+      "OLEDPowerSettingsdescription2Text": "It is also recommended to dim the task bar and other areas of the display that do not change frequently to prolong the overall lifetime of the display.",
+      "OLEDPowerSettingsTASKBARDIMMER": "oled-power-settings-tb-dimmer",
+      "OLEDPowerSettingsBACKGROUNDDIMMER": "oled-power-settings-bg-dimmer",
+      "OLEDPowerSettingsDISPLAYDIMMER": "oled-power-settings-dp-dimmer",
+      "OLEDPowerSettingsTASKBARDIMMERMenuList": "oled-taskbar-dimmer-dropDown",
+      "OLEDPowerSettingsBACKGROUNDDIMMERMenuList": "oled-background-dimmer-dropDown",
+      "OLEDPowerSettingsDISPLAYDIMMERMenuList": "oled-display-dimmer-dropDown",
+      "OLEDPowerSettingsMenuList1": "Always on",
+      "OLEDPowerSettingsMenuList2": "30 seconds",
+      "OLEDPowerSettingsMenuList3": "1 minute",
+      "OLEDPowerSettingsMenuList4": "2 minutes",
+      "OLEDPowerSettingsMenuList5": "3 minutes",
+      "OLEDPowerSettingsMenuList6": "5 minutes",
+      "OLEDPowerSettingsMenuList7": "10 minutes",
+      "OLEDPowerSettingsMenuList8": "15 minutes",
+      "OLEDPowerSettingsMenuList9": "20 minutes",
+      "OLEDPowerSettingsMenuList10": "Never",
+      "OLEDPowerSettingsMenuList11": "Half time of display off timer",
+      "DayTimeColorTempSlider": "day-time-color-temp-slider",
+      "ColorTempEyeCareModeSlider": "color-temp-eyeCareMode-slider",
+      "ColorTempEyeCareModeCheckBox": "color-temp-eyeCareMode_checkbox",
+      "CbEyeCareScheduleCheckBox": "cb-eye-care-schedule_checkbox",
+      "DayTimeColorTempResetBtn": "day-time-color-temp-reset-btn",
+      "ColorTempEyeCareModeResetBtn": "color-temp-eyeCareMode-reset-btn",
+      "DayTimeColorTempQuickMark": "day-time-color-temp-tooltip_right_icon",
+      "DayTimeColorTempNote": "day-time-color-temp-note",
+      "CameraPrivacyModeCaption": "camera-privacy-mode-caption",
+      "CameraPrivacyModeCaptionText": "The camera stops sending live images when the privacy setting is enabled. Turn this setting on, only when you do not want to share your images to others while video calling.",
+      "CameraBrightness": "camera-brightness",
+      "CameraContrast": "camera-contrast",
+      "CameraAutoExposure": "camera-auto-exposure",
+      "CameraPrivacyModeTitle": "camera-privacy-mode-title",
+      "DeviceSettingsCameraAccessUrl": "device-settings-camera-access-url",
+      "CameraIsInUseName": "Camera Camera Reset Camera tooltip, which reads: Click here to reset Camera properties to default settings. CAMERA IS IN USE Another app is using the camera. Close the app and try again. Brightness camera brightness Contrast camera contrast Auto Exposure Auto Exposure",
+      "DeviceSettingsCameraAccessUrlText": "Go to Windows Settings to give access",
+      "SysDateTimeSyncButton": "SystemSettings_DateTime_ForceSync_Button",
+      "SysDateTimeSyncButtonCheckMark": "SystemSettings_DateTime_ForceSync_CheckMark",
+      "CbEyeCareScheduleCheckBoxNames": "//*[contains(@Name, 'Schedule Eye Care Mode from sunset to sunrise')]",
+      "RemoveColorTemperatureSliderSettings": "SystemSettings_Display_BlueLight_ColorTemperature_Slider",
+      "DayTimeColorTempNoteText": "When the Eye Care Mode is enabled, this color temperature does not take effect. However, you can drag the slider to get a preview of it. To make it effective, turn off the Eye Care Mode.",
+      "DayTimeColorTempToolTip": "day-time-color-temp-toolTip",
+      "DayTimeColorTempToolTipText": "Daytime Color Temperature tooltip, which reads: Eye Care Mode adjusts the color temperature of your display to filter out blue light and reduce eye strain.",
+      "DayTimeColordisplaySettingsLocationTitle": "display-eyeCareMode-privacy-settings-link-note-title",
+      "DayTimeColordisplaySettingsLocationLink": "display-eyeCareMode-privacy-settings-link-link",
+      "ColorTempEyeCareModeTooltipRightIcon": "color-temp-eyeCareMode-tooltip_right_icon"
+    },
+    "InputAndAccessories": {
+      "KeyboardBacklightOptions": "optimize-microphone-radio-group",
+      "backlightLow": "backlightModelevel_1",
+      "backlightHigh": "backlightModelevel_2",
+      "backlightOff": "backlightModeoff",
+      "backlightAuto": "backlightModeauto",
+      "KeystrokeTooltiptitle": "audio-microphone-suppress-title",
+      "MicroPhoneOptimizationTitle": "audio-microphone-optimize-title",
+      "KeystrokeSuppressionCheckBox": "audio-microphone-suppress_checkbox",
+      "KeystrokeSuppressionQuesttion": "audio-microphone-suppress-tooltip_right_icon",
+      "KeystrokeTooltiptitletext": "Suppress Keyboard Noise",
+      "VOIP": {
+        "VoipfeatureTitle": "inputAccessories-VoipHotkeys-title",
+        "VoipfeatureDesc": "inputAccessories-VoipHotkeys-caption",
+        "VoipfeatureTooltipsIcon": "inputAccessories-VoipHotkeys-tooltip_right_icon",
+        "VoipfeatureTooltipsDesc": "inputAccessories-VoipHotkeys-toolTip",
+        "VoipHotkeysDescF10": "VoipHotkeys-description-f10",
+        "VoipHotkeysDescF11": "VoipHotkeys-description-f11",
+        "VoipHotkeysHasInstalledAppsDesc": "VoipHotkeys-hasInstalledAppsDescription",
+        "VoipHotkeysNoInstalledAppsDesc": "VoipHotkeys-noInstalledAppsDescription",
+        "VoipHotkeysInstalledAppsDescXpath": "//*[contains(@AutomationId,'InstalledAppsDescription')]",
+        "VoipMicrosoftTeamsOption": "microsoft-teams-1.0",
+        "VoipSkypeOption": "divvoip-hotkeys-rectangle-radio-0",
+        "VoipSkypeAppIcon": "app-icon-skype",
+        "VoipSkypeAppDesc": "skype-for-business",
+        "VoipTeamsAppIcon": "app-icon-microsoft",
+        "VoipTeamsAppDesc": "microsoft-teams-1.0",
+        "VoipNoInstallNote": "noInstalledApps-note",
+        "VoipHasInstallNote": "hasInstalledApps-note",
+        "VoipAppNoteXpth": "//*[contains(@AutomationId,'InstalledApps-note')]"
+      }
+    },
+    "AudioPage": {
+      "title": "ds-audio-title",
+      "headerCaption": "ds-audio-header-caption",
+      "OptimizeMicrophoneCaptionContext": "Configure microphone effect to enhance your audio experience in different scenarios and environment.",
+      "AudioMicrophoneTitle": "audio-microphone-title",
+      "AudioMicrophoneOptimizeTitle": "audio-microphone-optimize-title",
+      "AudioMicrophoneOptimizeCaption": "audio-microphone-optimize-caption",
+      "AudioMicrophoneOptimizeTitleText": "Optimize my microphone for:",
+      "AudioMicrophoneOptimizeCaptionText": "Configure microphone effect to enhance your audio experience by different scenarios and environment.",
+      "RadioMicrophoneVoiceRecognition": "radioMicrophoneVoiceRecognition",
+      "RadioMicrophoneOnlyMyVoice": "radioMicrophoneOnlyMyVoice",
+      "RadioMicrophoneNormal": "radioMicrophoneNormal",
+      "RadioMicrophoneMultipleVoices": "radioMicrophoneMultipleVoices",
+      "RadioMicrophoneVoiceRecognitionLabel": "radioMicrophoneVoiceRecognition-label",
+      "RadioMicrophoneOnlyMyVoiceLabel": "radioMicrophoneOnlyMyVoice-label",
+      "RadioMicrophoneNormalLabel": "radioMicrophoneNormal-label",
+      "RadioMicrophoneMultipleVoicesLabel": "radioMicrophoneMultipleVoices-label",
+      "VoiceRecognitionText": "VOICE RECOGNITION",
+      "OnlyMyVoiceText": "ONLY MY VOICE",
+      "NormalText": "NORMAL",
+      "MultipleVoicesText": "MULTIPLE VOICES",
+      "AudioMicrophoneSuppressCheckbox": "audio-microphone-suppress_checkbox",
+      "AudioMicrophoneAcousticEchoCheckbox": "audio-microphone-acousticEcho_checkbox",
+      "RealTekVoiceRecogniton": "Voice Recognition",
+      "RealTekOnlyMyVoice": "Beam forming enhances the voice signal inside the beam while suppressing noise outside the beam. ",
+      "RealTekMultiplevoices": "Far Field Pickup can pick up voice from a distance, so user doesn’t have to sit in front of computer to talk.",
+      "RealTekDisableMicrophone": "Disable Microphone Effect",
+      "MicrophoneEffectslink": "audio-microphone-link-title",
+      "AdvancedMicrophoneEffectsText": "Advanced microphone effects",
+      "AdvancedMicrophoneDescription": "audio-microphone-link-caption",
+      "AdvancedMicrophoneDescriptionText": "Find features and settings to configure microphone effect to enhance your audio experience in different scenarios and environment.",
+      "AdvancedMicrophoneQuickDescription": "audioVendorLink-panel-des",
+      "AdvancedMicrophoneQuickDescriptions": "audioVendorLink-download-des",
+      "AdvancedMicrophoneQuickDescriptionText": "To access the application most suitable for your microphone, click",
+      "AdvancedMicrophoneQuickDescriptionTexts": "To add the application suitable for your hardware, click",
+      "AdvancedMicrophoneEffectsHere": "audioVendorLink-panel-link",
+      "AdvancedMicrophoneEffectsHeres": "audioVendorLink-download-link",
+      "GoToWindowsPrivacySettings": "audio-microphone-permission-link",
+      "MicriophoneClickHere": "here",
+      "SmartMicrophoneSettingstoMicrosoftstore": "DynamicHeading_productTitle",
+      "ForteMediainstallbutton": "actionButtonText",
+      "MicrosoftStore": "DisplayName",
+      "MicrosoftStoreOk": "ComfirmButton",
+      "MicDriverLink": "SystemSettings_Audio_Input_Modern_Properties_HyperlinkButton",
+      "MicDriverCheckBox": "SystemSettings_Audio_EnableInputDevice_CheckBox",
+      "MicDriverLinkOn": "SystemSettings_Audio_ManageInputLink_HyperlinkButton",
+      "MicDriverCheckOnButton": "SystemSettings_Audio_EnableDevice_Button_Button",
+      "MicrophoneForMettingstitle": "creatorSettings-microphone-collapse-card-title",
+      "MicrophoneForMettingsLink": "jumptoSetting-smb-microphone",
+      "MicrophoneForMeetingstitle": "creatorSettings-microphone-panel-expansion-panel-header-customize",
+      "MicrophoneForMeetingstitletext": "Microphone for meetings Collapse",
+      "ConferenceMode": "_radio3",
+      "SmartMicrophoneSettingsApp": "TitleBarControl",
+      "SMBGoToWindowsPrivacySettings": "smb-audio-microphone-permission-link",
+      "SMBMicrophoneEffectslink": "smb-audio-microphone-link-title",
+      "SMBAdvancedMicrophoneDescription": "smb-audio-microphone-link-caption",
+      "SMBAdvancedMicrophoneEffectsHere": "smb-audioVendorLink-panel-link",
+      "SMBAdvancedMicrophoneEffectsHeres": "smb-audioVendorLink-download-link",
+      "SMBAdvancedMicrophoneQuickDescription": "smb-audioVendorLink-panel-des",
+      "SMBAdvancedMicrophoneQuickDescriptions": "smb-audioVendorLink-download-des",
+      "SMSPrivateMode": "OptRBTn_private",
+      "SMSShardMode": "OptRBTn_conference",
+      "SMSEnvMode": "OptRBTn_env"
+    }
+
+  },
+
+  "OS": {
+    "Settings": {
+      "allowAccess2Camera": "SystemSettings_CapabilityAccess_Camera_UserGlobal_ToggleSwitch"
+    },
+    "Display": {
+      "DisplayBrightnessSettings": "SystemSettings_Display_Brightness_Slider",
+      "WindowsHDColor": "Windows HD Color"
+    }
+  },
+  "Toolbar": {
+    "Backlight": "1060",
+    "GoToLenovoVantage": "1075",
+    "PopWindowPintoTaskbarTitle": "PintoTaskbarTitle",
+    "PopWindowPintoTaskbarTitleName": "Lenovo Vantage toolbar and premium settings",
+    "PopWindowPintoTaskbarDescription": "PintoTaskbarDescription",
+    "PopWindowPintoTaskbarDescriptionText": "Pin Lenovo Vantage Toolbar to Windows taskbar to easily access the most popular settings, view warranty options, submit feedback, and launch Lenovo Vantage to get customized offerings and updates.",
+    "PopWindowPintoTaskbarImage": "PintoTaskbarImage",
+    "PopWindowPintoTaskbarNote": "PintoTaskbarNote",
+    "PopWindowPintoTaskbarNoteText": "The options on your Vantage Toolbar might vary depending on the computer model. To unpin Vantage Toolbar, right-click the Vantage Toolbar icon and select Unpin from taskbar .",
+    "PopWindowPintoTaskBarButton": "PintoTaskBarButton",
+    "PopWindowPintoTaskbarNotNow": "PintoTaskbarNotNow",
+    "PopWindowPintoTaskbarClose": "PintoTaskbarCloseIco"
+  },
+  "WifiSecurity": {
+    "WiFiSecurityToggle": "sa-ws-switch-input"
+  }
+}

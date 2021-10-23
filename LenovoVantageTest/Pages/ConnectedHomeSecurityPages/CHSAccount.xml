@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Settings>
+   <SettingsList Name="Trial1">
+      <Setting key="account">jinglongshiyong@163.com</Setting>
+      <Setting key="password">Jinglong123</Setting>
+  </SettingsList>
+  <SettingsList Name="Subscription1">
+      <Setting key="account">jinglongdingyue@163.com</Setting>
+      <Setting key="password">Jinglong123</Setting>   
+  </SettingsList>
+	<SettingsList Name="Trial2">
+		<Setting key="account">269703659@qq.com</Setting>
+		<Setting key="password">13846290688zlsZ</Setting>
+	</SettingsList>
+  <SettingsList Name="LWSConfig">
+    <Setting key="IMCVersion">1.1.20.1</Setting>
+    <Setting key="WifiPluginVersion">2.1.0.81</Setting>
+  </SettingsList>
+</Settings>
